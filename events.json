@@ -255,18 +255,6 @@
   },
   {
     "days": [
-      7
-    ],
-    "t": "19:30",
-    "n": "culture sniffers at Treehouse NDSM: curator tour and studio visits",
-    "v": "Treehouse NDSM",
-    "c": "art",
-    "note": "Led by curator Mulan Go with artists Rucha Kulkarni and Philip Ling.",
-    "u": "luma.com/avkx4k9o",
-    "ul": "Tickets"
-  },
-  {
-    "days": [
       16
     ],
     "n": "Signal '26: 20 young graduates, one night",
@@ -1614,7 +1602,7 @@
     "n": "Gratis Lunchconcert: Black Achievement Month",
     "v": "Concertgebouw · Kleine Zaal",
     "c": "music",
-    "u": "concertgebouw.nl/concerten/46012125",
+    "u": "concertgebouw.nl/concerten/46012125-gratis-lunchconcert-black-achievement-month",
     "ul": "Info",
     "note": "Free. Phantom Wizard & Nyarko. Sold out — check door."
   },
@@ -1626,7 +1614,7 @@
     "n": "Piano Nights: Eric Christian & Nino Gvetadze",
     "v": "Concertgebouw · Grote Zaal",
     "c": "music",
-    "u": "concertgebouw.nl/concerten/43714209",
+    "u": "concertgebouw.nl/concerten/43714209-piano-nights-de-mooiste-pianomuziek-met-eric-christian-en-nino-gvetadze",
     "ul": "Tickets",
     "note": "Liszt, Christian. €19."
   },
@@ -1638,7 +1626,7 @@
     "n": "Van Baerle Trio: Schumann, MacMillan & Brahms",
     "v": "Concertgebouw · Kleine Zaal",
     "c": "music",
-    "u": "concertgebouw.nl/concerten/41701216",
+    "u": "concertgebouw.nl/concerten/41701216-van-baerle-trio-met-schumann-macmillan-en-brahms",
     "ul": "Tickets",
     "note": "Brahms Piano Trio op. 8. €25."
   },
@@ -1650,7 +1638,7 @@
     "n": "Jason Moran solo",
     "v": "Concertgebouw · Kleine Zaal",
     "c": "music",
-    "u": "concertgebouw.nl/concerten/45966475",
+    "u": "concertgebouw.nl/concerten/45966475-jason-moran-solo",
     "ul": "Tickets",
     "note": "€29."
   },
@@ -1662,7 +1650,7 @@
     "n": "Vriendenrepetitie: Emanuel Ax & Concertgebouworkest",
     "v": "Concertgebouw · Grote Zaal",
     "c": "music",
-    "u": "concertgebouw.nl/concerten/45901521",
+    "u": "concertgebouw.nl/concerten/45901521-vriendenrepetitie-emanuel-ax-en-het-concertgebouworkest-spelen-john-williams",
     "ul": "Tickets",
     "note": "Dvořák + John Williams Piano Concerto. €19.50. Open rehearsal."
   },
@@ -1674,7 +1662,7 @@
     "n": "Emanuel Ax & Concertgebouworkest spelen John Williams",
     "v": "Concertgebouw · Grote Zaal",
     "c": "music",
-    "u": "concertgebouw.nl/concerten/45875458",
+    "u": "concertgebouw.nl/concerten/45875458-emanuel-ax-en-het-concertgebouworkest-spelen-john-williams",
     "ul": "Tickets",
     "note": "World premiere John Williams Piano Concerto + Dvořák 6. €20."
   },
@@ -1686,7 +1674,7 @@
     "n": "SONICO: The Edge of Tango",
     "v": "Concertgebouw · Kleine Zaal",
     "c": "music",
-    "u": "concertgebouw.nl/concerten/44075920",
+    "u": "concertgebouw.nl/concerten/44075920-sonico-the-edge-of-tango",
     "ul": "Tickets",
     "note": "€25."
   },
@@ -1698,7 +1686,7 @@
     "n": "Conunova speelt Beethoven met Athens State Orchestra",
     "v": "Concertgebouw · Grote Zaal",
     "c": "music",
-    "u": "concertgebouw.nl/concerten/46013601",
+    "u": "concertgebouw.nl/concerten/46013601-conunova-speelt-beethoven-met-athens-state-orchestra",
     "ul": "Tickets",
     "note": "Saint-Saëns Cello Concerto + Shostakovich 9. €25."
   },
@@ -1710,7 +1698,7 @@
     "n": "Thijs Willers speelt Beethovens Appassionata",
     "v": "Concertgebouw · Kleine Zaal",
     "c": "music",
-    "u": "concertgebouw.nl/concerten/41701217",
+    "u": "concertgebouw.nl/concerten/41701217-thijs-willers-speelt-beethovens-appassionata",
     "ul": "Tickets",
     "note": "Debussy, Scriabin, Beethoven. €19."
   },
@@ -1722,7 +1710,7 @@
     "n": "Klassieke hits: Radio Filharmonisch Orkest",
     "v": "Concertgebouw · Grote Zaal",
     "c": "music",
-    "u": "concertgebouw.nl/concerten/37331018",
+    "u": "concertgebouw.nl/concerten/37331018-klassieke-hits-door-het-radio-filharmonisch-orkest",
     "ul": "Tickets",
     "note": "Rachmaninoff, Smetana De Moldau. €21. Last tickets."
   },
@@ -1734,7 +1722,7 @@
     "n": "Emanuel Ax & Concertgebouworkest: John Williams",
     "v": "Concertgebouw · Grote Zaal",
     "c": "music",
-    "u": "concertgebouw.nl/concerten/45875730",
+    "u": "concertgebouw.nl/concerten/45875730-emanuel-ax-en-het-concertgebouworkest-spelen-john-williams",
     "ul": "Tickets",
     "note": "Matinee. €20."
   },
@@ -1746,7 +1734,7 @@
     "n": "Jan-Willem Rozenboom: Bachs Wohltemperiertes Klavier",
     "v": "Concertgebouw · Kleine Zaal",
     "c": "music",
-    "u": "concertgebouw.nl/concerten/43931213",
+    "u": "concertgebouw.nl/concerten/43931213-jan-willem-rozenboom-en-bachs-wohltemperierte-klavier",
     "ul": "Tickets",
     "note": "BWV 846-869 selection. €29."
   },
@@ -1758,7 +1746,7 @@
     "n": "Intouchables in Concert",
     "v": "Concertgebouw · Grote Zaal",
     "c": "music",
-    "u": "concertgebouw.nl/concerten/45855941",
+    "u": "concertgebouw.nl/concerten/45855941-intouchables-in-concert",
     "ul": "Tickets",
     "note": "Live film concert. €46. Last tickets."
   },
@@ -1770,7 +1758,7 @@
     "n": "Gratis Lunchconcert voor kinderen (6+): KC Concours",
     "v": "Concertgebouw · Kleine Zaal",
     "c": "music",
-    "u": "concertgebouw.nl/concerten/46012121",
+    "u": "concertgebouw.nl/concerten/46012121-gratis-lunchconcert-voor-kinderen-koninklijk-concertgebouw-concours-6",
     "ul": "Tickets",
     "note": "Free. Young competition winners perform."
   },
@@ -1782,7 +1770,7 @@
     "n": "Intouchables in Concert",
     "v": "Concertgebouw · Grote Zaal",
     "c": "music",
-    "u": "concertgebouw.nl/concerten/45855970",
+    "u": "concertgebouw.nl/concerten/45855970-intouchables-in-concert",
     "ul": "Tickets",
     "note": "Live film concert. €46."
   },
@@ -1969,138 +1957,6 @@
     "u": "oudekerk.nl/nu-te-zien/evenementen/minimal-collective-presents-post-space/46167",
     "ul": "Info",
     "note": "Electronic music in a historic church during ADE. Unique setting."
-  },
-  {
-    "days": [
-      7
-    ],
-    "t": "19:30",
-    "n": "Van Dallas tot Succession: televisiecultuur",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/van-dallas-tot-succession-een-avond-kijken-naar-onze-televisiecultuur-07-10-2026/",
-    "ul": "Tickets",
-    "note": "Soaps, streamers en televisie in tijden van algoritmes."
-  },
-  {
-    "days": [
-      9
-    ],
-    "t": "17:30",
-    "n": "Plein Publiek: Michiel Lieuwma",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/plein-publiek-michiel-lieuwma-09-10-2026/",
-    "ul": "Tickets",
-    "note": "Gesprek over zijn nieuwe roman en populaire cultuur."
-  },
-  {
-    "days": [
-      9
-    ],
-    "t": "20:30",
-    "n": "What Is Left for Art to Say — Dries Verhoeven & Rieke Vos",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/what-is-left-for-art-to-say-with-dries-verhoeven-en-rieke-vos-09-10-2026/",
-    "ul": "Tickets",
-    "note": "What is the meaning of art in a world adrift?"
-  },
-  {
-    "days": [
-      10
-    ],
-    "t": "19:00",
-    "n": "ENFF On Tour: Peacemaker",
-    "v": "De Balie",
-    "c": "film",
-    "u": "debalie.nl/programma/enff-on-tour-peacemaker-10-10-2026/",
-    "ul": "Tickets",
-    "note": "Film about the Osijek police chief who tried to prevent the Yugoslav war."
-  },
-  {
-    "days": [
-      11
-    ],
-    "t": "14:00",
-    "n": "The School for Peace: Continuing the Dialogue",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/the-school-for-peace-continuing-the-dialogue-11-10-2026/",
-    "ul": "Tickets",
-    "note": "Palestinians and Israeli Jews in dialogue — what does solidarity mean in wartime?"
-  },
-  {
-    "days": [
-      11
-    ],
-    "t": "14:00",
-    "n": "Black Achievement Month: Samba Traoré (film)",
-    "v": "De Balie",
-    "c": "film",
-    "u": "debalie.nl/programma/black-achievement-month-samba-traore-11-10-2026/",
-    "ul": "Tickets",
-    "note": "Burkina Faso film about return and starting over."
-  },
-  {
-    "days": [
-      12
-    ],
-    "t": "20:00",
-    "n": "Van de Ilias tot nu: verhalen van oorlog herzien",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/van-de-illias-tot-nu-verhalen-van-oorlog-herzien-12-10-2026/",
-    "ul": "Tickets",
-    "note": "Met Abdelkader Benali en Lodewijk van Oord. Theatergroep Zuidpool."
-  },
-  {
-    "days": [
-      13
-    ],
-    "t": "19:30",
-    "n": "Kennismakers: Scrollen. Vapen. Hosselen.",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/kennismakers-scrollen-vapen-hosselen-13-10-2026/",
-    "ul": "Tickets",
-    "note": "Cyberpesten, illegale vapehandel en swatten — hoe kinderen online worden verleid."
-  },
-  {
-    "days": [
-      14
-    ],
-    "t": "20:00",
-    "n": "Techdenkers: The politics of the internet",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/the-politics-of-the-internet-14-10-2026/",
-    "ul": "Tickets",
-    "note": "Can we fix the internet? With Britt Paris."
-  },
-  {
-    "days": [
-      15
-    ],
-    "t": "20:00",
-    "n": "Is menstruatiemeten weten?",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/is-menstruatiemeten-weten-15-10-2026/",
-    "ul": "Tickets",
-    "note": "Menstruatiecyclus, vrouwelijke gezondheid en de rol van data."
-  },
-  {
-    "days": [
-      16
-    ],
-    "t": "17:30",
-    "n": "Plein Publiek: Conny Braam",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/plein-publiek-conny-braam-16-10-2026/",
-    "ul": "Tickets",
-    "note": "Anti-Apartheid activist and author. Memoires van een activiste."
   },
   {
     "run": 1,
@@ -2526,18 +2382,844 @@
     "c": "film",
     "u": "ot301.nl/agenda/23183",
     "ul": "Tickets",
-    "note": "Opening film screening of Indigenous Liberation Week + discussion panel. €5–10."
+    "note": "Opening film of ILW + discussion. €5–10."
   },
   {
     "days": [
       8
     ],
     "t": "19:00",
-    "n": "Highs & Lows – evening of performances",
+    "n": "Highs & Lows — evening of performances",
     "v": "OT301 · 4bid Gallery",
     "c": "art",
     "u": "ot301.nl/agenda/23099",
     "ul": "Tickets",
     "note": "Billy Mullaney, Mathilde Lin & Sébastien Forrester, Racso Sami Cabrera Hernandez. €10."
+  },
+  {
+    "days": [
+      9
+    ],
+    "t": "21:00",
+    "n": "Techno with Attitude – 99dB",
+    "v": "OT301 · Studios",
+    "c": "night",
+    "u": "ot301.nl/agenda",
+    "ul": "Tickets",
+    "note": "Pneumatic, Ølith, B3R, Cosmo. Underground techno. 18+. €8–10."
+  },
+  {
+    "days": [
+      10
+    ],
+    "t": "13:00",
+    "n": "Rise Up for Indigenous Liberation Week! (film screenings)",
+    "v": "OT301 · Ventilator Cinema",
+    "c": "film",
+    "u": "ot301.nl/agenda",
+    "ul": "Tickets",
+    "note": "Full day of film screenings for ILW. €5–20."
+  },
+  {
+    "days": [
+      10
+    ],
+    "t": "21:00",
+    "n": "Bassline for Palestine",
+    "v": "OT301 · Studios",
+    "c": "night",
+    "u": "ot301.nl/agenda",
+    "ul": "Tickets",
+    "note": "Max Mesman, slmn, K_aMM. Music + solidarity. 18+. €5."
+  },
+  {
+    "days": [
+      11
+    ],
+    "t": "15:30",
+    "n": "Les Souvenirs de Mémé — Natacha Demant",
+    "v": "OT301 · Ventilator Cinema",
+    "c": "film",
+    "u": "ot301.nl/agenda",
+    "ul": "Tickets",
+    "note": "Film screening. €20."
+  },
+  {
+    "days": [
+      16
+    ],
+    "t": "20:00",
+    "n": "Zoutmus Album Release Party",
+    "v": "OT301 · Studios",
+    "c": "music",
+    "u": "ot301.nl/agenda",
+    "ul": "Tickets",
+    "note": "Zoutmus, DJ Jules de la Courgette, DJ Klempo, DJ Eindbaas. €12. 18+."
+  },
+  {
+    "days": [
+      17
+    ],
+    "t": "15:00",
+    "n": "CineCarib NL Ed. 5: Kombiná + Forsa Ansestral",
+    "v": "OT301 · Ventilator Cinema",
+    "c": "film",
+    "u": "ot301.nl/agenda",
+    "ul": "Tickets",
+    "note": "Special Caribbean film screening. €10."
+  },
+  {
+    "days": [
+      17
+    ],
+    "t": "20:00",
+    "n": "Viva Rosa + Combo Qazam",
+    "v": "OT301 · Studios",
+    "c": "music",
+    "u": "ot301.nl/agenda",
+    "ul": "Tickets",
+    "note": "Viva Rosa, Combo Qazam, Sentinel Island Disco. €8. 18+."
+  },
+  {
+    "days": [
+      21
+    ],
+    "t": "20:00",
+    "n": "AADE: Subject Sue EP Release + Details In The Dark",
+    "v": "OT301 · Studios",
+    "c": "night",
+    "ade": 1,
+    "u": "ot301.nl/agenda",
+    "ul": "Tickets",
+    "note": "Subject Sue, M2K, Dear Omen (DJ set). €8–12. 18+."
+  },
+  {
+    "days": [
+      22
+    ],
+    "t": "20:00",
+    "n": "AADE: Aili & Orson × TUKAN",
+    "v": "OT301 · Studios",
+    "c": "night",
+    "ade": 1,
+    "u": "ot301.nl/agenda",
+    "ul": "Tickets",
+    "note": "Aili & Orson, TUKAN, charlie avalon, Umbra. €14–16. 18+."
+  },
+  {
+    "days": [
+      23
+    ],
+    "t": "17:00",
+    "n": "AADE: The Noodle Show — Nadia Struiwigh & Kessler",
+    "v": "OT301 · Ventilator Cinema",
+    "c": "music",
+    "ade": 1,
+    "u": "ot301.nl/agenda",
+    "ul": "Tickets",
+    "note": "€10."
+  },
+  {
+    "days": [
+      23
+    ],
+    "t": "20:00",
+    "n": "AADE: Anderworld zine launch — free entry",
+    "v": "OT301 · Ventilator Bar",
+    "c": "art",
+    "ade": 1,
+    "u": "ot301.nl/agenda",
+    "ul": "Info",
+    "note": "Free zine launch event."
+  },
+  {
+    "days": [
+      23
+    ],
+    "t": "22:00",
+    "n": "AADE: Anderworld release event",
+    "v": "OT301 · Studios",
+    "c": "night",
+    "ade": 1,
+    "u": "ot301.nl/agenda",
+    "ul": "Tickets",
+    "note": "BlackBeach (live), Camy Huot (live), Parrish Smith. €10–13. 18+."
+  },
+  {
+    "days": [
+      24
+    ],
+    "t": "20:00",
+    "n": "AADE: ADEV after — Alberta Balsam, Wilco Prinsen (live), Keynu (live)",
+    "v": "OT301 · Studios",
+    "c": "night",
+    "ade": 1,
+    "u": "ot301.nl/agenda",
+    "ul": "Tickets",
+    "note": "Arc Vale (live), Waldo b2b Tania Kim, Industrial Romantico. €8–12. 18+."
+  },
+  {
+    "days": [
+      29
+    ],
+    "t": "19:00",
+    "n": "Jim Saah — 'IN MY EYES' book talk",
+    "v": "OT301 · 4bid Gallery",
+    "c": "talk",
+    "u": "ot301.nl/agenda",
+    "ul": "Info",
+    "note": "Donation-based. Jim Saah / King Koala press."
+  },
+  {
+    "days": [
+      29
+    ],
+    "t": "19:30",
+    "n": "Fangs (Anyab) — Halloween screening",
+    "v": "OT301 · Ventilator Cinema",
+    "c": "film",
+    "u": "ot301.nl/agenda",
+    "ul": "Tickets",
+    "note": "€7."
+  },
+  {
+    "days": [
+      30
+    ],
+    "t": "18:45",
+    "n": "Science Fiction, Fantasy & Marxism — with Jelle Klaas",
+    "v": "OT301 · Ventilator Cinema",
+    "c": "talk",
+    "u": "ot301.nl/agenda",
+    "ul": "Tickets",
+    "note": "€6.50."
+  },
+  {
+    "days": [
+      30
+    ],
+    "t": "23:00",
+    "n": "VIS 01 AMS — Bella Hall, Sachiko",
+    "v": "OT301 · Studios",
+    "c": "night",
+    "u": "ot301.nl/agenda",
+    "ul": "Tickets",
+    "note": "€15. 18+."
+  },
+  {
+    "days": [
+      31
+    ],
+    "t": "12:30",
+    "n": "Visual Encounters Film Festival 2026",
+    "v": "OT301 · Ventilator Cinema",
+    "c": "film",
+    "u": "ot301.nl/agenda",
+    "ul": "Tickets",
+    "note": "€5."
+  },
+  {
+    "days": [
+      31
+    ],
+    "t": "22:00",
+    "n": "Imagine Halloween Party — Drag King Mannish Pixel",
+    "v": "OT301 · Studios",
+    "c": "night",
+    "u": "ot301.nl/agenda",
+    "ul": "Tickets",
+    "note": "€5. 18+."
+  },
+  {
+    "days": [
+      14
+    ],
+    "t": "12:30",
+    "n": "Gratis Lunchconcert: Internationaal Vocal Competition 's-Hertogenbosch",
+    "v": "Concertgebouw · Kleine Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Info",
+    "note": "Free. Young vocal competition winners perform at lunchtime."
+  },
+  {
+    "days": [
+      14
+    ],
+    "t": "20:15",
+    "n": "Ólafur Arnalds – Falling Apart Together",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "Sold out. Icelandic composer. €39."
+  },
+  {
+    "days": [
+      14
+    ],
+    "t": "20:15",
+    "n": "Amsterdam Klezmer Band – 30 jaar",
+    "v": "Concertgebouw · Kleine Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "30-year anniversary concert. Last tickets. €25."
+  },
+  {
+    "days": [
+      15
+    ],
+    "t": "17:30",
+    "n": "Ólafur Arnalds – Falling Apart Together (2nd show)",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "€39. Icelandic ambient/neo-classical composer."
+  },
+  {
+    "days": [
+      15
+    ],
+    "t": "20:15",
+    "n": "Martin Fröst & Roland Pontinen: Frans programma",
+    "v": "Concertgebouw · Kleine Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "Last tickets. €29."
+  },
+  {
+    "days": [
+      15
+    ],
+    "t": "21:00",
+    "n": "Ólafur Arnalds – Falling Apart Together (3rd show)",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "Last tickets. €39."
+  },
+  {
+    "days": [
+      16
+    ],
+    "t": "13:30",
+    "n": "Familieconcert: Cello Cello speelt OUD! (6+)",
+    "v": "Concertgebouw · Kleine Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "Family concert for ages 6+. €19."
+  },
+  {
+    "days": [
+      17
+    ],
+    "t": "14:15",
+    "n": "Stéphane Denève: Poulenc révisité",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "€29."
+  },
+  {
+    "days": [
+      17
+    ],
+    "t": "20:15",
+    "n": "Beethovens Achtste & Truls Mørk in Sjostakovitsj' Celloconcert nr. 1",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "€19."
+  },
+  {
+    "days": [
+      17
+    ],
+    "t": "20:15",
+    "n": "Nieuwe Blik Terug: Armeense componisten",
+    "v": "Concertgebouw · Kleine Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "Rare programme of Armenian composers. €25."
+  },
+  {
+    "days": [
+      18
+    ],
+    "t": "11:00",
+    "n": "Vivaldi's De vier jaargetijden — Noa Wildschut",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "Last tickets. €21."
+  },
+  {
+    "days": [
+      19
+    ],
+    "t": "20:15",
+    "n": "Grote Pianisten: Krystian Zimerman — 24 verrassingen",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "Legendary Polish pianist. One of the greats. €29."
+  },
+  {
+    "days": [
+      20
+    ],
+    "t": "20:15",
+    "n": "Bach op z'n best: de Brandenburgse concerten",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "€35."
+  },
+  {
+    "days": [
+      21
+    ],
+    "t": "19:30",
+    "n": "ADE: Sonic Journey — The History of Electronic Dance Music",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "ade": 1,
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "ADE special: classical hall meets dance music history. €19."
+  },
+  {
+    "days": [
+      21
+    ],
+    "t": "20:15",
+    "n": "ADE: Kara-Lis Coverdale & Lia Kohl",
+    "v": "Concertgebouw · Kleine Zaal",
+    "c": "music",
+    "ade": 1,
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "Electronic/experimental ADE special. €29."
+  },
+  {
+    "days": [
+      22
+    ],
+    "t": "12:30",
+    "n": "Gratis Lunchconcert: Openbare repetitie Concertgebouworkest",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Info",
+    "note": "Free open rehearsal of the Concertgebouworkest. Beethoven 5th."
+  },
+  {
+    "days": [
+      22
+    ],
+    "t": "20:15",
+    "n": "De Vijfde van Beethoven — Concertgebouworkest",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "€20."
+  },
+  {
+    "days": [
+      22
+    ],
+    "t": "21:00",
+    "n": "ADE: Neon River & FAST DE",
+    "v": "Concertgebouw · Koorzaal",
+    "c": "night",
+    "ade": 1,
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "Electronic music in the Concertgebouw's Koorzaal. ADE. €19."
+  },
+  {
+    "days": [
+      24
+    ],
+    "t": "14:15",
+    "n": "La Tempête: Bach, Mendelssohn & Brahms",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "€29."
+  },
+  {
+    "days": [
+      24
+    ],
+    "t": "20:15",
+    "n": "Nederlands Concertkoor & Toonkunstkoor: Dvořáks Stabat mater",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "€35."
+  },
+  {
+    "days": [
+      24
+    ],
+    "t": "21:00",
+    "n": "ADE: Christian Löffler & Adna",
+    "v": "Concertgebouw · Kleine Zaal",
+    "c": "music",
+    "ade": 1,
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "SOLD OUT. €29."
+  },
+  {
+    "days": [
+      25
+    ],
+    "t": "11:00",
+    "n": "Koperblazers Concertgebouworkest: Tsjaikovski's Notenkraker",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "Last tickets. €21."
+  },
+  {
+    "days": [
+      26
+    ],
+    "t": "20:15",
+    "n": "Popup Choir: Taylor Swift met Maarten Bos & Tijmen de Koning",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "Sing along with Taylor Swift arrangements. €25."
+  },
+  {
+    "days": [
+      27
+    ],
+    "t": "20:15",
+    "n": "Spotlight op Lucie Horsch: barok met Altstaedt & Dunford",
+    "v": "Concertgebouw · Kleine Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "€29."
+  },
+  {
+    "days": [
+      27
+    ],
+    "t": "20:15",
+    "n": "Fresku & Metropole Orkest o.l.v. Simon Dobson",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "SOLD OUT. Amsterdam rapper meets full orchestra. €29."
+  },
+  {
+    "days": [
+      28
+    ],
+    "t": "12:30",
+    "n": "Gratis Lunchconcert: Nederlandse Fluit Academie",
+    "v": "Concertgebouw · Kleine Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Info",
+    "note": "Free."
+  },
+  {
+    "days": [
+      28
+    ],
+    "t": "20:15",
+    "n": "Quatuor Arod: Bartók, Carlos Simon & Fanny Mendelssohn",
+    "v": "Concertgebouw · Kleine Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "€29."
+  },
+  {
+    "days": [
+      28
+    ],
+    "t": "20:15",
+    "n": "Klaus Mäkela dirigeert Mahler 7 — Concertgebouworkest",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "Last tickets. Young Finnish conductor. Mahler's 7th. €29."
+  },
+  {
+    "days": [
+      29
+    ],
+    "t": "20:15",
+    "n": "25 jaar Academie Concertgebouworkest",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "25th anniversary concert. Last tickets. €20."
+  },
+  {
+    "days": [
+      30
+    ],
+    "t": "20:15",
+    "n": "Flat Earth Society: The Coltrane Mutations",
+    "v": "Concertgebouw · Kleine Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "Jazz/avant-garde. Coltrane reimagined. €19."
+  },
+  {
+    "days": [
+      30
+    ],
+    "t": "20:15",
+    "n": "Klaus Mäkela dirigeert Mahler 7 — Concertgebouworkest (2nd night)",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "Last tickets. €29."
+  },
+  {
+    "days": [
+      31
+    ],
+    "t": "14:15",
+    "n": "Oosterse klanken van Sheherazade & Darvishi",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "€29."
+  },
+  {
+    "days": [
+      31
+    ],
+    "t": "20:15",
+    "n": "Stravinsky's Le sacre du printemps & Wynton Marsalis' Celloconcert",
+    "v": "Concertgebouw · Grote Zaal",
+    "c": "music",
+    "u": "concertgebouw.nl/concerten-en-tickets",
+    "ul": "Tickets",
+    "note": "€29. Le Sacre + world premiere cello concerto by Wynton Marsalis."
+  },
+  {
+    "days": [
+      16
+    ],
+    "t": "20:00",
+    "n": "Reporting on Russia — with Pjotr Sauer & Shaun Walker",
+    "v": "De Balie",
+    "c": "talk",
+    "u": "debalie.nl/programma/reporting-on-russia-with-pjotr-sauer-and-shaun-wal",
+    "ul": "Tickets",
+    "note": "The Guardian's Moscow correspondents on reporting from authoritarian Russia."
+  },
+  {
+    "days": [
+      18
+    ],
+    "t": "15:00",
+    "n": "Black Achievement Month: Korte Films uit West-Afrika",
+    "v": "De Balie",
+    "c": "film",
+    "u": "debalie.nl/programma/black-achievement-month-korte-films-uit-west-afrik",
+    "ul": "Tickets",
+    "note": "Short film programme from West Africa."
+  },
+  {
+    "days": [
+      18
+    ],
+    "t": "16:00",
+    "n": "Operatie Interview: Rianne Letschert",
+    "v": "De Balie",
+    "c": "talk",
+    "u": "debalie.nl/programma/operatie-interview-rianne-letschert-18-10-2026",
+    "ul": "Tickets",
+    "note": ""
+  },
+  {
+    "days": [
+      19
+    ],
+    "t": "19:30",
+    "n": "Inside Syria",
+    "v": "De Balie",
+    "c": "talk",
+    "u": "debalie.nl/programma/inside-syria-19-10-2026",
+    "ul": "Tickets",
+    "note": ""
+  },
+  {
+    "days": [
+      19
+    ],
+    "t": "20:00",
+    "n": "Big Tech en de nieuwe wereldorde",
+    "v": "De Balie",
+    "c": "talk",
+    "u": "debalie.nl/programma/big-tech-en-de-nieuwe-wereldorde-19-10-2026",
+    "ul": "Tickets",
+    "note": ""
+  },
+  {
+    "days": [
+      21
+    ],
+    "t": "19:30",
+    "n": "Carl Jung: het kwaad in onszelf",
+    "v": "De Balie",
+    "c": "talk",
+    "u": "debalie.nl/programma/carl-jung-het-kwaad-in-onszelf-21-10-2026",
+    "ul": "Tickets",
+    "note": ""
+  },
+  {
+    "days": [
+      21
+    ],
+    "t": "20:00",
+    "n": "China: autocratie 2.0",
+    "v": "De Balie",
+    "c": "talk",
+    "u": "debalie.nl/programma/china-autocratie-2-0-21-10-2026",
+    "ul": "Tickets",
+    "note": ""
+  },
+  {
+    "days": [
+      22
+    ],
+    "t": "19:30",
+    "n": "How Diversity And Inclusion Came Under Attack",
+    "v": "De Balie",
+    "c": "talk",
+    "u": "debalie.nl/programma/how-diversity-and-inclusion-came-under-attack-22-1",
+    "ul": "Tickets",
+    "note": ""
+  },
+  {
+    "days": [
+      23
+    ],
+    "t": "17:30",
+    "n": "Plein Publiek: Joy Wielkens",
+    "v": "De Balie",
+    "c": "talk",
+    "u": "debalie.nl/programma/plein-publiek-joy-wielkens-23-10-2026",
+    "ul": "Tickets",
+    "note": ""
+  },
+  {
+    "days": [
+      26
+    ],
+    "t": "19:30",
+    "n": "Is elke journalist een activist?",
+    "v": "De Balie",
+    "c": "talk",
+    "u": "debalie.nl/programma/is-elke-journalist-een-activist-26-10-2026",
+    "ul": "Tickets",
+    "note": ""
+  },
+  {
+    "days": [
+      27
+    ],
+    "t": "20:30",
+    "n": "Black Achievement Month: voorbij slachtofferschap",
+    "v": "De Balie",
+    "c": "talk",
+    "u": "debalie.nl/programma/black-achievement-month-voorbij-slachtofferschap-2",
+    "ul": "Tickets",
+    "note": ""
+  },
+  {
+    "days": [
+      28
+    ],
+    "t": "19:30",
+    "n": "CinéDialoog: Gardens of Fez",
+    "v": "De Balie",
+    "c": "film",
+    "u": "debalie.nl/programma/cinedialoog-gardens-of-fez-28-10-2026",
+    "ul": "Tickets",
+    "note": "Film + conversation about Morocco."
+  },
+  {
+    "days": [
+      29
+    ],
+    "t": "19:30",
+    "n": "Publieke Intellectuelen: Victor Klemperer",
+    "v": "De Balie",
+    "c": "talk",
+    "u": "debalie.nl/programma/publieke-intellectuelen-victor-klemperer-29-10-202",
+    "ul": "Tickets",
+    "note": ""
+  },
+  {
+    "days": [
+      30
+    ],
+    "t": "17:30",
+    "n": "Plein Publiek: Milou Brand",
+    "v": "De Balie",
+    "c": "talk",
+    "u": "debalie.nl/programma/plein-publiek-milou-brand-30-10-2026",
+    "ul": "Tickets",
+    "note": ""
+  },
+  {
+    "days": [
+      31
+    ],
+    "t": "19:00",
+    "n": "Maghreb Film Festival: Poupiya",
+    "v": "De Balie",
+    "c": "film",
+    "u": "debalie.nl/programma/maghreb-film-festival-poupiya-31-10-2026",
+    "ul": "Tickets",
+    "note": "Maghreb Film Festival special screening."
+  },
+  {
+    "days": [
+      31
+    ],
+    "t": "20:00",
+    "n": "Derk Sauer Lecture: Evan Gershkovich",
+    "v": "De Balie",
+    "c": "talk",
+    "u": "debalie.nl/programma/derk-sauer-lecture-by-evan-gershkovich-31-10-2026",
+    "ul": "Tickets",
+    "note": "WSJ journalist imprisoned in Russia 2023-24 speaks at De Balie's annual lecture."
   }
 ]
