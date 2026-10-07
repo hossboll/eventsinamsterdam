@@ -1,99 +1,6 @@
 [
   {
     "days": [
-      9
-    ],
-    "n": "Buttechno (live), Andy Garvey, Lara Renner + Bar40 hosted by ponte-neuro",
-    "v": "Garage Noord",
-    "c": "night",
-    "u": "garagenoord.com/club",
-    "ul": "Info",
-    "t": "22:00"
-  },
-  {
-    "days": [
-      10
-    ],
-    "n": "klub krai x b:3tter irl x Smokeshow",
-    "v": "Garage Noord",
-    "c": "night",
-    "u": "garagenoord.com/club",
-    "ul": "Info",
-    "t": "22:00"
-  },
-  {
-    "days": [
-      16
-    ],
-    "n": "Co-curated by T.NO: Toma Kami, MALLAURY, T.NO + Bar40 (Crossover)",
-    "v": "Garage Noord",
-    "c": "night",
-    "u": "garagenoord.com/club",
-    "ul": "Info",
-    "t": "22:00"
-  },
-  {
-    "days": [
-      17
-    ],
-    "n": "Mick Harris presents Culvert Dubs (live), Vanja Rakic b2b Olgica, Brent Jacko (SUBURBIA)",
-    "v": "Garage Noord",
-    "c": "night",
-    "u": "garagenoord.com/club",
-    "ul": "Info",
-    "t": "22:00"
-  },
-  {
-    "days": [
-      23
-    ],
-    "n": "APE",
-    "v": "Garage Noord",
-    "c": "night",
-    "ade": 1,
-    "u": "garagenoord.com/club",
-    "ul": "Info",
-    "t": "22:00"
-  },
-  {
-    "days": [
-      24
-    ],
-    "n": "GN does a party with Nyege Nyege & Trackwork",
-    "v": "Garage Noord",
-    "c": "night",
-    "ade": 1,
-    "u": "garagenoord.com/club",
-    "ul": "Info",
-    "t": "22:00"
-  },
-  {
-    "days": [
-      30
-    ],
-    "n": "Oceanic: Tristan Arp (live), ISA W, Oceanic",
-    "v": "Garage Noord",
-    "c": "night",
-    "u": "garagenoord.com/club",
-    "ul": "Info",
-    "t": "22:00"
-  },
-  {
-    "days": [
-      31
-    ],
-    "n": "Kumata x New World Dysorder",
-    "v": "Garage Noord",
-    "c": "night",
-    "tags": [
-      "Halloween"
-    ],
-    "u": "garagenoord.com/club",
-    "ul": "Info",
-    "t": "22:00"
-  },
-  {
-    "days": [
       16
     ],
     "n": "TRAMA 4th Anniversary Tour: Amsterdam",
@@ -459,7 +366,7 @@
     "c": "music",
     "u": "paradiso.nl/en/program/panchiko/2741543",
     "ul": "Tickets",
-    "note": "British cult band with a mysterious story. Sold out."
+    "note": "British cult band with a mysterious story."
   },
   {
     "days": [
@@ -482,7 +389,7 @@
     "c": "music",
     "u": "paradiso.nl/en/program/mary-in-the-junkyard/2892090",
     "ul": "Tickets",
-    "note": "Enchanting, melancholic, yet sparkling indie. Sold out."
+    "note": "Enchanting, melancholic, yet sparkling indie."
   },
   {
     "days": [
@@ -493,7 +400,7 @@
     "c": "music",
     "u": "paradiso.nl/en/program/kiss-facility/2898541",
     "ul": "Tickets",
-    "note": "Dream couple create mysterious, Arabic-inspired shoegaze. Sold out."
+    "note": "Dream couple create mysterious, Arabic-inspired shoegaze."
   },
   {
     "days": [
@@ -661,7 +568,7 @@
     "c": "music",
     "u": "paradiso.nl/en/program/paris-jackson/2919107",
     "ul": "Tickets",
-    "note": "Alternative rock straight from the heart. Sold out."
+    "note": "Alternative rock straight from the heart."
   },
   {
     "days": [
@@ -767,7 +674,7 @@
     "c": "music",
     "u": "paradiso.nl/en/program/pj-morton/2929451",
     "ul": "Tickets",
-    "note": "Soul pioneer from New Orleans. Sold out."
+    "note": "Soul pioneer from New Orleans."
   },
   {
     "days": [
@@ -797,18 +704,6 @@
     "days": [
       22
     ],
-    "n": "Eastern Margins & Natural Mind – ADE",
-    "v": "Parallel",
-    "c": "night",
-    "t": "20:00",
-    "u": "paradiso.nl/en/program/eastern-margins/2929453",
-    "ul": "Tickets",
-    "note": "Club night focused on alternative East and Southeast Asian culture."
-  },
-  {
-    "days": [
-      22
-    ],
     "n": "Anjunadeep – ADE",
     "v": "Paradiso",
     "c": "night",
@@ -831,18 +726,6 @@
   },
   {
     "days": [
-      23
-    ],
-    "n": "Bambii – ADE",
-    "v": "Parallel",
-    "c": "night",
-    "t": "19:00",
-    "u": "paradiso.nl/en/program/bambii/2919433",
-    "ul": "Tickets",
-    "note": "Dancehall, bass and rave."
-  },
-  {
-    "days": [
       24
     ],
     "n": "Speedy J presents STOOR Live – ADE",
@@ -850,7 +733,7 @@
     "c": "night",
     "u": "paradiso.nl/en/program/speedy-j/2919434",
     "ul": "Tickets",
-    "note": "Hardware jam combining electronic music and video art. Sold out."
+    "note": "Hardware jam combining electronic music and video art."
   },
   {
     "days": [
@@ -945,7 +828,7 @@
     "c": "music",
     "u": "paradiso.nl/en/program/london-calling/2919439",
     "ul": "Tickets",
-    "note": "Indie / alt / (post)punk festival — final day. Sold out."
+    "note": "Indie / alt / (post)punk festival — final day."
   },
   {
     "days": [
@@ -982,18 +865,6 @@
     "note": "Curator tour of Art Park IV + studio visits with Rucha Kulkarni & Philip Ling. €15.",
     "u": "lu.ma/avkx4k9o",
     "ul": "Tickets"
-  },
-  {
-    "days": [
-      11
-    ],
-    "t": "15:30",
-    "n": "Sites of Memory presents: Space of Becoming",
-    "v": "Het Scheepvaartmuseum",
-    "c": "art",
-    "note": "Dance, music, visual art & spoken word engaging colonial legacies and healing — by artists from NL, South Africa & Sri Lanka.",
-    "u": "hetscheepvaartmuseum.nl",
-    "ul": "Info"
   },
   {
     "days": [
@@ -1059,7 +930,8 @@
   },
   {
     "days": [
-      23
+      23,
+      24
     ],
     "t": "23:00",
     "n": "ADE – Dusty Cabinets",
@@ -1069,19 +941,6 @@
     "u": "desering.org/event/ade-friday---dusty-cabinets",
     "ul": "Info",
     "note": "ADE Friday night at De Sering."
-  },
-  {
-    "days": [
-      24
-    ],
-    "t": "23:00",
-    "n": "ADE – Dusty Cabinets",
-    "v": "De Sering",
-    "c": "night",
-    "ade": 1,
-    "u": "desering.org/event/ade-saturday---dusty-cabinets",
-    "ul": "Info",
-    "note": "ADE Saturday night at De Sering."
   },
   {
     "days": [
@@ -1369,7 +1228,7 @@
     "ade": 1,
     "u": "nachbar.stager.co/shop/nachbar",
     "ul": "Tickets",
-    "note": "Sold out."
+    "note": ""
   },
   {
     "days": [
@@ -1408,7 +1267,7 @@
     "ade": 1,
     "u": "nachbar.stager.co/shop/nachbar",
     "ul": "Tickets",
-    "note": "Mostly sold out."
+    "note": "Mostly"
   },
   {
     "days": [
@@ -1604,7 +1463,7 @@
     "c": "music",
     "u": "concertgebouw.nl/concerten/46012125-gratis-lunchconcert-black-achievement-month",
     "ul": "Info",
-    "note": "Free. Phantom Wizard & Nyarko. Sold out — check door."
+    "note": "Free. Phantom Wizard & Nyarko. — check door."
   },
   {
     "days": [
@@ -2025,19 +1884,6 @@
     "note": "'Collaborative Portraits of Women Navigating Mastectomy and Body Sovereignty' — artist Diana Zuican."
   },
   {
-    "days": [
-      10,
-      11
-    ],
-    "t": "09:00",
-    "n": "IJ-Hallen vlooienmarkt",
-    "v": "IJ-Hallen",
-    "c": "market",
-    "u": "ijhallen.nl",
-    "ul": "Tickets",
-    "note": "Europe's largest flea market. 600 stalls, 09:00–16:30. €6.50 entry."
-  },
-  {
     "run": 1,
     "s": 7,
     "e": 31,
@@ -2282,7 +2128,7 @@
     "ade": 1,
     "u": "skatecafe.weticket.io",
     "ul": "Tickets",
-    "note": "Sold out."
+    "note": ""
   },
   {
     "days": [
@@ -2652,7 +2498,7 @@
     "c": "music",
     "u": "concertgebouw.nl/concerten-en-tickets",
     "ul": "Tickets",
-    "note": "Sold out. Icelandic composer. €39."
+    "note": "Icelandic composer. €39."
   },
   {
     "days": [
@@ -2884,7 +2730,7 @@
     "ade": 1,
     "u": "concertgebouw.nl/concerten-en-tickets",
     "ul": "Tickets",
-    "note": "SOLD OUT. €29."
+    "note": "€29."
   },
   {
     "days": [
@@ -2932,7 +2778,7 @@
     "c": "music",
     "u": "concertgebouw.nl/concerten-en-tickets",
     "ul": "Tickets",
-    "note": "SOLD OUT. Amsterdam rapper meets full orchestra. €29."
+    "note": "Amsterdam rapper meets full orchestra. €29."
   },
   {
     "days": [
