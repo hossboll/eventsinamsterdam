@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amsterdam ← Agenda // Oct 2026</title>
+
+    <!-- SEO & social sharing (issue #8) -->
+    <meta name="description" content="What's on in Amsterdam this month — curated music, art, film, talks and nightlife.">
+    <meta property="og:title" content="Amsterdam ← Agenda // Oct 2026">
+    <meta property="og:description" content="Curated events in Amsterdam: nights, music, art, film, talks.">
+    <meta property="og:image" content="https://eventsinamsterdam.netlify.app/img/trama_anniversary.jpg">
+    <meta property="og:url" content="https://eventsinamsterdam.netlify.app">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://eventsinamsterdam.netlify.app">
+
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,600;1,6..72,400&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0&icon_names=location_on,schedule,signpost" />
+
+    <style>
+        :root {
+            --paper-bg: #f4d0f3;
+            --ink-black: #111111;
+            --accent-color: #047a7a;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            background-color: var(--paper-bg);
+            color: var(--ink-black);
+            font-family: 'Space Mono', monospace;
+            padding: 24px;
+            min-height: 100vh;
+            font-size: 11pt;
+        }
+
+        header {
+            border-bottom: 2px solid var(--ink-black);
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        .magazine-title {
+            font-family: 'Newsreader', serif;
+            font-size: clamp(2.4rem, 5.5vw, 4.2rem);
+            font-weight: 400;
+            letter-spacing: -1px;
+            line-height: 1;
+            text-transform: uppercase;
+        }
+
+        .controls-section {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid var(--ink-black);
+            padding-bottom: 20px;
+        }
+
+        .controls-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .search-box {
+            background: transparent;
+            border: none;
+            border-bottom: 1px dotted var(--ink-black);
+            font-family: 'Space Mono', monospace;
+            font-size: 1.05rem;
+            color: var(--ink-black);
+            padding: 6px 0;
+            width: 280px;
+            outline: none;
+        }
+        .search-box::placeholder { color: rgba(17,17,17,0.4); }
+
+        .filter-buttons { display: flex; gap: 10px; flex-wrap: wrap; }
+
+        .filter-btn {
+            background: transparent;
+            border: 1px solid var(--ink-black);
+            padding: 6px 12px;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--ink-black);
+            color: var(--paper-bg);
+        }
+
+        .day-selector {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding-bottom: 8px;
+            border-top: 1px dotted var(--ink-black);
+            padding-top: 14px;
+            scrollbar-width: none;
+        }
+        .day-selector::-webkit-scrollbar { display: none; }
+
+        .day-chip {
+            background: transparent;
+            border: 1px solid rgba(17,17,17,0.3);
+            padding: 6px 10px;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        .day-chip.weekend { background: rgba(4,122,122,0.08); }
+        .day-chip:hover, .day-chip.active {
+            background: var(--accent-color);
+            color: #fff;
+            border-color: var(--accent-color);
+        }
+        .day-chip.today { border-color: var(--ink-black); font-weight: 700; }
+
+        .magazine-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        @media (max-width: 1024px) { .magazine-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 600px)  { .magazine-grid { grid-template-columns: 1fr; } }
+
+        .article-card {
+            border: 1px solid var(--ink-black);
+            display: flex;
+            flex-direction: column;
+            background: var(--paper-bg);
+            transition: transform 0.1s ease;
+            position: relative;
+        }
+        .article-card.has-link { cursor: pointer; }
+        .article-card:hover { box-shadow: 4px 4px 0px var(--ink-black); transform: translate(-2px, -2px); }
+        .article-card.is-run { border-style: dashed; opacity: 0.9; }
+
+        .article-image-box {
+            width: 100%;
+            height: 190px;
+            background: var(--accent-color);
+            overflow: hidden;
+            border-bottom: 1px solid var(--ink-black);
+        }
+        .article-image-box img {
+            width: 100%; height: 100%;
+            object-fit: cover;
+            mix-blend-mode: multiply;
+            filter: grayscale(100%) contrast(120%);
+            opacity: 0.85;
+        }
+
+        .article-content {
+            padding: 18px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-grow: 1;
+            gap: 10px;
+        }
+
+        .article-date {
+            font-size: 0.78rem;
+            opacity: 0.65;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            margin-bottom: 6px;
+        }
+
+        .article-title {
+            font-family: 'Newsreader', serif;
+            font-size: 1.9rem;
+            font-weight: 400;
+            line-height: 1.05;
+        }
+
+        .article-desc {
+            font-size: 0.88rem;
+            line-height: 1.45;
+            opacity: 0.85;
+            font-style: italic;
+            margin-top: 8px;
+        }
+
+        .article-footer {
+            border-top: 1px dotted var(--ink-black);
+            padding-top: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            font-size: 0.8rem;
+            gap: 8px;
+            margin-top: 15px;
+        }
+
+        .footer-left  { display: flex; flex-direction: column; gap: 6px; flex: 1; }
+        .footer-right { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; white-space: nowrap; }
+
+        .article-location { font-weight: bold; display: flex; align-items: center; gap: 4px; }
+        .article-cat { text-transform: uppercase; opacity: 0.6; display: flex; align-items: center; gap: 3px; }
+
+        .footer-tags { display: flex; flex-wrap: wrap; gap: 4px; justify-content: flex-end; }
+
+        .badge {
+            font-size: 0.54rem;
+            padding: 1px 4px;
+            border: 1px solid var(--ink-black);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .badge.ade    { background: var(--accent-color); color: #fff; border-color: var(--accent-color); }
+        .badge.free   { border-color: var(--accent-color); color: var(--accent-color); }
+        .badge.is-new { background: var(--accent-color); color: #fff; border-color: var(--accent-color); }
+        .badge.tag    { opacity: 0.6; }
+
+        .event-link {
+            display: block;
+            margin-top: 10px;
+            padding: 7px 12px;
+            border: 1px solid var(--ink-black);
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: var(--ink-black);
+            text-align: center;
+            letter-spacing: 0.05em;
+            transition: background 0.1s;
+        }
+        .event-link:hover { background: var(--ink-black); color: var(--paper-bg); }
+
+        /* Divider between specific and ongoing events */
+        .section-divider {
+            grid-column: 1/-1;
+            border-top: 1px dotted var(--ink-black);
+            padding-top: 18px;
+            margin-top: 8px;
+            font-size: 0.78rem;
+            opacity: 0.55;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        /* Message when a day has no specific events (issue #7) */
+        .nothing-tonight {
+            grid-column: 1/-1;
+            padding: 28px 0 8px;
+            font-size: 0.78rem;
+            opacity: 0.4;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .page-info-footer {
+            margin-top: 40px;
+            border-top: 2px solid var(--ink-black);
+            padding-top: 18px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+        }
+
+        .material-symbols-outlined { font-size: 15px; vertical-align: middle; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="magazine-title">Amsterdam ← Agenda</h1>
+    </header>
+
+    <div class="controls-section">
+        <div class="controls-top">
+            <input type="text" class="search-box" id="search" placeholder="Search events...">
+            <div class="filter-buttons" id="filter-container"></div>
+        </div>
+        <div class="day-selector" id="day-selector-container"></div>
+    </div>
+
+    <main class="magazine-grid" id="grid"></main>
+
+    <div class="page-info-footer">
+        <span id="db-status">DATABASE: LOADING...</span>
+        <span>OCT 2026 · AMSTERDAM</span>
+    </div>
+
+    <script>
+        // ── Agenda config — update when rolling to next month ─────────────────────
+        const AGENDA_MONTH = 9;    // 0-indexed: 9 = October
+        const AGENDA_YEAR  = 2026;
+        const TOTAL_DAYS   = 31;
+
+        // Dynamic today (falls back to day 1 if visited outside this month)
+        const _now   = new Date();
+        const today  = (_now.getMonth() === AGENDA_MONTH && _now.getFullYear() === AGENDA_YEAR)
+                         ? _now.getDate() : 1;
+        const tomorrow = today < TOTAL_DAYS ? today + 1 : null;
+
+        // First day-of-week for day 1 of this month (Su=0, Mo=1 … Sa=6)
+        const firstDow = new Date(AGENDA_YEAR, AGENDA_MONTH, 1).getDay();
+        const DOW_NAMES = ['Su','Mo','Tu','We','Th','Fr','Sa'];
+
+        let eventsData    = [];
+        let activeCategory = null;
+        let activeDay      = today;   // open on today by default
+        let searchQuery    = '';
+
+        const grid                 = document.getElementById('grid');
+        const searchInput          = document.getElementById('search');
+        const filterContainer      = document.getElementById('filter-container');
+        const daySelectorContainer = document.getElementById('day-selector-container');
+        const dbStatus             = document.getElementById('db-status');
+
+        function fixUrl(u) {
+            if (!u) return null;
+            return u.startsWith('http') ? u : 'https://' + u;
+        }
+
+        // ── Bootstrap ─────────────────────────────────────────────────────────────
+        async function init() {
+            try {
+                const r = await fetch('events.json');
+                if (!r.ok) throw new Error('Could not load events.json');
+                eventsData = await r.json();
+            } catch (err) {
+                console.error(err);
+                dbStatus.textContent = 'DATABASE: ERROR';
+                grid.innerHTML = '<div style="grid-column:1/-1;padding:40px;text-align:center;opacity:0.5;">// Error loading events.json</div>';
+                return;
+            }
+
+            renderFilters();
+            renderDays();
+            renderGrid();
+
+            // Issue #9: typing in search switches to "All upcoming" automatically
+            searchInput.addEventListener('input', e => {
+                searchQuery = e.target.value.toLowerCase();
+                if (searchQuery && activeDay !== null) {
+                    activeDay = null;
+                    document.querySelectorAll('.day-chip').forEach(el => el.classList.remove('active'));
+                    const allBtn = daySelectorContainer.querySelector('.day-chip');
+                    if (allBtn) allBtn.classList.add('active');
+                }
+                renderGrid();
+            });
+        }
+
+        // ── Category filters ──────────────────────────────────────────────────────
+        function renderFilters() {
+            const labels = { night:'Night', music:'Music', stage:'Stage', film:'Film', talk:'Talk', art:'Art', market:'Market', city:'City' };
+            const cats   = [...new Set(eventsData.map(e => e.c).filter(Boolean))];
+
+            filterContainer.innerHTML = `<button class="filter-btn ${!activeCategory?'active':''}" onclick="resetCategory()">All</button>`;
+            cats.forEach(cat => {
+                const btn = document.createElement('button');
+                btn.className = `filter-btn ${activeCategory===cat?'active':''}`;
+                btn.textContent = labels[cat] || cat.toUpperCase();
+                btn.onclick = () => { activeCategory = (activeCategory===cat) ? null : cat; renderFilters(); renderGrid(); };
+                filterContainer.appendChild(btn);
+            });
+        }
+
+        window.resetCategory = function() { activeCategory = null; renderFilters(); renderGrid(); }
+
+        // ── Day strip ─────────────────────────────────────────────────────────────
+        function renderDays() {
+            let html = `<button class="day-chip ${activeDay===null?'active':''}" onclick="selectDay(null,this)">All upcoming</button>`;
+            html    += `<button class="day-chip today ${activeDay===today?'active':''}" onclick="selectDay(${today},this)">Today (Oct ${today})</button>`;
+            if (tomorrow) {
+                html += `<button class="day-chip ${activeDay===tomorrow?'active':''}" onclick="selectDay(${tomorrow},this)">Tomorrow (Oct ${tomorrow})</button>`;
+            }
+
+            for (let i = 1; i <= TOTAL_DAYS; i++) {
+                if (i < today)                      continue; // hide past (issue #6)
+                if (i === today || i === tomorrow)  continue; // already rendered above
+
+                const dow     = DOW_NAMES[(firstDow + i - 1) % 7];
+                const weekend = (dow === 'Sa' || dow === 'Su');
+                const cls     = ['day-chip', weekend?'weekend':'', activeDay===i?'active':''].filter(Boolean).join(' ');
+                html += `<button class="${cls}" onclick="selectDay(${i},this)">${dow} ${i}</button>`;
+            }
+
+            daySelectorContainer.innerHTML = html;
+
+            // Scroll today's chip into view
+            setTimeout(() => {
+                const todayBtn = daySelectorContainer.querySelector('.today');
+                if (todayBtn) todayBtn.scrollIntoView({ inline:'center', behavior:'smooth' });
+            }, 150);
+        }
+
+        window.selectDay = function(day, btn) {
+            activeDay = day;
+            document.querySelectorAll('.day-chip').forEach(el => el.classList.remove('active'));
+            if (btn) btn.classList.add('active');
+            renderGrid();
+        }
+
+        // ── Grid ──────────────────────────────────────────────────────────────────
+        function renderGrid() {
+            grid.innerHTML = '';
+
+            // Base filter: category + search text
+            const base = eventsData.filter(item => {
+                if (activeCategory && item.c !== activeCategory) return false;
+                if (!searchQuery) return true;
+                const q = searchQuery;
+                return (item.n    && item.n.toLowerCase().includes(q))
+                    || (item.v    && item.v.toLowerCase().includes(q))
+                    || (item.note && item.note.toLowerCase().includes(q));
+            });
+
+            let specific = [], ongoing = [];
+
+            if (activeDay !== null) {
+                // Day view: split specific (that day only) vs ongoing exhibitions
+                specific = base.filter(i => Array.isArray(i.days) && i.days.includes(activeDay));
+                ongoing  = base.filter(i => i.run && activeDay >= (i.s||1) && activeDay <= (i.e||TOTAL_DAYS));
+            } else {
+                // "All upcoming": future single-day events + all running
+                specific = base.filter(i => {
+                    if (i.run) return true;
+                    return Array.isArray(i.days) && i.days.some(d => d >= today);
+                });
+            }
+
+            const total = specific.length + ongoing.length;
+
+            if (total === 0) {
+                grid.innerHTML = '<div style="grid-column:1/-1;padding:40px;text-align:center;opacity:0.45;">// Nothing found for this selection</div>';
+                dbStatus.textContent = '0 ENTRIES';
+                return;
+            }
+
+            // Issue #1: footer shows correct info (no day-of-week needed — date strip already shows it)
+            dbStatus.textContent = activeDay
+                ? `${total} ENTRIES · OCT ${activeDay}`
+                : `${total} ENTRIES`;
+
+            specific.forEach(appendCard);
+
+            if (activeDay !== null && ongoing.length > 0) {
+                // Issue #7: message when no specific events but there are ongoing ones
+                if (specific.length === 0) {
+                    const msg = document.createElement('div');
+                    msg.className = 'nothing-tonight';
+                    msg.textContent = '// Nothing specific tonight';
+                    grid.appendChild(msg);
+                }
+                const divider = document.createElement('div');
+                divider.className = 'section-divider';
+                divider.textContent = '— Also on today: exhibitions & screenings';
+                grid.appendChild(divider);
+                ongoing.forEach(appendCard);
+            }
+        }
+
+        function appendCard(item) {
+            const url  = fixUrl(item.u);
+            const card = document.createElement('div');
+            card.className = `article-card${url?' has-link':''}${item.run?' is-run':''}`;
+
+            if (url) card.addEventListener('click', e => {
+                if (e.target.tagName === 'A') return;
+                window.open(url, '_blank', 'noopener');
+            });
+
+            // Time + date
+            const dateStr = item.when || (Array.isArray(item.days) ? `Oct ${item.days.join(', ')}` : 'October 2026');
+            const dateHtml = item.t
+                ? `<span class="material-symbols-outlined">schedule</span>${item.t} · ${dateStr}`
+                : dateStr;
+
+            // Image
+            const imageHtml = item.img
+                ? `<div class="article-image-box"><img src="${item.img}" alt="${item.n||''}"></div>`
+                : '';
+
+            // Badges (in footer-right)
+            const badges = [];
+            if (item.free)  badges.push(`<span class="badge free">Free</span>`);
+            if (item.isNew) badges.push(`<span class="badge is-new">${item.isNew}</span>`);
+            if (item.ade)   badges.push(`<span class="badge ade">ADE</span>`);
+            if (item.tags)  item.tags.forEach(t => badges.push(`<span class="badge tag">${t}</span>`));
+            const tagsHtml = badges.length ? `<div class="footer-tags">${badges.join('')}</div>` : '';
+
+            // Note
+            const note = (item.note||'').trim();
+            const noteHtml = note
+                ? `<p class="article-desc">${note.length>120 ? note.slice(0,118)+'…' : note}</p>`
+                : '';
+
+            // Link
+            const linkHtml = url
+                ? `<a class="event-link" href="${url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${item.ul||'Info'}</a>`
+                : '';
+
+            const venue = (item.v||'Amsterdam').replace('📍','').trim();
+
+            card.innerHTML = `
+                ${imageHtml}
+                <div class="article-content">
+                    <div>
+                        <div class="article-date">${dateHtml}</div>
+                        <h2 class="article-title">${item.n||'Unnamed event'}</h2>
+                        ${noteHtml}
+                    </div>
+                    <div>
+                        <div class="article-footer">
+                            <div class="footer-left">
+                                <span class="article-location">
+                                    <span class="material-symbols-outlined">location_on</span>${venue}
+                                </span>
+                            </div>
+                            <div class="footer-right">
+                                <span class="article-cat">
+                                    <span class="material-symbols-outlined">signpost</span>${item.c||''}
+                                </span>
+                                ${tagsHtml}
+                            </div>
+                        </div>
+                        ${linkHtml}
+                    </div>
+                </div>
+            `;
+            grid.appendChild(card);
+        }
+
+        init();
+    </script>
+</body>
+</html>
