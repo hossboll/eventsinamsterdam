@@ -3785,18 +3785,6 @@
   },
   {
     "run": true,
-    "s": 9,
-    "e": 99,
-    "when": "From 9 Oct",
-    "n": "Art Is Not a Crime: graffiti culture in New York 1977–1987",
-    "v": "Straatmuseum",
-    "c": "art",
-    "note": "Henry Chalfant: Capturing graffiti culture New York 1977–1987. Runs until 13 Mar 2027.",
-    "u": "straatmuseum.com/en",
-    "ul": "Info"
-  },
-  {
-    "run": true,
     "s": 1,
     "e": 29,
     "when": "Until 29 Oct",
@@ -3992,26 +3980,6 @@
     "note": "Immersive exhibition of Dutch Masters. Daily mornings until Nov 1, 2026."
   },
   {
-    "n": "Pioneers of Media Art",
-    "run": 1,
-    "s": 1,
-    "e": 31,
-    "v": "NXT Museum",
-    "c": "art",
-    "u": "nxtmuseum.com/en/",
-    "note": "New media art exhibition — immersive installations by artists who pioneered the field. Jun 11, 2026 – Jan 9, 2027. ADE specials Oct 21–23."
-  },
-  {
-    "n": "THE ESSENCE — street art exhibition",
-    "run": 1,
-    "s": 1,
-    "e": 31,
-    "v": "STRAAT Museum · NDSM",
-    "c": "art",
-    "u": "straatmuseum.com/en",
-    "note": "Large-scale street art & graffiti museum. Until Dec 30, 2026. Free with Museumkaart."
-  },
-  {
     "n": "The Land of Chocolate Sprinkles — Building a New World Together",
     "run": 1,
     "s": 1,
@@ -4061,16 +4029,6 @@
     "c": "art",
     "u": "frida.amsterdam",
     "note": "Immersive exhibition dedicated to Frida Kahlo's life and work. Until Jan 10, 2027."
-  },
-  {
-    "n": "Banksy: Laugh Now — permanent collection",
-    "run": 1,
-    "s": 1,
-    "e": 31,
-    "v": "Moco Museum",
-    "c": "art",
-    "u": "mocomuseum.com/amsterdam/",
-    "note": "One of the world's largest Banksy collections. Permanent."
   },
   {
     "n": "Glass, Made in Antiquity",
