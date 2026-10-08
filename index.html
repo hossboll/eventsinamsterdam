@@ -374,8 +374,11 @@
 
     <script>
         let eventsData = [];
-        const today = 6;
-        const tomorrow = 7;
+        // Dynamically compute today/tomorrow in Amsterdam time (CEST = UTC+2 in October)
+        const _now = new Date();
+        const _ams = new Date(_now.getTime() + (_now.getTimezoneOffset() + 120) * 60000);
+        const today = (_ams.getMonth() === 9) ? _ams.getDate() : (_ams.getMonth() < 9 ? 1 : 32);
+        const tomorrow = Math.min(today + 1, 31);
 
         const grid = document.getElementById('grid');
         const searchInput = document.getElementById('search');
@@ -465,6 +468,7 @@
                 const dow = days[dowIndex];
                 const isWeekend = (dowIndex === 0 || dowIndex === 6);
                 
+                if (i < today) continue; // hide past days
                 if (i === today || i === tomorrow) continue;
 
                 html += `<button class="day-chip ${isWeekend ? 'weekend' : ''} ${activeDay===i?'active':''}" onclick="selectDay(${i}, this)">${dow} ${i}</button>`;
