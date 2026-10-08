@@ -3768,7 +3768,7 @@
     "v": "H'ART Museum",
     "c": "art",
     "isNew": "Opened 3 Oct",
-    "u": "hartmuseum.nl",
+    "u": "hartmuseum.nl/en/visit",
     "ul": "Info"
   },
   {
@@ -3792,7 +3792,7 @@
     "v": "Straatmuseum",
     "c": "art",
     "note": "Henry Chalfant: Capturing graffiti culture New York 1977–1987. Runs until 13 Mar 2027.",
-    "u": "straatmuseum.com",
+    "u": "straatmuseum.com/en",
     "ul": "Info"
   },
   {
@@ -3947,7 +3947,7 @@
     "e": 31,
     "v": "Stedelijk Museum",
     "c": "art",
-    "u": "stedelijk.nl/nl/bezoek/agenda",
+    "u": "stedelijk.nl/nl/nu-te-zien",
     "note": "Record-breaking retrospective of Japan's most influential living artist. Sep 11 – Jan 17, 2027. Timed entry ticket required.",
     "img": "https://cdn.shortpixel.ai/spai/w_404+q_lossy+ret_img+to_webp/www.museos.com/wp-content/uploads/2026/03/yayoi-kusama-amid-her-installation-narcissus-garden-at-the-33rd-venice-biennale-1966.jpg"
   },
@@ -3958,7 +3958,7 @@
     "e": 31,
     "v": "Foam Photography Museum",
     "c": "art",
-    "u": "foam.org",
+    "u": "foam.org/programme",
     "note": "Broad overview of Kander's photographic work. Calm, contemplative images of people and landscapes. Until Feb 17, 2027."
   },
   {
@@ -3968,7 +3968,7 @@
     "e": 31,
     "v": "Foam Photography Museum",
     "c": "art",
-    "u": "foam.org",
+    "u": "foam.org/programme",
     "note": "Until Jan 20, 2027."
   },
   {
@@ -3978,7 +3978,7 @@
     "e": 31,
     "v": "Foam Photography Museum",
     "c": "art",
-    "u": "foam.org",
+    "u": "foam.org/programme",
     "note": "Exploring perception and the ways images shape understanding. Until Nov 27, 2026."
   },
   {
@@ -3988,18 +3988,18 @@
     "e": 31,
     "v": "Fabrique des Lumières",
     "c": "art",
-    "u": "fabrique.nl",
+    "u": "fabrique-lumieres.com/en",
     "note": "Immersive exhibition of Dutch Masters. Daily mornings until Nov 1, 2026."
   },
   {
-    "n": "Still Processing",
+    "n": "Pioneers of Media Art",
     "run": 1,
     "s": 1,
     "e": 31,
     "v": "NXT Museum",
     "c": "art",
-    "u": "nxtmuseum.com",
-    "note": "Art and technology exhibition. Amsterdam Noord. Until Nov 28, 2026."
+    "u": "nxtmuseum.com/en/",
+    "note": "New media art exhibition — immersive installations by artists who pioneered the field. Jun 11, 2026 – Jan 9, 2027. ADE specials Oct 21–23."
   },
   {
     "n": "THE ESSENCE — street art exhibition",
@@ -4008,7 +4008,7 @@
     "e": 31,
     "v": "STRAAT Museum · NDSM",
     "c": "art",
-    "u": "straatmuseum.com",
+    "u": "straatmuseum.com/en",
     "note": "Large-scale street art & graffiti museum. Until Dec 30, 2026. Free with Museumkaart."
   },
   {
@@ -4018,7 +4018,7 @@
     "e": 31,
     "v": "H'ART Museum",
     "c": "art",
-    "u": "hartmuseum.nl",
+    "u": "hartmuseum.nl/en/visit",
     "note": "Until Nov 8, 2026."
   },
   {
@@ -4028,7 +4028,7 @@
     "e": 31,
     "v": "Nieuwe Kerk",
     "c": "art",
-    "u": "nieuwekerk.nl",
+    "u": "nieuwekerk.nl/en/exhibition/queer-amsterdam",
     "note": "Long-running exhibition on Amsterdam's queer history. Until Apr 4, 2027."
   },
   {
@@ -4038,7 +4038,7 @@
     "e": 25,
     "v": "Rijksmuseum gardens",
     "c": "art",
-    "u": "rijksmuseum.nl",
+    "u": "rijksmuseum.nl/en/whats-on",
     "note": "Free outdoor sculpture exhibition in the Rijksmuseum gardens. Until Oct 25.",
     "free": 1
   },
@@ -4049,8 +4049,8 @@
     "e": 31,
     "v": "Wereldmuseum Amsterdam",
     "c": "art",
-    "u": "wereldmuseum.nl/amsterdam",
-    "note": "Colonial collections and restitution debates. Until Jan 3, 2027."
+    "u": "amsterdam.wereldmuseum.nl/en/whats-on/exhibitions",
+    "note": "Major exhibition on colonial collections and restitution. Until Jan 3, 2027."
   },
   {
     "n": "Frida Kahlo: Viva la Vida — Immersive Exhibition",
@@ -4059,7 +4059,7 @@
     "e": 31,
     "v": "Vincent Hall · Mauritskade 55A",
     "c": "art",
-    "u": "fridakahlo.amsterdam",
+    "u": "frida.amsterdam",
     "note": "Immersive exhibition dedicated to Frida Kahlo's life and work. Until Jan 10, 2027."
   },
   {
@@ -4069,7 +4069,7 @@
     "e": 31,
     "v": "Moco Museum",
     "c": "art",
-    "u": "mocomuseum.com/amsterdam",
+    "u": "mocomuseum.com/amsterdam/",
     "note": "One of the world's largest Banksy collections. Permanent."
   },
   {
@@ -4079,7 +4079,7 @@
     "e": 31,
     "v": "Allard Pierson",
     "c": "art",
-    "u": "allardpierson.nl",
+    "u": "allardpierson.nl/en/exhibitions",
     "note": "Until Nov 1, 2026."
   },
   {
@@ -4089,7 +4089,62 @@
     "e": 18,
     "v": "Stedelijk Museum",
     "c": "art",
-    "u": "stedelijk.nl",
+    "u": "stedelijk.nl/nl/nu-te-zien",
     "note": "Until Oct 18, 2026. Indonesian-Dutch designer and Stedelijk's legendary chief curator."
+  },
+  {
+    "n": "Snogeiros – People of the Snoge",
+    "run": 1,
+    "s": 1,
+    "e": 31,
+    "v": "Joods Museum · Portuguese Synagogue",
+    "c": "art",
+    "u": "jck.nl/en/agenda/snogeiros-people-of-the-snoge",
+    "note": "Exhibition about the Sephardic Jewish community of Amsterdam. In the Portuguese Synagogue. Until Nov 8, 2026."
+  },
+  {
+    "n": "Please Continue… Conversations with Holocaust Witnesses",
+    "run": 1,
+    "s": 1,
+    "e": 31,
+    "v": "Holocaust Museum Amsterdam",
+    "c": "art",
+    "u": "jck.nl/en/agenda/please-continue-conversations-with-holocaust-witnesses",
+    "note": "Installation with testimonies of Holocaust survivors. Until Jun 6, 2027. Part of the Jewish Cultural Quarter."
+  },
+  {
+    "n": "Abracadabra — magic & Jewish history",
+    "run": 1,
+    "s": 1,
+    "e": 31,
+    "v": "Joods Museum Amsterdam",
+    "c": "art",
+    "u": "jck.nl/en/agenda/abracadabra",
+    "note": "Exhibition on the history of magic and Jewish mysticism. Until Mar 29, 2027."
+  },
+  {
+    "n": "DISCO — Autumn Holiday at Wereldmuseum",
+    "days": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "v": "Wereldmuseum Amsterdam",
+    "c": "art",
+    "u": "amsterdam.wereldmuseum.nl/en/whats-on/activities/autumn-holiday",
+    "note": "Special autumn school holiday programming at the Wereldmuseum. Oct 10–25."
   }
 ]
