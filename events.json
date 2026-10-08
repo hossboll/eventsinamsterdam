@@ -4146,5 +4146,45 @@
     "c": "art",
     "u": "amsterdam.wereldmuseum.nl/en/whats-on/activities/autumn-holiday",
     "note": "Special autumn school holiday programming at the Wereldmuseum. Oct 10–25."
+  },
+  {
+    "n": "Martine Gutierrez: Wunderkind",
+    "run": 1,
+    "s": 1,
+    "e": 18,
+    "v": "Huis Marseille",
+    "c": "art",
+    "u": "huismarseille.nl/en/exhibitions/martine-gutierrez/",
+    "note": "Last chance: Guggenheim Fellow Gutierrez's first major new work in years. Closes Oct 18. Photography & film."
+  },
+  {
+    "n": "Adolphe de Meyer: The Substance of a Venetian Dream",
+    "run": 1,
+    "s": 24,
+    "e": 31,
+    "v": "Huis Marseille",
+    "c": "art",
+    "u": "huismarseille.nl/en/exhibitions/venetian-dream/",
+    "note": "World première: 75 rediscovered photographs of Venice by Adolphe de Meyer (1868–1946), first European museum exhibition devoted to him. Opens Oct 24."
+  },
+  {
+    "n": "Maya Inès Touam: Belongings",
+    "run": 1,
+    "s": 24,
+    "e": 31,
+    "v": "Huis Marseille",
+    "c": "art",
+    "u": "huismarseille.nl/en/exhibitions/maya-ines-touam/",
+    "note": "First solo NL exhibition by French-Algerian artist. Striking tableaus where myth and contemporary themes collide. Opens Oct 24."
+  },
+  {
+    "n": "Andrzej Steinbach: Hier",
+    "run": 1,
+    "s": 24,
+    "e": 31,
+    "v": "Huis Marseille",
+    "c": "art",
+    "u": "huismarseille.nl/en/exhibitions/",
+    "note": "Opens Oct 24. Until Feb 7, 2027."
   }
 ]
