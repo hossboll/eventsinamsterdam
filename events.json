@@ -3939,5 +3939,157 @@
     "u": "w139.nl/event/the-nature-of-remembering/",
     "ul": "Info",
     "note": "Group show on memory politics & ecology. Performances, talks, film + special ADE music program. Sep 4 – Nov 1."
+  },
+  {
+    "n": "Yayoi Kusama retrospective",
+    "run": 1,
+    "s": 1,
+    "e": 31,
+    "v": "Stedelijk Museum",
+    "c": "art",
+    "u": "stedelijk.nl/nl/bezoek/agenda",
+    "note": "Record-breaking retrospective of Japan's most influential living artist. Sep 11 – Jan 17, 2027. Timed entry ticket required.",
+    "img": "https://cdn.shortpixel.ai/spai/w_404+q_lossy+ret_img+to_webp/www.museos.com/wp-content/uploads/2026/03/yayoi-kusama-amid-her-installation-narcissus-garden-at-the-33rd-venice-biennale-1966.jpg"
+  },
+  {
+    "n": "Nadav Kander: The Edge of Things",
+    "run": 1,
+    "s": 1,
+    "e": 31,
+    "v": "Foam Photography Museum",
+    "c": "art",
+    "u": "foam.org",
+    "note": "Broad overview of Kander's photographic work. Calm, contemplative images of people and landscapes. Until Feb 17, 2027."
+  },
+  {
+    "n": "Hailun Ma — photography",
+    "run": 1,
+    "s": 1,
+    "e": 31,
+    "v": "Foam Photography Museum",
+    "c": "art",
+    "u": "foam.org",
+    "note": "Until Jan 20, 2027."
+  },
+  {
+    "n": "Keerthana Kunnath: Not What You Saw",
+    "run": 1,
+    "s": 1,
+    "e": 31,
+    "v": "Foam Photography Museum",
+    "c": "art",
+    "u": "foam.org",
+    "note": "Exploring perception and the ways images shape understanding. Until Nov 27, 2026."
+  },
+  {
+    "n": "From Vermeer to Van Gogh — digital immersive",
+    "run": 1,
+    "s": 1,
+    "e": 31,
+    "v": "Fabrique des Lumières",
+    "c": "art",
+    "u": "fabrique.nl",
+    "note": "Immersive exhibition of Dutch Masters. Daily mornings until Nov 1, 2026."
+  },
+  {
+    "n": "Still Processing",
+    "run": 1,
+    "s": 1,
+    "e": 31,
+    "v": "NXT Museum",
+    "c": "art",
+    "u": "nxtmuseum.com",
+    "note": "Art and technology exhibition. Amsterdam Noord. Until Nov 28, 2026."
+  },
+  {
+    "n": "THE ESSENCE — street art exhibition",
+    "run": 1,
+    "s": 1,
+    "e": 31,
+    "v": "STRAAT Museum · NDSM",
+    "c": "art",
+    "u": "straatmuseum.com",
+    "note": "Large-scale street art & graffiti museum. Until Dec 30, 2026. Free with Museumkaart."
+  },
+  {
+    "n": "The Land of Chocolate Sprinkles — Building a New World Together",
+    "run": 1,
+    "s": 1,
+    "e": 31,
+    "v": "H'ART Museum",
+    "c": "art",
+    "u": "hartmuseum.nl",
+    "note": "Until Nov 8, 2026."
+  },
+  {
+    "n": "Queer Amsterdam, the Pink City",
+    "run": 1,
+    "s": 1,
+    "e": 31,
+    "v": "Nieuwe Kerk",
+    "c": "art",
+    "u": "nieuwekerk.nl",
+    "note": "Long-running exhibition on Amsterdam's queer history. Until Apr 4, 2027."
+  },
+  {
+    "n": "Carel Visser — free sculpture garden",
+    "run": 1,
+    "s": 1,
+    "e": 25,
+    "v": "Rijksmuseum gardens",
+    "c": "art",
+    "u": "rijksmuseum.nl",
+    "note": "Free outdoor sculpture exhibition in the Rijksmuseum gardens. Until Oct 25.",
+    "free": 1
+  },
+  {
+    "n": "Unfinished Pasts: Return, Keep, or…?",
+    "run": 1,
+    "s": 1,
+    "e": 31,
+    "v": "Wereldmuseum Amsterdam",
+    "c": "art",
+    "u": "wereldmuseum.nl/amsterdam",
+    "note": "Colonial collections and restitution debates. Until Jan 3, 2027."
+  },
+  {
+    "n": "Frida Kahlo: Viva la Vida — Immersive Exhibition",
+    "run": 1,
+    "s": 1,
+    "e": 31,
+    "v": "Vincent Hall · Mauritskade 55A",
+    "c": "art",
+    "u": "fridakahlo.amsterdam",
+    "note": "Immersive exhibition dedicated to Frida Kahlo's life and work. Until Jan 10, 2027."
+  },
+  {
+    "n": "Banksy: Laugh Now — permanent collection",
+    "run": 1,
+    "s": 1,
+    "e": 31,
+    "v": "Moco Museum",
+    "c": "art",
+    "u": "mocomuseum.com/amsterdam",
+    "note": "One of the world's largest Banksy collections. Permanent."
+  },
+  {
+    "n": "Glass, Made in Antiquity",
+    "run": 1,
+    "s": 1,
+    "e": 31,
+    "v": "Allard Pierson",
+    "c": "art",
+    "u": "allardpierson.nl",
+    "note": "Until Nov 1, 2026."
+  },
+  {
+    "n": "Kho Liang Ie: A Mid-20th-Century Modernist",
+    "run": 1,
+    "s": 1,
+    "e": 18,
+    "v": "Stedelijk Museum",
+    "c": "art",
+    "u": "stedelijk.nl",
+    "note": "Until Oct 18, 2026. Indonesian-Dutch designer and Stedelijk's legendary chief curator."
   }
 ]
