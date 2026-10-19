@@ -1,2595 +1,4092 @@
 [
-  {
-    "days": [
-      24,
-      31
-    ],
-    "t": "17:59",
-    "n": "Flaming Ears (1992) – Austrian cult queer SF",
-    "v": "Filmtheater Kriterion",
-    "c": "film",
-    "u": "kriterion.nl/films/flaming-ears-1992-eng-subs",
-    "ul": "Tickets",
-    "note": "Rare 1992 Austrian queer sci-fi cult film. ENG subtitles."
-  },
-  {
-    "days": [
-      19
-    ],
-    "t": "15:00",
-    "n": "They Live (1988) – John Carpenter",
-    "v": "Filmtheater Kriterion",
-    "c": "film",
-    "u": "kriterion.nl/films/they-live-1988",
-    "ul": "Tickets",
-    "note": "John Carpenter classic on the big screen."
-  },
-  {
-    "days": [
-      19
-    ],
-    "t": "19:30",
-    "n": "De Kopenhagen Trilogie – try-out (Tove Ditlevsen/Eline Arbo)",
-    "v": "Stadsschouwburg Amsterdam · Grote Zaal",
-    "c": "stage",
-    "u": "ita.nl/nl/voorstellingen/de-kopenhagen-trilogie",
-    "ul": "Tickets",
-    "note": "Try-out shows. €28.50. Based on Tove Ditlevsen's autobiographical trilogy. Directed by Eline Arbo."
-  },
-  {
-    "days": [
-      19
-    ],
-    "n": "Slayyyter WORST GIRL IN THE WORLD TOUR + Kalika",
-    "v": "Paradiso",
-    "c": "music",
-    "u": "paradiso.nl/en/program/slayyyter/2915180",
-    "ul": "Tickets",
-    "note": "Unhinged cocktail of punk, pop and rap. Waiting list."
-  },
-  {
-    "days": [
-      19
-    ],
-    "n": "Alien Chicks",
-    "v": "Paradiso",
-    "c": "music",
-    "t": "19:30",
-    "u": "paradiso.nl/en/program/alien-chicks/2919430",
-    "ul": "Tickets",
-    "note": "Post punk band from London."
-  },
-  {
-    "days": [
-      19
-    ],
-    "t": "20:15",
-    "n": "Grote Pianisten: Krystian Zimerman — 24 verrassingen",
-    "v": "Concertgebouw · Grote Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "Legendary Polish pianist. One of the greats. €29."
-  },
-  {
-    "days": [
-      19
-    ],
-    "t": "19:30",
-    "n": "Inside Syria",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/inside-syria-19-10-2026",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      19
-    ],
-    "t": "20:00",
-    "n": "Big Tech en de nieuwe wereldorde",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/big-tech-en-de-nieuwe-wereldorde-19-10-2026",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      20
-    ],
-    "n": "PJ Morton",
-    "v": "Paradiso",
-    "c": "music",
-    "u": "paradiso.nl/en/program/pj-morton/2929451",
-    "ul": "Tickets",
-    "note": "Soul pioneer from New Orleans."
-  },
-  {
-    "days": [
-      20,
-      21,
-      25
-    ],
-    "t": "19:30",
-    "n": "De Kopenhagen Trilogie – PREMIÈRE (Tove Ditlevsen/Eline Arbo)",
-    "v": "Stadsschouwburg Amsterdam · Grote Zaal",
-    "c": "stage",
-    "u": "ita.nl/nl/voorstellingen/de-kopenhagen-trilogie",
-    "ul": "Tickets",
-    "note": "Premiere Oct 20. Raw, intense portrait of a writer's life. With Maria Kraakman."
-  },
-  {
-    "days": [
-      20
-    ],
-    "t": "20:15",
-    "n": "Bach op z'n best: de Brandenburgse concerten",
-    "v": "Concertgebouw · Grote Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "€35."
-  },
-  {
-    "n": "Amsterdamse Iconen: Marleen Stikker",
-    "days": [
-      20
-    ],
-    "t": "20:00",
-    "v": "Pakhuis de Zwijger",
-    "c": "talk",
-    "u": "dezwijger.nl/agenda",
-    "note": "Een uur in gesprek met oprichter van Waag Futurelab en internetpionier Marleen Stikker."
-  },
-  {
-    "days": [
-      21,
-      22,
-      23,
-      24,
-      25
-    ],
-    "n": "Amsterdam Dance Event, 31st edition",
-    "v": "City-wide",
-    "c": "city",
-    "ade": 1,
-    "note": "Five days across every club on this page.",
-    "u": "amsterdamdanceevent.nl",
-    "ul": "Info"
-  },
-  {
-    "days": [
-      21
-    ],
-    "n": "DJ SNAKE – ADE",
-    "v": "Paradiso",
-    "c": "night",
-    "t": "23:59",
-    "u": "paradiso.nl/en/program/dj-snake/2919432",
-    "ul": "Tickets",
-    "note": "Internationally renowned French DJ and producer."
-  },
-  {
-    "days": [
-      21
-    ],
-    "t": "22:00",
-    "n": "ADE – Raving Charlie",
-    "v": "De Sering",
-    "c": "night",
-    "ade": 1,
-    "u": "ra.co/events/2524480",
-    "ul": "Tickets",
-    "note": "Hard techno, neo-rave, hardcore, hard bounce. 8 DJs incl. LIXYA, SWAGGER, FREMDER."
-  },
-  {
-    "days": [
-      21
-    ],
-    "t": "18:00",
-    "n": "Film: Funk (2026) – ADE",
-    "v": "Studio/K",
-    "c": "film",
-    "ade": 1,
-    "u": "studio-k.nu/studiok-events/film-funk-2026/",
-    "ul": "Tickets",
-    "note": "Brazilian film about a favela funk artist navigating Rio's baile funk scene. €13."
-  },
-  {
-    "days": [
-      21
-    ],
-    "t": "23:00",
-    "n": "Pariah B2B Sam Girling – ADE",
-    "v": "Nachbar",
-    "c": "night",
-    "ade": 1,
-    "u": "nachbar.stager.co/shop/nachbar",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      21
-    ],
-    "t": "23:00",
-    "n": "HUNNA X TRAPRAVE – ADE",
-    "v": "Nachbar",
-    "c": "night",
-    "ade": 1,
-    "u": "nachbar.stager.co/shop/nachbar",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      21
-    ],
-    "t": "13:15",
-    "n": "ENFF On Tour: Fantasy (ENG subs)",
-    "v": "Filmtheater Kriterion",
-    "c": "film",
-    "u": "kriterion.nl/films/enff-on-tour-fantasy-eng-subs",
-    "ul": "Tickets",
-    "note": "European Neighbourhood Film Festival."
-  },
-  {
-    "days": [
-      21
-    ],
-    "t": "20:00",
-    "n": "ADE | CHAMOS presents HAWRAVE w/ Paydar, Zouflebouf",
-    "v": "Skatecafe",
-    "c": "night",
-    "ade": 1,
-    "u": "skatecafe.weticket.io",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      21
-    ],
-    "t": "20:00",
-    "n": "AADE: Subject Sue EP Release + Details In The Dark",
-    "v": "OT301 · Studios",
-    "c": "night",
-    "ade": 1,
-    "u": "ot301.nl/agenda",
-    "ul": "Tickets",
-    "note": "Subject Sue, M2K, Dear Omen (DJ set). €8–12. 18+."
-  },
-  {
-    "days": [
-      21
-    ],
-    "t": "19:30",
-    "n": "ADE: Sonic Journey — The History of Electronic Dance Music",
-    "v": "Concertgebouw · Grote Zaal",
-    "c": "music",
-    "ade": 1,
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "ADE special: classical hall meets dance music history. €19."
-  },
-  {
-    "days": [
-      21
-    ],
-    "t": "20:15",
-    "n": "ADE: Kara-Lis Coverdale & Lia Kohl",
-    "v": "Concertgebouw · Kleine Zaal",
-    "c": "music",
-    "ade": 1,
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "Electronic/experimental ADE special. €29."
-  },
-  {
-    "days": [
-      21
-    ],
-    "t": "19:30",
-    "n": "Carl Jung: het kwaad in onszelf",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/carl-jung-het-kwaad-in-onszelf-21-10-2026",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      21
-    ],
-    "t": "20:00",
-    "n": "China: autocratie 2.0",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/china-autocratie-2-0-21-10-2026",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "n": "ADE Opening Concert: KYBBA & Metropole Orkest",
-    "days": [
-      21
-    ],
-    "t": "20:00",
-    "v": "Melkweg",
-    "c": "music",
-    "u": "melkweg.nl/en/agenda/ade-opening-concert-kybba-metropole-orkest-special-guests-21-10-2026/",
-    "note": "Special guests: Busy Signal, Blaiz Fayah, Kalibwoy. Dancehall meets orchestra. ADE opener.",
-    "ade": 1
-  },
-  {
-    "n": "Mind Enterprises — ADE",
-    "days": [
-      21
-    ],
-    "t": "23:00",
-    "v": "Melkweg",
-    "c": "night",
-    "u": "melkweg.nl/en/agenda/mind-enterprises-21-10-2026/",
-    "note": "Italodisco · 90s · Techno. ADE.",
-    "ade": 1
-  },
-  {
-    "n": "ADE – VIM",
-    "days": [
-      21
-    ],
-    "t": "23:00",
-    "v": "Bitterzoet",
-    "c": "night",
-    "u": "bitterzoet.com/agenda",
-    "note": "Afro · Gqom · Amapiano. €25. ADE.",
-    "ade": 1
-  },
-  {
-    "n": "Pakhuis Kino: Homework — housing documentary",
-    "days": [
-      21
-    ],
-    "t": "19:30",
-    "v": "Pakhuis de Zwijger",
-    "c": "film",
-    "u": "dezwijger.nl/agenda",
-    "note": "Documentaire over huurders die collectief strijden voor betere woonomstandigheden in Dublin en Amsterdam."
-  },
-  {
-    "n": "TECH FOR SOCIETY: Algoritmische besluitvorming",
-    "days": [
-      21
-    ],
-    "t": "20:00",
-    "v": "Pakhuis de Zwijger",
-    "c": "talk",
-    "u": "dezwijger.nl/agenda",
-    "note": "Wie beslist er nog als het algoritme de overheid stuurt?"
-  },
-  {
-    "days": [
-      22
-    ],
-    "n": "Eastern Margins & Natural Mind – ADE",
-    "v": "Parallel",
-    "c": "night",
-    "ade": 1,
-    "u": "parallel.am",
-    "ul": "Info",
-    "t": "20:00"
-  },
-  {
-    "days": [
-      22
-    ],
-    "n": "Hoketus 50! Louis Andriessen",
-    "v": "Amsterdam Muziekgebouw",
-    "c": "music",
-    "ade": 1,
-    "u": "hetmuziek.nl/producties/hoketus-50/",
-    "ul": "Tickets",
-    "t": "20:00",
-    "note": "Landmark ensemble music piece by Louis Andriessen, 50th anniversary."
-  },
-  {
-    "days": [
-      22
-    ],
-    "n": "Oedipus x Vinyls at the Gallery: vinyl market, art and craft beer",
-    "v": "Oedipus Craft Space",
-    "c": "market",
-    "ade": 1,
-    "u": "oedipus.weticket.io/ade-oedipus-x-vinyls-at-the-gallery",
-    "ul": "Tickets",
-    "t": "14:00"
-  },
-  {
-    "days": [
-      22
-    ],
-    "n": "State OFFF – ADE",
-    "v": "Paradiso",
-    "c": "music",
-    "t": "20:00",
-    "u": "paradiso.nl/en/program/state-offf/2929452",
-    "ul": "Tickets",
-    "note": "A/V performance where percussion meets artificial language."
-  },
-  {
-    "days": [
-      22
-    ],
-    "n": "Anjunadeep – ADE",
-    "v": "Paradiso",
-    "c": "night",
-    "t": "23:00",
-    "u": "paradiso.nl/en/program/anjunadeep/2929454",
-    "ul": "Tickets",
-    "note": "Showcase by London-based deep house label."
-  },
-  {
-    "days": [
-      22
-    ],
-    "t": "22:00",
-    "n": "ADE – DC Salas & Magma",
-    "v": "De Sering",
-    "c": "night",
-    "ade": 1,
-    "u": "ra.co/events/2528765",
-    "ul": "Tickets",
-    "note": "DC Salas live set + Enrica Falqui, Ava Eva, Bon Public, Locked In."
-  },
-  {
-    "days": [
-      22
-    ],
-    "t": "21:00",
-    "n": "Onda Forte – VIRA Clubnight",
-    "v": "Studio/K",
-    "c": "night",
-    "ade": 1,
-    "u": "studio-k.nu/studiok-events/onda-forte-vira-clubnight/",
-    "ul": "Tickets",
-    "note": "Onda Collective takes over: Brazilian and Afro-Latin DJ collective. €7.50."
-  },
-  {
-    "days": [
-      22
-    ],
-    "t": "23:00",
-    "n": "ADE – RAUM invites Clone Records",
-    "v": "Club RAUM",
-    "c": "night",
-    "ade": 1,
-    "u": "clubraum.nl/calendar",
-    "ul": "Tickets",
-    "note": "Neel, Neska, Ottagone, Tauceti (NEXUS) + Afra B2B Detroit in Effect, L.F.T., Serge (STUDIO)."
-  },
-  {
-    "days": [
-      22
-    ],
-    "t": "23:00",
-    "n": "OG Records x Nachbar – ADE",
-    "v": "Nachbar",
-    "c": "night",
-    "ade": 1,
-    "u": "nachbar.stager.co/shop/nachbar",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      22,
-      23,
-      24
-    ],
-    "n": "ADE: Oude Kerk × Minimal Collective",
-    "v": "Oude Kerk",
-    "c": "night",
-    "ade": 1,
-    "u": "oudekerk.nl/nu-te-zien/evenementen/minimal-collective-presents-post-space/46167",
-    "ul": "Info",
-    "note": "Electronic music in a historic church during ADE. Unique setting."
-  },
-  {
-    "days": [
-      22
-    ],
-    "t": "20:30",
-    "n": "The Bookshop Invites ADE – Lady Donli, Raiany Sinara, Priscilla Vaudelle",
-    "v": "The Bookshop (ITA)",
-    "c": "talk",
-    "ade": 1,
-    "u": "ita.nl/nl/voorstellingen/bookshop-invites-ade",
-    "ul": "Tickets",
-    "note": "Music, movement and conversation. Prince Claus Fund x ADE. €12.50."
-  },
-  {
-    "days": [
-      22
-    ],
-    "t": "20:15",
-    "n": "Hoketus 50! – Michael Gordon & Louis Andriessen (ADE)",
-    "v": "Muziekgebouw Amsterdam",
-    "c": "music",
-    "ade": 1,
-    "u": "hetmuziek.nl/producties/hoketus-50/",
-    "ul": "Tickets",
-    "note": "World premiere of Michael Gordon's mirror to Andriessen's legendary Hoketus. Bang on a Can founder. 2.5 hours."
-  },
-  {
-    "days": [
-      22
-    ],
-    "t": "20:00",
-    "n": "ADE | Shanti Celeste curates VBX",
-    "v": "Skatecafe",
-    "c": "night",
-    "ade": 1,
-    "u": "skatecafe.weticket.io",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      22
-    ],
-    "t": "20:00",
-    "n": "AADE: Aili & Orson × TUKAN",
-    "v": "OT301 · Studios",
-    "c": "night",
-    "ade": 1,
-    "u": "ot301.nl/agenda",
-    "ul": "Tickets",
-    "note": "Aili & Orson, TUKAN, charlie avalon, Umbra. €14–16. 18+."
-  },
-  {
-    "days": [
-      22
-    ],
-    "t": "12:30",
-    "n": "Gratis Lunchconcert: Openbare repetitie Concertgebouworkest",
-    "v": "Concertgebouw · Grote Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Info",
-    "note": "Free open rehearsal of the Concertgebouworkest. Beethoven 5th."
-  },
-  {
-    "days": [
-      22
-    ],
-    "t": "20:15",
-    "n": "De Vijfde van Beethoven — Concertgebouworkest",
-    "v": "Concertgebouw · Grote Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "€20."
-  },
-  {
-    "days": [
-      22
-    ],
-    "t": "21:00",
-    "n": "ADE: Neon River & FAST DE",
-    "v": "Concertgebouw · Koorzaal",
-    "c": "night",
-    "ade": 1,
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "Electronic music in the Concertgebouw's Koorzaal. ADE. €19."
-  },
-  {
-    "days": [
-      22
-    ],
-    "t": "19:30",
-    "n": "How Diversity And Inclusion Came Under Attack",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/how-diversity-and-inclusion-came-under-attack-22-1",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "n": "Kraak & Smaak (Live) — ADE",
-    "days": [
-      22
-    ],
-    "t": "21:00",
-    "v": "Melkweg",
-    "c": "music",
-    "u": "melkweg.nl/en/agenda/kraak-smaak-live-22-10-2026/",
-    "note": "Live · Disco · Funk. ADE.",
-    "ade": 1
-  },
-  {
-    "n": "ADE – S!RENE: Respect The Groove",
-    "days": [
-      22
-    ],
-    "t": "18:30",
-    "v": "Bitterzoet",
-    "c": "music",
-    "u": "bitterzoet.com/agenda",
-    "note": "Afro · Hip-Hop · Funk · Jungle · R&B. €17. ADE.",
-    "ade": 1
-  },
-  {
-    "n": "ADE – Yellow Claw & Friends",
-    "days": [
-      22
-    ],
-    "t": "23:30",
-    "v": "Bitterzoet",
-    "c": "night",
-    "u": "bitterzoet.com/agenda",
-    "note": "Trap · Bass · Dubstep · House. €16. ADE.",
-    "ade": 1
-  },
-  {
-    "n": "Queer Built × NAI010: Shaping Safe Queer Spaces — ADE",
-    "days": [
-      22
-    ],
-    "t": "19:30",
-    "v": "Pakhuis de Zwijger",
-    "c": "talk",
-    "u": "dezwijger.nl/agenda",
-    "note": "ADE special: nightclubs, their architecture and Beautiful Creatures. Talk + exhibition + drinks. [EN]",
-    "ade": 1
-  },
-  {
-    "n": "VPRO Meet Up: Gates of Europe",
-    "days": [
-      22
-    ],
-    "t": "20:00",
-    "v": "Pakhuis de Zwijger",
-    "c": "talk",
-    "u": "dezwijger.nl/agenda",
-    "note": "Can Europe protect its borders while upholding human rights? With David Yambio, Hans Leijtens, Tineke Strik. [EN]"
-  },
-  {
-    "n": "Motie: Helios × Young Marco (live) ft. Jonny Nash",
-    "days": [
-      22
-    ],
-    "t": "20:00",
-    "v": "Motie @ Stopera",
-    "c": "music",
-    "u": "motieamsterdam.nl/tickets?day=thursday&experience=concert",
-    "note": "Intimate ambient concert in Stopera's glass corridor around Helios kinetic light sculpture. ADE. 20:00–21:00.",
-    "ade": 1
-  },
-  {
-    "n": "Motie at Night — MOOD opening (w/ Kikka, Joris Zwetsloot, Jaime Frias)",
-    "days": [
-      22
-    ],
-    "t": "19:00",
-    "v": "Motie @ Stopera",
-    "c": "night",
-    "u": "motieamsterdam.nl/tickets",
-    "note": "3-night ADE event at Stopera. Food, wine, art & music until 01:00. ADE.",
-    "ade": 1
-  },
-  {
-    "days": [
-      23
-    ],
-    "n": "Bambii – ADE",
-    "v": "Parallel",
-    "c": "night",
-    "ade": 1,
-    "note": "Bambii (CA), Jarreau Vandal, Tsunamy.",
-    "u": "parallel.am",
-    "ul": "Info",
-    "t": "19:00"
-  },
-  {
-    "days": [
-      23
-    ],
-    "n": "DEEWEE: 2manydjs + Charlotte Adigéry & Bolis Pupul – ADE",
-    "v": "Paradiso",
-    "c": "night",
-    "t": "18:30",
-    "u": "paradiso.nl/en/program/deewee/2929455",
-    "ul": "Tickets",
-    "note": "Flemish electronica at its finest."
-  },
-  {
-    "days": [
-      23,
-      24
-    ],
-    "t": "23:00",
-    "n": "ADE – Dusty Cabinets",
-    "v": "De Sering",
-    "c": "night",
-    "ade": 1,
-    "u": "desering.org/event/ade-friday---dusty-cabinets",
-    "ul": "Info",
-    "note": "ADE Friday night at De Sering."
-  },
-  {
-    "days": [
-      23,
-      24,
-      25
-    ],
-    "t": "23:00",
-    "n": "ADE – SPIELRAUM 55HRS",
-    "v": "Club RAUM",
-    "c": "night",
-    "ade": 1,
-    "u": "shop.clubraum.nl/7ed0d24a957f41cfbead4cdf91dc336a",
-    "ul": "Tickets",
-    "note": "55-hour marathon: Djrum, DVS1, Luke Slater, Dasha Rush, Kittin & The Hacker, JakoJako b2b Tommy Four Seven, ketia and more."
-  },
-  {
-    "days": [
-      23
-    ],
-    "t": "23:00",
-    "n": "Tsepo invites Nathalie Seres & Twiena – ADE",
-    "v": "Nachbar",
-    "c": "night",
-    "ade": 1,
-    "u": "nachbar.stager.co/shop/nachbar",
-    "ul": "Tickets",
-    "note": "Mostly"
-  },
-  {
-    "days": [
-      24
-    ],
-    "t": "23:00",
-    "n": "APE (Amsterdam Punk Event) – ADE",
-    "v": "Garage Noord",
-    "c": "night",
-    "ade": 1,
-    "u": "garagenoord.com/club/ape",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      23
-    ],
-    "t": "22:00",
-    "n": "Sissi's ADE Friday w/ Bronka × Kurashi",
-    "v": "Sissi's",
-    "c": "night",
-    "ade": 1,
-    "u": "sissisamsterdam.weticket.io",
-    "ul": "Tickets",
-    "note": "Anthony Fokkerweg 3."
-  },
-  {
-    "days": [
-      23
-    ],
-    "t": "16:00",
-    "n": "ADE | PIP GOES SKATECAFE w/ David Vunk, B/V8, Chuckie & Jeans",
-    "v": "Skatecafe",
-    "c": "night",
-    "ade": 1,
-    "u": "skatecafe.weticket.io",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      23
-    ],
-    "t": "17:00",
-    "n": "AADE: The Noodle Show — Nadia Struiwigh & Kessler",
-    "v": "OT301 · Ventilator Cinema",
-    "c": "music",
-    "ade": 1,
-    "u": "ot301.nl/agenda",
-    "ul": "Tickets",
-    "note": "€10."
-  },
-  {
-    "days": [
-      23
-    ],
-    "t": "20:00",
-    "n": "AADE: Anderworld zine launch — free entry",
-    "v": "OT301 · Ventilator Bar",
-    "c": "art",
-    "ade": 1,
-    "u": "ot301.nl/agenda",
-    "ul": "Info",
-    "note": "Free zine launch event."
-  },
-  {
-    "days": [
-      23
-    ],
-    "t": "22:00",
-    "n": "AADE: Anderworld release event",
-    "v": "OT301 · Studios",
-    "c": "night",
-    "ade": 1,
-    "u": "ot301.nl/agenda",
-    "ul": "Tickets",
-    "note": "BlackBeach (live), Camy Huot (live), Parrish Smith. €10–13. 18+."
-  },
-  {
-    "days": [
-      23
-    ],
-    "t": "17:30",
-    "n": "Plein Publiek: Joy Wielkens",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/plein-publiek-joy-wielkens-23-10-2026",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "n": "Dave Clarke Presents: 30 Years of ADE",
-    "days": [
-      23
-    ],
-    "t": "21:00",
-    "v": "Melkweg",
-    "c": "night",
-    "u": "melkweg.nl/en/agenda/dave-clarke-presents-30-years-of-ade/",
-    "note": "30th anniversary megashow: Daniel Avery b2b Richard Fearless, Dasha Rush, DJ Hell, Egyptian Lover + 3 classic music docs. ADE.",
-    "ade": 1
-  },
-  {
-    "n": "Club Kid (2026) — ADE Film Preview",
-    "days": [
-      23
-    ],
-    "t": "19:00",
-    "v": "Melkweg",
-    "c": "film",
-    "u": "melkweg.nl/en/agenda/club-kid-2026-23-10-2026/",
-    "note": "World premiere preview. Drama about the underground club scene. ADE.",
-    "ade": 1
-  },
-  {
-    "n": "ADE – Basshall: Back to the Origins",
-    "days": [
-      23
-    ],
-    "t": "23:59",
-    "v": "Bitterzoet",
-    "c": "night",
-    "u": "bitterzoet.com/agenda",
-    "note": "Basshall · Shatta · Dancehall · Latin. €20. ADE.",
-    "ade": 1
-  },
-  {
-    "n": "Motie: Helios × Oceanic (live) — new unreleased music",
-    "days": [
-      23
-    ],
-    "t": "20:00",
-    "v": "Motie @ Stopera",
-    "c": "music",
-    "u": "motieamsterdam.nl/tickets?day=friday&experience=concert",
-    "note": "Unreleased ambient live set by Oceanic (Nous'klaer Audio). In glass-roofed Stopera passage. ADE.",
-    "ade": 1
-  },
-  {
-    "n": "Motie at Night — PEEL (w/ Serti 4hrs live, Cseil)",
-    "days": [
-      23
-    ],
-    "t": "19:00",
-    "v": "Motie @ Stopera",
-    "c": "night",
-    "u": "motieamsterdam.nl/tickets",
-    "note": "Hypnotic techno + live dance by Arno Schuitemaker. ADE.",
-    "ade": 1
-  },
-  {
-    "days": [
-      24
-    ],
-    "n": "Symposihmm: Capture & Control",
-    "v": "The Hmm",
-    "c": "talk",
-    "note": "The Hmm's symposium on surveillance, data and digital control.",
-    "u": "thehmm.nl/event/symposihmm-%f0%9f%93%a1-capture-control/",
-    "ul": "Info",
-    "t": "20:00"
-  },
-  {
-    "days": [
-      24
-    ],
-    "n": "Speedy J presents STOOR Live – ADE",
-    "v": "Paradiso",
-    "c": "night",
-    "u": "paradiso.nl/en/program/speedy-j/2919434",
-    "ul": "Tickets",
-    "note": "Hardware jam combining electronic music and video art."
-  },
-  {
-    "days": [
-      24
-    ],
-    "t": "16:00",
-    "n": "VIRA Exhibition – ADE",
-    "v": "Studio/K",
-    "c": "art",
-    "ade": 1,
-    "u": "studio-k.nu/studiok-events/vira-exhibition/",
-    "ul": "Info",
-    "note": "Free public exhibition: photography and film exploring Brazil–Netherlands cultural exchange."
-  },
-  {
-    "days": [
-      29
-    ],
-    "t": "23:00",
-    "n": "GN × Nyege Nyege & Trackwork – ADE",
-    "v": "Garage Noord",
-    "c": "night",
-    "u": "garagenoord.com/club/gn-does-a-party-with-nyege-nyege-trackwork",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      24
-    ],
-    "t": "23:00",
-    "n": "Sissi's ADE Saturday",
-    "v": "Sissi's",
-    "c": "night",
-    "ade": 1,
-    "u": "sissisamsterdam.weticket.io",
-    "ul": "Tickets",
-    "note": "Anthony Fokkerweg 3."
-  },
-  {
-    "days": [
-      24
-    ],
-    "t": "13:00",
-    "n": "Network (1976) – Sidney Lumet",
-    "v": "Filmtheater Kriterion",
-    "c": "film",
-    "u": "kriterion.nl/films/network-1976",
-    "ul": "Tickets",
-    "note": "Sidney Lumet classic. 'I'm mad as hell...'"
-  },
-  {
-    "days": [
-      24
-    ],
-    "t": "13:00",
-    "n": "Rooted in Culture: UK Sounds influencing House – 5th edition",
-    "v": "The Bookshop (ITA)",
-    "c": "music",
-    "ade": 1,
-    "u": "ita.nl/nl/voorstellingen/rooted-in-culture-uk-sounds-influencing-house-culture",
-    "ul": "Tickets",
-    "note": "Workshop (13:00), talk (15:00), dancefloor session (16:30). With Lynnée Denise. €12.50."
-  },
-  {
-    "days": [
-      24
-    ],
-    "t": "21:00",
-    "n": "ADE | PATTA × KEEP HUSH × Sankofa: RIDDIMBOX – Mondesir & Jarreau Vandal (live)",
-    "v": "Skatecafe",
-    "c": "night",
-    "ade": 1,
-    "u": "skatecafe.weticket.io",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      24
-    ],
-    "t": "20:00",
-    "n": "AADE: ADEV after — Alberta Balsam, Wilco Prinsen (live), Keynu (live)",
-    "v": "OT301 · Studios",
-    "c": "night",
-    "ade": 1,
-    "u": "ot301.nl/agenda",
-    "ul": "Tickets",
-    "note": "Arc Vale (live), Waldo b2b Tania Kim, Industrial Romantico. €8–12. 18+."
-  },
-  {
-    "days": [
-      24
-    ],
-    "t": "14:15",
-    "n": "La Tempête: Bach, Mendelssohn & Brahms",
-    "v": "Concertgebouw · Grote Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "€29."
-  },
-  {
-    "days": [
-      24
-    ],
-    "t": "20:15",
-    "n": "Nederlands Concertkoor & Toonkunstkoor: Dvořáks Stabat mater",
-    "v": "Concertgebouw · Grote Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "€35."
-  },
-  {
-    "days": [
-      24
-    ],
-    "t": "21:00",
-    "n": "ADE: Christian Löffler & Adna",
-    "v": "Concertgebouw · Kleine Zaal",
-    "c": "music",
-    "ade": 1,
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "€29."
-  },
-  {
-    "n": "KitKatClub: Kinks of Berlin (2026) — ADE Première",
-    "days": [
-      24
-    ],
-    "t": "19:00",
-    "v": "Melkweg",
-    "c": "film",
-    "u": "melkweg.nl/en/agenda/kitkatclub-kinks-of-berlin-2026-24-10-2026/",
-    "note": "World première documentary. LGBTQIA+ · Electronic. ADE.",
-    "ade": 1
-  },
-  {
-    "n": "ADE – Dave Nunes: Diaspora ADE Special",
-    "days": [
-      24
-    ],
-    "t": "19:00",
-    "v": "Bitterzoet",
-    "c": "music",
-    "u": "bitterzoet.com/agenda",
-    "note": "House · Afro · Baile Funk. €17.95. ADE.",
-    "ade": 1
-  },
-  {
-    "n": "ADE – JEA: Can I Get A Jea! (2 nights)",
-    "days": [
-      24,
-      25
-    ],
-    "t": "18:00",
-    "v": "Bitterzoet",
-    "c": "night",
-    "u": "bitterzoet.com/agenda",
-    "note": "Afro Caribbean. Oct 24 (23:59) + Oct 25 (18:00). €25. ADE.",
-    "ade": 1
-  },
-  {
-    "n": "Motie: Helios × Gizem Öz (live)",
-    "days": [
-      24
-    ],
-    "t": "20:00",
-    "v": "Motie @ Stopera",
-    "c": "music",
-    "u": "motieamsterdam.nl/tickets?day=saturday&experience=concert",
-    "note": "Composer/sound artist Gizem Öz: field recordings, electroacoustic, synthesizers. ADE.",
-    "ade": 1
-  },
-  {
-    "n": "Motie at Night — Pintai (w/ Hame, Frederic, Hafa)",
-    "days": [
-      24
-    ],
-    "t": "19:00",
-    "v": "Motie @ Stopera",
-    "c": "night",
-    "u": "motieamsterdam.nl/tickets",
-    "note": "Deep house & ambient. Live dance by Arno Schuitemaker. ADE.",
-    "ade": 1
-  },
-  {
-    "days": [
-      25
-    ],
-    "n": "Museum Market: art, design, fashion and food stalls",
-    "v": "Museumplein",
-    "c": "market",
-    "u": "iamsterdam.com/en/whats-on/calendar/shopping/markets/museum-market",
-    "ul": "Info",
-    "t": "11:00"
-  },
-  {
-    "days": [
-      25
-    ],
-    "n": "Speedy J presents STOOR Live – ADE",
-    "v": "Paradiso",
-    "c": "night",
-    "t": "16:00",
-    "u": "paradiso.nl/en/program/speedy-j/2919434",
-    "ul": "Tickets",
-    "note": "Second showing — hardware jam combining electronic music and video art."
-  },
-  {
-    "days": [
-      25
-    ],
-    "t": "13:00",
-    "n": "ADE | FSTM Take Over – Blasha & Allatt, Call Super b2b Ryan Elliott, Helena Hauff b2b Quest",
-    "v": "Skatecafe",
-    "c": "night",
-    "ade": 1,
-    "u": "skatecafe.weticket.io",
-    "ul": "Tickets",
-    "note": "Eris Drew, DJ Masda, Mad Miran + more."
-  },
-  {
-    "days": [
-      25
-    ],
-    "t": "11:00",
-    "n": "Koperblazers Concertgebouworkest: Tsjaikovski's Notenkraker",
-    "v": "Concertgebouw · Grote Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "Last tickets. €21."
-  },
-  {
-    "n": "Amsterdam Dub Event: Moritz von Oswald / Radikal Guru",
-    "days": [
-      25
-    ],
-    "t": "20:00",
-    "v": "Melkweg",
-    "c": "music",
-    "u": "melkweg.nl/en/agenda/amsterdam-dub-event-25-10-2026/",
-    "note": "Dub legends. ADE.",
-    "ade": 1
-  },
-  {
-    "n": "Aftershock: The Seismic Impact of Dubstep — book launch + ADE",
-    "days": [
-      25
-    ],
-    "t": "17:00",
-    "v": "Melkweg",
-    "c": "talk",
-    "u": "melkweg.nl/en/agenda/aftershock-the-seismic-impact-of-dubstep-25-10-2026/",
-    "note": "Book launch + documentary presented by Sonic Boom. ADE.",
-    "ade": 1
-  },
-  {
-    "n": "ADE – Afrolosjes × Gowtu × Melv!ee & Friends",
-    "days": [
-      25
-    ],
-    "t": "23:00",
-    "v": "Bitterzoet",
-    "c": "night",
-    "u": "bitterzoet.com/agenda",
-    "note": "Afro · Amapiano · Suriname Sounds. €10. ADE.",
-    "ade": 1
-  },
-  {
-    "days": [
-      26
-    ],
-    "n": "Cuisine Carine Kitchen Takeover @ Louie Louie",
-    "v": "Louie Louie",
-    "c": "city",
-    "u": "debuik.nl/amsterdam/agenda/cuisine-carine-kitchen-takeover-louie-louie",
-    "ul": "Info",
-    "note": "Cuisine Carine takes over the Louie Louie kitchen on Linnaeusstraat."
-  },
-  {
-    "days": [
-      26
-    ],
-    "t": "20:15",
-    "n": "Popup Choir: Taylor Swift met Maarten Bos & Tijmen de Koning",
-    "v": "Concertgebouw · Grote Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "Sing along with Taylor Swift arrangements. €25."
-  },
-  {
-    "days": [
-      26
-    ],
-    "t": "19:30",
-    "n": "Is elke journalist een activist?",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/is-elke-journalist-een-activist-26-10-2026",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "n": "Natanya – The Attitude Tour",
-    "days": [
-      26
-    ],
-    "t": "19:30",
-    "v": "Bitterzoet",
-    "c": "music",
-    "u": "bitterzoet.com/agenda",
-    "note": "Alt-RnB · Neo-Soul · Grunge. €22.70."
-  },
-  {
-    "days": [
-      27
-    ],
-    "n": "Okvsho",
-    "v": "Paradiso",
-    "c": "music",
-    "t": "19:30",
-    "u": "paradiso.nl/en/program/okvsho/2919435",
-    "ul": "Tickets",
-    "note": "Brothers from Zurich fusing electronic music and modern jazz."
-  },
-  {
-    "days": [
-      27
-    ],
-    "t": "20:15",
-    "n": "Spotlight op Lucie Horsch: barok met Altstaedt & Dunford",
-    "v": "Concertgebouw · Kleine Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "€29."
-  },
-  {
-    "days": [
-      27
-    ],
-    "t": "20:15",
-    "n": "Fresku & Metropole Orkest o.l.v. Simon Dobson",
-    "v": "Concertgebouw · Grote Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "Amsterdam rapper meets full orchestra. €29."
-  },
-  {
-    "days": [
-      27
-    ],
-    "t": "20:30",
-    "n": "Black Achievement Month: voorbij slachtofferschap",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/black-achievement-month-voorbij-slachtofferschap-2",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      28
-    ],
-    "n": "Ryan Beatty – Arms Over Armor Tour",
-    "v": "Paradiso",
-    "c": "music",
-    "t": "19:30",
-    "u": "paradiso.nl/en/program/ryan-beatty/2919436",
-    "ul": "Tickets",
-    "note": "Los Angeles singer-songwriter returns with new album."
-  },
-  {
-    "days": [
-      28
-    ],
-    "n": "Bel Cobain",
-    "v": "Paradiso",
-    "c": "music",
-    "t": "19:30",
-    "u": "paradiso.nl/en/program/bel-cobain/2919437",
-    "ul": "Tickets",
-    "note": "Combination of jazz, soul, and psychedelic art-pop."
-  },
-  {
-    "days": [
-      28
-    ],
-    "t": "12:30",
-    "n": "Gratis Lunchconcert: Nederlandse Fluit Academie",
-    "v": "Concertgebouw · Kleine Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Info",
-    "note": "Free."
-  },
-  {
-    "days": [
-      28
-    ],
-    "t": "20:15",
-    "n": "Quatuor Arod: Bartók, Carlos Simon & Fanny Mendelssohn",
-    "v": "Concertgebouw · Kleine Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "€29."
-  },
-  {
-    "days": [
-      28
-    ],
-    "t": "20:15",
-    "n": "Klaus Mäkela dirigeert Mahler 7 — Concertgebouworkest",
-    "v": "Concertgebouw · Grote Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "Last tickets. Young Finnish conductor. Mahler's 7th. €29."
-  },
-  {
-    "days": [
-      28
-    ],
-    "t": "19:30",
-    "n": "CinéDialoog: Gardens of Fez",
-    "v": "De Balie",
-    "c": "film",
-    "u": "debalie.nl/programma/cinedialoog-gardens-of-fez-28-10-2026",
-    "ul": "Tickets",
-    "note": "Film + conversation about Morocco."
-  },
-  {
-    "n": "Walter Trout",
-    "days": [
-      28
-    ],
-    "t": "20:00",
-    "v": "Melkweg",
-    "c": "music",
-    "u": "melkweg.nl/en/agenda/walter-trout-28-10-2026/",
-    "note": "Blues rock legend."
-  },
-  {
-    "n": "Mediamatic: Detailed Talks — Haptic Lab (Amber van Gastel)",
-    "days": [
-      28
-    ],
-    "t": "19:00",
-    "v": "Mediamatic Biotoop",
-    "c": "talk",
-    "u": "mediamatic.net/en/page/393018/detailed-talks",
-    "note": "What is it like to be you? A different way of communicating that doesn't start with finding the right words."
-  },
-  {
-    "days": [
-      29
-    ],
-    "n": "GRASnacht 10!",
-    "v": "Grasweg 41R",
-    "c": "music",
-    "u": "hetmuziek.nl/producties/grasnachtherfst26/",
-    "ul": "Tickets",
-    "t": "20:00",
-    "note": "10th edition: diverse and experimental programme by Het Muziek residents."
-  },
-  {
-    "days": [
-      29,
-      30,
-      31
-    ],
-    "n": "Imagine Fantastic Film Festival",
-    "v": "Filmhallen, LAB111 and Hal West",
-    "c": "film",
-    "note": "Genre and fantastic cinema.",
-    "u": "imaginefilmfestival.com",
-    "ul": "Info"
-  },
-  {
-    "days": [
-      29
-    ],
-    "n": "Cat Power",
-    "v": "Paradiso",
-    "c": "music",
-    "t": "20:30",
-    "u": "paradiso.nl/en/program/cat-power/2919438",
-    "ul": "Tickets",
-    "note": "Idiosyncratic singer-songwriter performs 'The Greatest' in full."
-  },
-  {
-    "days": [
-      29
-    ],
-    "t": "19:30",
-    "n": "Brainwash Festival: Bold Ideas for Curious Minds w/ Deborah Levy",
-    "v": "Skatecafe",
-    "c": "talk",
-    "u": "skatecafe.weticket.io",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      29
-    ],
-    "t": "19:00",
-    "n": "Jim Saah — 'IN MY EYES' book talk",
-    "v": "OT301 · 4bid Gallery",
-    "c": "talk",
-    "u": "ot301.nl/agenda",
-    "ul": "Info",
-    "note": "Donation-based. Jim Saah / King Koala press."
-  },
-  {
-    "days": [
-      29
-    ],
-    "t": "19:30",
-    "n": "Fangs (Anyab) — Halloween screening",
-    "v": "OT301 · Ventilator Cinema",
-    "c": "film",
-    "u": "ot301.nl/agenda",
-    "ul": "Tickets",
-    "note": "€7."
-  },
-  {
-    "days": [
-      29
-    ],
-    "t": "20:15",
-    "n": "25 jaar Academie Concertgebouworkest",
-    "v": "Concertgebouw · Grote Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "25th anniversary concert. Last tickets. €20."
-  },
-  {
-    "days": [
-      29
-    ],
-    "t": "19:30",
-    "n": "Publieke Intellectuelen: Victor Klemperer",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/publieke-intellectuelen-victor-klemperer-29-10-202",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "n": "Marina Sena",
-    "days": [
-      29
-    ],
-    "t": "20:00",
-    "v": "Melkweg",
-    "c": "music",
-    "u": "melkweg.nl/en/agenda/marina-sena-29-10-2026/",
-    "note": "MPB · Brega. Brazilian pop star."
-  },
-  {
-    "n": "Melanie C",
-    "days": [
-      29
-    ],
-    "t": "20:00",
-    "v": "Melkweg",
-    "c": "music",
-    "u": "melkweg.nl/en/agenda/mel-c-29-10-2026/",
-    "note": "Spice Girls · Brit pop · 90s. Solo tour."
-  },
-  {
-    "days": [
-      30,
-      31
-    ],
-    "n": "Fair Priced Vintage — Europe's biggest vintage clothing market",
-    "v": "NDSM",
-    "c": "market",
-    "note": "Transparent pricing, no haggling.",
-    "u": "fairpricedvintage.com",
-    "ul": "Info",
-    "t": "11:00"
-  },
-  {
-    "days": [
-      30
-    ],
-    "n": "London Calling Festival",
-    "v": "Paradiso",
-    "c": "music",
-    "t": "18:00",
-    "u": "paradiso.nl/en/program/london-calling/2919439",
-    "ul": "Tickets",
-    "note": "Indie / alt / (post)punk festival for up-and-coming bands."
-  },
-  {
-    "days": [
-      30
-    ],
-    "n": "We Love 00s Halloween",
-    "v": "Paradiso",
-    "c": "night",
-    "t": "23:59",
-    "u": "paradiso.nl/en/program/we-love-00s-halloween/2919440",
-    "ul": "Tickets",
-    "note": "Nostalgic club night takes you back to the 2000s."
-  },
-  {
-    "days": [
-      31
-    ],
-    "t": "23:00",
-    "n": "Oceanic w/ Tristan Arp (live), ISA W, Oceanic",
-    "v": "Garage Noord",
-    "c": "night",
-    "u": "garagenoord.com/club/co-curated-by-oceanic-w-tristan-arp-live-isa-w-oceanic",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      30
-    ],
-    "t": "22:00",
-    "n": "ZWARTE LIEFDE w/ Chuckie, Nymfo, Postmen (live), Abstract",
-    "v": "Skatecafe",
-    "c": "night",
-    "u": "skatecafe.weticket.io",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      30
-    ],
-    "t": "18:45",
-    "n": "Science Fiction, Fantasy & Marxism — with Jelle Klaas",
-    "v": "OT301 · Ventilator Cinema",
-    "c": "talk",
-    "u": "ot301.nl/agenda",
-    "ul": "Tickets",
-    "note": "€6.50."
-  },
-  {
-    "days": [
-      30
-    ],
-    "t": "23:00",
-    "n": "VIS 01 AMS — Bella Hall, Sachiko",
-    "v": "OT301 · Studios",
-    "c": "night",
-    "u": "ot301.nl/agenda",
-    "ul": "Tickets",
-    "note": "€15. 18+."
-  },
-  {
-    "days": [
-      30
-    ],
-    "t": "20:15",
-    "n": "Flat Earth Society: The Coltrane Mutations",
-    "v": "Concertgebouw · Kleine Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "Jazz/avant-garde. Coltrane reimagined. €19."
-  },
-  {
-    "days": [
-      30
-    ],
-    "t": "20:15",
-    "n": "Klaus Mäkela dirigeert Mahler 7 — Concertgebouworkest (2nd night)",
-    "v": "Concertgebouw · Grote Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "Last tickets. €29."
-  },
-  {
-    "days": [
-      30
-    ],
-    "t": "17:30",
-    "n": "Plein Publiek: Milou Brand",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/plein-publiek-milou-brand-30-10-2026",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "n": "NOFX: 40 Years of Fuckin' Up — film + Q&A El Hefe",
-    "days": [
-      30
-    ],
-    "t": "19:00",
-    "v": "Melkweg",
-    "c": "film",
-    "u": "melkweg.nl/en/agenda/nofx-40-years-of-fuckin-up-2026-30-10-2026-1/",
-    "note": "Punk documentary + live Q&A with El Hefe."
-  },
-  {
-    "n": "Raving Charlie — Halloween Edition",
-    "days": [
-      30
-    ],
-    "t": "23:00",
-    "v": "Melkweg",
-    "c": "night",
-    "u": "melkweg.nl/en/agenda/raving-charlie-30-10-2026/",
-    "note": "Hard techno · Nu-rave. Halloween special."
-  },
-  {
-    "n": "Pon Di Pride — Mischief Night",
-    "days": [
-      30
-    ],
-    "t": "23:00",
-    "v": "Melkweg",
-    "c": "night",
-    "u": "melkweg.nl/en/agenda/pon-di-pride-30-10-2026/",
-    "note": "Dancehall · Ball culture. LGBTQIA+."
-  },
-  {
-    "days": [
-      31
-    ],
-    "t": "09:00",
-    "n": "IJ-Hallen flea market — Halloween edition",
-    "v": "IJ-Hallen · NDSM",
-    "c": "market",
-    "tags": [
-      "Halloween"
-    ],
-    "u": "ijhallen.nl",
-    "ul": "Tickets"
-  },
-  {
-    "days": [
-      31
-    ],
-    "n": "The Hmm at Brainwash Festival",
-    "v": "Brainwash Festival",
-    "c": "talk",
-    "u": "thehmm.nl/event/the-hmm-brainwash-festival/",
-    "ul": "Info"
-  },
-  {
-    "days": [
-      31
-    ],
-    "t": "12:00",
-    "n": "de Appel: Eight-hour Organising/Venting — Making a Banner, Printing Shirts, Talking about Class (open)",
-    "v": "de Appel",
-    "c": "talk",
-    "free": 1,
-    "u": "deappel.nl",
-    "ul": "Info"
-  },
-  {
-    "days": [
-      31
-    ],
-    "n": "London Calling Festival",
-    "v": "Paradiso",
-    "c": "music",
-    "u": "paradiso.nl/en/program/london-calling/2919439",
-    "ul": "Tickets",
-    "note": "Indie / alt / (post)punk festival — final day."
-  },
-  {
-    "days": [
-      31
-    ],
-    "n": "London Calling – High Tea",
-    "v": "Paradiso",
-    "c": "music",
-    "t": "13:00",
-    "u": "paradiso.nl/en/program/london-calling-high-tea/2919441",
-    "ul": "Tickets",
-    "note": "Afternoon showcase: Momo Boyd, Knats, Tokyo Tea Room and more."
-  },
-  {
-    "days": [
-      31
-    ],
-    "n": "Indiesleaze Halloween Night",
-    "v": "Paradiso",
-    "c": "night",
-    "t": "23:30",
-    "u": "paradiso.nl/en/program/indiesleaze-halloween-night/2919442",
-    "ul": "Tickets",
-    "note": "Dance night where y2k nostalgia meets new music."
-  },
-  {
-    "days": [
-      31
-    ],
-    "n": "Una Notta Al Circo @ Lolo",
-    "v": "Lolo",
-    "c": "city",
-    "u": "debuik.nl/amsterdam/agenda/una-notta-al-circo-lolo",
-    "ul": "Info",
-    "note": "Italian circus-themed evening at Lolo on Oudekerksplein. Halloween night."
-  },
-  {
-    "days": [
-      31
-    ],
-    "t": "23:00",
-    "n": "Sissi's: SLALLOWEEN by Slim Radio",
-    "v": "Sissi's",
-    "c": "night",
-    "u": "sissisamsterdam.weticket.io",
-    "ul": "Tickets",
-    "note": "Halloween night."
-  },
-  {
-    "days": [
-      31
-    ],
-    "t": "14:00",
-    "n": "Videodrome (1983) – David Cronenberg",
-    "v": "Filmtheater Kriterion",
-    "c": "film",
-    "u": "kriterion.nl/films/videodrome-1983",
-    "ul": "Tickets",
-    "note": "Cronenberg body horror classic for Halloween."
-  },
-  {
-    "days": [
-      31
-    ],
-    "t": "22:00",
-    "n": "PACIFIC ONDERGRONDS × KRUISPUNT: HALLOWEENFEST",
-    "v": "Skatecafe",
-    "c": "night",
-    "u": "skatecafe.weticket.io",
-    "ul": "Tickets",
-    "note": "Halloween party."
-  },
-  {
-    "days": [
-      31
-    ],
-    "t": "12:30",
-    "n": "Visual Encounters Film Festival 2026",
-    "v": "OT301 · Ventilator Cinema",
-    "c": "film",
-    "u": "ot301.nl/agenda",
-    "ul": "Tickets",
-    "note": "€5."
-  },
-  {
-    "days": [
-      31
-    ],
-    "t": "22:00",
-    "n": "Imagine Halloween Party — Drag King Mannish Pixel",
-    "v": "OT301 · Studios",
-    "c": "night",
-    "u": "ot301.nl/agenda",
-    "ul": "Tickets",
-    "note": "€5. 18+."
-  },
-  {
-    "days": [
-      31
-    ],
-    "t": "14:15",
-    "n": "Oosterse klanken van Sheherazade & Darvishi",
-    "v": "Concertgebouw · Grote Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "€29."
-  },
-  {
-    "days": [
-      31
-    ],
-    "t": "20:15",
-    "n": "Stravinsky's Le sacre du printemps & Wynton Marsalis' Celloconcert",
-    "v": "Concertgebouw · Grote Zaal",
-    "c": "music",
-    "u": "concertgebouw.nl/concerten-en-tickets",
-    "ul": "Tickets",
-    "note": "€29. Le Sacre + world premiere cello concerto by Wynton Marsalis."
-  },
-  {
-    "days": [
-      31
-    ],
-    "t": "19:00",
-    "n": "Maghreb Film Festival: Poupiya",
-    "v": "De Balie",
-    "c": "film",
-    "u": "debalie.nl/programma/maghreb-film-festival-poupiya-31-10-2026",
-    "ul": "Tickets",
-    "note": "Maghreb Film Festival special screening."
-  },
-  {
-    "days": [
-      31
-    ],
-    "t": "20:00",
-    "n": "Derk Sauer Lecture: Evan Gershkovich",
-    "v": "De Balie",
-    "c": "talk",
-    "u": "debalie.nl/programma/derk-sauer-lecture-by-evan-gershkovich-31-10-2026",
-    "ul": "Tickets",
-    "note": "WSJ journalist imprisoned in Russia 2023-24 speaks at De Balie's annual lecture."
-  },
-  {
-    "n": "Olá Brazil! Halloween",
-    "days": [
-      31
-    ],
-    "t": "23:00",
-    "v": "Melkweg",
-    "c": "night",
-    "u": "melkweg.nl/en/agenda/ola-brazil-31-10-2026/",
-    "note": "Baile Funk · Samba · Forró. Festa da Fantasia."
-  },
-  {
-    "n": "A Bitter Halloween",
-    "days": [
-      31
-    ],
-    "t": "23:30",
-    "v": "Bitterzoet",
-    "c": "night",
-    "u": "bitterzoet.com/agenda",
-    "note": "Annual Halloween party at Bitterzoet. €10."
-  },
-  {
-    "run": true,
-    "s": 1,
-    "e": 99,
-    "when": "Now",
-    "n": "Chez Matisse: 80 rarely lent works from Centre Pompidou",
-    "v": "H'ART Museum",
-    "c": "art",
-    "isNew": "Opened 3 Oct",
-    "u": "hartmuseum.nl/en/visit",
-    "ul": "Info"
-  },
-  {
-    "run": true,
-    "s": 8,
-    "e": 99,
-    "when": "From 8 Oct",
-    "n": "Eight Cubic Meters — Chaya Adelaars: Dubbel Glas / Double Glazing",
-    "v": "Rietveld Academie",
-    "c": "art",
-    "note": "Exhibition through 19 November 2026.",
-    "u": "rietveldacademie.nl/en/page/38556/eight-cubic-meters-by-chaya-adelaars-dubbel-glas-double-glazing",
-    "ul": "Info"
-  },
-  {
-    "run": true,
-    "s": 1,
-    "e": 29,
-    "when": "Until 29 Oct",
-    "n": "Maqam: Yomna el Beyaly, In Her Own Way",
-    "v": "Mercatorplein",
-    "c": "art",
-    "note": "Part of Al Nisa, multiple artists, 1 Oct to 20 Dec.",
-    "u": "maqam.amsterdam",
-    "ul": "Info"
-  },
-  {
-    "run": true,
-    "s": 12,
-    "e": 99,
-    "when": "Until 21 Nov",
-    "n": "Lapdogs of the Bourgeoisie 2026: Class Hegemony in Contemporary Art",
-    "v": "de Appel",
-    "c": "art",
-    "note": "20 years later, revisiting how class shapes art production and reception.",
-    "u": "deappel.nl",
-    "ul": "Info"
-  },
-  {
-    "run": 1,
-    "s": 11,
-    "e": 31,
-    "n": "Ode aan Kusama @ Restaurant Sandberg",
-    "v": "Restaurant Sandberg",
-    "c": "city",
-    "u": "debuik.nl/amsterdam/agenda/ode-aan-kusama-restaurant-sandberg",
-    "ul": "Info",
-    "note": "Art-inspired dining experience at Museumplein. Runs Sep 11–Oct 31."
-  },
-  {
-    "run": 1,
-    "s": 14,
-    "e": 21,
-    "n": "Ulrich Seidl: Paradies trilogy (Liebe / Glaube / Hoffnung)",
-    "v": "Filmtheater Kriterion",
-    "c": "film",
-    "u": "kriterion.nl/programma",
-    "ul": "Tickets",
-    "note": "All three Paradies films screening this week. Ties to Eye Film Seidl retrospective."
-  },
-  {
-    "run": 1,
-    "s": 9,
-    "e": 31,
-    "n": "Cold in Church – Sails of Anarchy",
-    "v": "Arti et Amicitiae",
-    "c": "art",
-    "u": "arti.nl/agenda/09-10-2026/sails-of-anarchy",
-    "ul": "Info",
-    "note": "Immersive installation — maritime history, pirate mythology and fiction. Sound, light, painting, performance."
-  },
-  {
-    "run": 1,
-    "s": 9,
-    "e": 31,
-    "n": "Wellness, Wigs and Weapons",
-    "v": "Arti et Amicitiae",
-    "c": "art",
-    "u": "arti.nl/agenda/09-10-2026/wellness-wigs-and-weapons",
-    "ul": "Info",
-    "note": "Three-zone installation where the boundaries between human and object dissolve."
-  },
-  {
-    "run": 1,
-    "s": 12,
-    "e": 31,
-    "n": "Human Water Foundation: Kick-off Exhibition",
-    "v": "Arti et Amicitiae",
-    "c": "art",
-    "u": "arti.nl/agenda/12-10-2026/human-water-foundation-kick-off-tentoonstelling",
-    "ul": "Info",
-    "note": "'Collaborative Portraits of Women Navigating Mastectomy and Body Sovereignty' — artist Diana Zuican."
-  },
-  {
-    "run": 1,
-    "s": 7,
-    "e": 31,
-    "n": "Tentoonstelling: Ulrich Seidl – Über das Leben, die Liebe und den Tod",
-    "v": "Eye Filmmuseum",
-    "c": "art",
-    "u": "eyefilm.nl/programma/ulrich-seidl/1633828",
-    "ul": "Info",
-    "note": "Eerste complete retrospectief van de Oostenrijkse filmmaker in NL. Dagelijks 10–18u. Guided tours zondag 14:00 & 15:00."
-  },
-  {
-    "run": 1,
-    "s": 7,
-    "e": 31,
-    "n": "The Nature of Remembering",
-    "v": "W139",
-    "c": "art",
-    "u": "w139.nl/event/the-nature-of-remembering/",
-    "ul": "Info",
-    "note": "Group show on memory politics & ecology. Performances, talks, film + special ADE music program. Sep 4 – Nov 1."
-  },
-  {
-    "n": "Yayoi Kusama retrospective",
-    "run": 1,
-    "s": 1,
-    "e": 31,
-    "v": "Stedelijk Museum",
-    "c": "art",
-    "u": "stedelijk.nl/nl/nu-te-zien",
-    "note": "Record-breaking retrospective of Japan's most influential living artist. Sep 11 – Jan 17, 2027. Timed entry ticket required.",
-    "img": "https://cdn.shortpixel.ai/spai/w_404+q_lossy+ret_img+to_webp/www.museos.com/wp-content/uploads/2026/03/yayoi-kusama-amid-her-installation-narcissus-garden-at-the-33rd-venice-biennale-1966.jpg"
-  },
-  {
-    "n": "Nadav Kander: The Edge of Things",
-    "run": 1,
-    "s": 1,
-    "e": 31,
-    "v": "Foam Photography Museum",
-    "c": "art",
-    "u": "foam.org/programme",
-    "note": "Temporarily closed — check foam.org before visiting; exhibitions on view when open."
-  },
-  {
-    "n": "Hailun Ma — photography",
-    "run": 1,
-    "s": 1,
-    "e": 31,
-    "v": "Foam Photography Museum",
-    "c": "art",
-    "u": "foam.org/programme",
-    "note": "Temporarily closed — check foam.org before visiting; exhibitions on view when open."
-  },
-  {
-    "n": "Keerthana Kunnath: Not What You Saw",
-    "run": 1,
-    "s": 1,
-    "e": 31,
-    "v": "Foam Photography Museum",
-    "c": "art",
-    "u": "foam.org/programme",
-    "note": "Temporarily closed — check foam.org before visiting; exhibitions on view when open."
-  },
-  {
-    "n": "From Vermeer to Van Gogh — digital immersive",
-    "run": 1,
-    "s": 1,
-    "e": 31,
-    "v": "Fabrique des Lumières",
-    "c": "art",
-    "u": "fabrique-lumieres.com/en",
-    "note": "Immersive exhibition of Dutch Masters. Daily mornings until Nov 1, 2026."
-  },
-  {
-    "n": "The Land of Chocolate Sprinkles — Building a New World Together",
-    "run": 1,
-    "s": 1,
-    "e": 31,
-    "v": "H'ART Museum",
-    "c": "art",
-    "u": "hartmuseum.nl/en/visit",
-    "note": "Until Nov 8, 2026."
-  },
-  {
-    "n": "Queer Amsterdam, the Pink City",
-    "run": 1,
-    "s": 1,
-    "e": 31,
-    "v": "Nieuwe Kerk",
-    "c": "art",
-    "u": "nieuwekerk.nl/en/exhibition/queer-amsterdam",
-    "note": "Long-running exhibition on Amsterdam's queer history. Until Apr 4, 2027."
-  },
-  {
-    "n": "Carel Visser — free sculpture garden",
-    "run": 1,
-    "s": 1,
-    "e": 25,
-    "v": "Rijksmuseum gardens",
-    "c": "art",
-    "u": "rijksmuseum.nl/en/whats-on",
-    "note": "Free outdoor sculpture exhibition in the Rijksmuseum gardens. Until Oct 25.",
-    "free": 1
-  },
-  {
-    "n": "Unfinished Pasts: Return, Keep, or…?",
-    "run": 1,
-    "s": 1,
-    "e": 31,
-    "v": "Wereldmuseum Amsterdam",
-    "c": "art",
-    "u": "amsterdam.wereldmuseum.nl/en/whats-on/exhibitions",
-    "note": "Major exhibition on colonial collections and restitution. Until Jan 3, 2027."
-  },
-  {
-    "n": "Frida Kahlo: Viva la Vida — Immersive Exhibition",
-    "run": 1,
-    "s": 1,
-    "e": 31,
-    "v": "Vincent Hall · Mauritskade 55A",
-    "c": "art",
-    "u": "frida.amsterdam",
-    "note": "Immersive exhibition dedicated to Frida Kahlo's life and work. Until Jan 10, 2027."
-  },
-  {
-    "n": "Glass, Made in Antiquity",
-    "run": 1,
-    "s": 1,
-    "e": 31,
-    "v": "Allard Pierson",
-    "c": "art",
-    "u": "allardpierson.nl/en/exhibitions",
-    "note": "Until Nov 1, 2026."
-  },
-  {
-    "n": "Snogeiros – People of the Snoge",
-    "run": 1,
-    "s": 1,
-    "e": 31,
-    "v": "Joods Museum · Portuguese Synagogue",
-    "c": "art",
-    "u": "jck.nl/en/agenda/snogeiros-people-of-the-snoge",
-    "note": "Exhibition about the Sephardic Jewish community of Amsterdam. In the Portuguese Synagogue. Until Nov 8, 2026."
-  },
-  {
-    "n": "Please Continue… Conversations with Holocaust Witnesses",
-    "run": 1,
-    "s": 1,
-    "e": 31,
-    "v": "Holocaust Museum Amsterdam",
-    "c": "art",
-    "u": "jck.nl/en/agenda/please-continue-conversations-with-holocaust-witnesses",
-    "note": "Installation with testimonies of Holocaust survivors. Until Jun 6, 2027. Part of the Jewish Cultural Quarter."
-  },
-  {
-    "n": "Abracadabra — magic & Jewish history",
-    "run": 1,
-    "s": 1,
-    "e": 31,
-    "v": "Joods Museum Amsterdam",
-    "c": "art",
-    "u": "jck.nl/en/agenda/abracadabra",
-    "note": "Exhibition on the history of magic and Jewish mysticism. Until Mar 29, 2027."
-  },
-  {
-    "n": "DISCO — Autumn Holiday at Wereldmuseum",
-    "days": [
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25
-    ],
-    "v": "Wereldmuseum Amsterdam",
-    "c": "art",
-    "u": "amsterdam.wereldmuseum.nl/en/whats-on/activities/autumn-holiday",
-    "note": "Special autumn school holiday programming at the Wereldmuseum. Oct 10–25."
-  },
-  {
-    "n": "Adolphe de Meyer: The Substance of a Venetian Dream",
-    "run": 1,
-    "s": 24,
-    "e": 31,
-    "v": "Huis Marseille",
-    "c": "art",
-    "u": "huismarseille.nl/en/exhibitions/venetian-dream/",
-    "note": "World première: 75 rediscovered photographs of Venice by Adolphe de Meyer (1868–1946), first European museum exhibition devoted to him. Opens Oct 24."
-  },
-  {
-    "n": "Maya Inès Touam: Belongings",
-    "run": 1,
-    "s": 24,
-    "e": 31,
-    "v": "Huis Marseille",
-    "c": "art",
-    "u": "huismarseille.nl/en/exhibitions/maya-ines-touam/",
-    "note": "First solo NL exhibition by French-Algerian artist. Striking tableaus where myth and contemporary themes collide. Opens Oct 24."
-  },
-  {
-    "n": "Andrzej Steinbach: Hier",
-    "run": 1,
-    "s": 24,
-    "e": 31,
-    "v": "Huis Marseille",
-    "c": "art",
-    "u": "huismarseille.nl/en/exhibitions/",
-    "note": "Opens Oct 24. Until Feb 7, 2027."
-  },
-  {
-    "n": "Aum recordings – ADE",
-    "v": "Nachbar",
-    "c": "night",
-    "days": [
-      24
-    ],
-    "t": "22:00",
-    "note": "ADE label night with deep and atmospheric sounds.",
-    "u": "nachbar.stager.co/shop/nachbar",
-    "ul": "Tickets",
-    "ade": 1
-  },
-  {
-    "n": "Romy white invites LEXII",
-    "v": "Nachbar",
-    "c": "night",
-    "days": [
-      29
-    ],
-    "t": "21:00",
-    "note": "Intimate Nachbar club night.",
-    "u": "nachbar.stager.co/shop/nachbar",
-    "ul": "Tickets"
-  },
-  {
-    "n": "Idilay All Night Long",
-    "v": "Nachbar",
-    "c": "night",
-    "days": [
-      30
-    ],
-    "t": "22:00",
-    "note": "Idilay plays all night at Nachbar.",
-    "u": "nachbar.stager.co/shop/nachbar",
-    "ul": "Tickets"
-  },
-  {
-    "n": "ADE | DJ Mag presents Amelie Lens",
-    "v": "Skatecafe",
-    "c": "night",
-    "days": [
-      22
-    ],
-    "t": "16:00",
-    "note": "Sold out. Amelie Lens plays ADE at Skatecafe.",
-    "u": "skatecafe.weticket.io/dj-mag-presents-ade",
-    "ul": "Tickets",
-    "ade": 1
-  },
-  {
-    "n": "Pioneers of Media Art",
-    "v": "Nxt Museum",
-    "c": "art",
-    "run": true,
-    "s": 1,
-    "e": 99,
-    "when": "Now",
-    "note": "Immersive new media art exhibition — Amsterdam's largest digital art space.",
-    "u": "nxtmuseum.com",
-    "ul": "Info"
-  },
-  {
-    "n": "ADE × Nxt: EarthSonic Premiere — Orbital & Paranoid London",
-    "v": "Nxt Museum",
-    "c": "music",
-    "days": [
-      22
-    ],
-    "note": "Live AV performance: Orbital and Paranoid London with immersive installation.",
-    "u": "nxtmuseum.com",
-    "ul": "Info",
-    "ade": 1
-  },
-  {
-    "n": "ADE × Nxt: Motie — Heleen Blanken & Sophia Bulgakova",
-    "v": "Nxt Museum",
-    "c": "music",
-    "days": [
-      22,
-      23,
-      24
-    ],
-    "note": "Three-day ADE live AV installation with immersive sound and visuals.",
-    "u": "nxtmuseum.com",
-    "ul": "Info",
-    "ade": 1
-  },
-  {
-    "run": true,
-    "s": 19,
-    "e": 21,
-    "when": "Until 21 Oct",
-    "n": "Toutes Directions",
-    "v": "Filmtheater Kriterion",
-    "c": "film",
-    "u": "kriterion.nl/films/toutes-directions",
-    "ul": "Tickets",
-    "note": "French road movie by Hafsia Herzi. Multiple daily screenings."
-  },
-  {
-    "run": true,
-    "s": 19,
-    "e": 21,
-    "when": "Until 21 Oct",
-    "n": "Naza",
-    "v": "Filmtheater Kriterion",
-    "c": "film",
-    "u": "kriterion.nl/films/naza",
-    "ul": "Tickets",
-    "note": "Intense French drama. Multiple daily screenings."
-  },
-  {
-    "days": [
-      22
-    ],
-    "t": "19:00",
-    "n": "Amsterdam Polish Film Festival: Innocent Sorcerers (Wajda, 1960)",
-    "v": "De Balie",
-    "c": "film",
-    "u": "debalie.nl/cinema/amsterdam-polish-film-festival-innocent-sorcerers/",
-    "ul": "Tickets",
-    "note": "Andrzej Wajda's 1960 portrait of a generation experiencing freedom and loneliness. Screening + conversation."
-  },
-  {
-    "days": [
-      23
-    ],
-    "t": "18:30",
-    "n": "Amsterdam Polish Film Festival: The Promised Land (Wajda)",
-    "v": "De Balie",
-    "c": "film",
-    "u": "debalie.nl/cinema/amsterdam-polish-film-festival-the-promised-land/",
-    "ul": "Tickets",
-    "note": "Widely regarded as one of Wajda's greatest achievements — three friends pursuing wealth in ruthless capitalism. After talk."
-  },
-  {
-    "days": [
-      24
-    ],
-    "t": "14:30",
-    "n": "Amsterdam Polish Film Festival: Man of Marble + Man of Iron (Wajda)",
-    "v": "De Balie",
-    "c": "film",
-    "u": "debalie.nl/cinema/amsterdam-polish-film-festival-man-of-marble-man-of-iron/",
-    "ul": "Tickets",
-    "note": "Two classics + talk on Wajda, film and propaganda."
-  },
-  {
-    "days": [
-      25
-    ],
-    "t": "14:30",
-    "n": "Amsterdam Polish Film Festival: Afterimage (Wajda, final film)",
-    "v": "De Balie",
-    "c": "film",
-    "u": "debalie.nl/cinema/amsterdam-polish-film-festival/",
-    "ul": "Tickets",
-    "note": "Wajda's final film — on creative freedom and ideological control. Final day of the festival."
-  },
-  {
-    "days": [
-      26
-    ],
-    "t": "18:00",
-    "n": "Palestine 36 × Intifooda Pop-Up Dinner",
-    "v": "Studio/K",
-    "c": "city",
-    "u": "studio-k.nu/studiok-events/palestinian-film-festival-amsterdam-pffa-benefit-event/",
-    "ul": "Info",
-    "note": "Plant-based Palestinian food by chef Intifooda Kitchen (€12.50). Proceeds to Palestinian Film Festival Amsterdam."
-  },
-  {
-    "days": [
-      25,
-      31
-    ],
-    "t": "09:30",
-    "n": "De Griezelbus (9+)",
-    "v": "Filmtheater Kriterion",
-    "c": "film",
-    "u": "kriterion.nl/films/de-griezelbus-9",
-    "ul": "Tickets",
-    "note": "Dutch horror film for kids 9+. Halloween programming.",
-    "tags": [
-      "Halloween"
-    ]
-  },
-  {
-    "days": [
-      25
-    ],
-    "t": "14:00",
-    "n": "De minder gelukkige terugkeer van Joszef Katus naar het land van Rembrandt",
-    "v": "Filmtheater Kriterion",
-    "c": "film",
-    "u": "kriterion.nl/films/de-minder-gelukkige-terugkeer-van-joszef-katus-naar-het-land-van-rembrandt",
-    "ul": "Tickets",
-    "note": "Dutch film."
-  },
-  {
-    "days": [
-      26
-    ],
-    "t": "16:00",
-    "n": "Ladri di Saponette (1989, ENG subs)",
-    "v": "Filmtheater Kriterion",
-    "c": "film",
-    "u": "kriterion.nl/films/ladri-di-saponette-1989-eng-subs",
-    "ul": "Tickets",
-    "note": "Italian comedy. ENG subtitles."
-  },
-  {
-    "days": [
-      29
-    ],
-    "t": "14:30",
-    "n": "Treći svijet",
-    "v": "Filmtheater Kriterion",
-    "c": "film",
-    "u": "kriterion.nl/films/trei-svijet",
-    "ul": "Tickets",
-    "note": "Bosnian film."
-  },
-  {
-    "days": [
-      22
-    ],
-    "t": "20:00",
-    "n": "Pakhuis Kino: About Our Journey — specialty coffee documentary",
-    "v": "Pakhuis de Zwijger",
-    "c": "film",
-    "u": "dezwijger.nl/agenda",
-    "ul": "Info",
-    "note": "Hoe eerlijk zijn mooie verhalen over specialty coffee? Documentary screening."
-  },
-  {
-    "days": [
-      23
-    ],
-    "t": "17:00",
-    "n": "Clubbing Heritage Amsterdam: How We Gather, What We Build, Where We Go Next",
-    "v": "Pakhuis de Zwijger",
-    "c": "talk",
-    "ade": 1,
-    "u": "dezwijger.nl/agenda",
-    "ul": "Info",
-    "note": "ADE panel on the history and future of Amsterdam's club culture. [EN]"
-  },
-  {
-    "days": [
-      27
-    ],
-    "t": "19:00",
-    "n": "Queer Poetry Night — Unwanted Words Project",
-    "v": "Pakhuis de Zwijger",
-    "c": "talk",
-    "u": "dezwijger.nl/agenda",
-    "ul": "Info",
-    "note": "Spoken word, poetry, storytelling, op-eds, drama & music. Celebrating queer voices. [EN]"
-  },
-  {
-    "days": [
-      28
-    ],
-    "t": "20:00",
-    "n": "Angèle Etoundi Essamba — overzichtspublicatie 'Themes, beyond the frame'",
-    "v": "Pakhuis de Zwijger",
-    "c": "talk",
-    "u": "dezwijger.nl/agenda",
-    "ul": "Info",
-    "note": "In gesprek met Tracy Metz: fotografie als beeldhouwkunst, ter gelegenheid van het nieuwe boek."
-  },
-  {
-    "days": [
-      21
-    ],
-    "t": "23:00",
-    "n": "Sichuan — ADE",
-    "v": "Garage Noord",
-    "c": "night",
-    "ade": 1,
-    "u": "garagenoord.com/club/sichuan",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      23
-    ],
-    "t": "23:00",
-    "n": "Firewire — ADE",
-    "v": "Garage Noord",
-    "c": "night",
-    "ade": 1,
-    "u": "garagenoord.com/club/firewire",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      30
-    ],
-    "t": "23:00",
-    "n": "Spacebunker w/ UpVampin (live), ARAPAIMA (live), Lui Surreal (live), CVPID",
-    "v": "Garage Noord",
-    "c": "night",
-    "u": "garagenoord.com/club/spacebunker-w-upvampin-live-arapaima-live-lui-surreal-live-cvpid-hybrid",
-    "ul": "Tickets",
-    "note": ""
-  },
-  {
-    "days": [
-      21
-    ],
-    "t": "20:30",
-    "n": "Takuya Nakamura",
-    "v": "Melkweg",
-    "c": "music",
-    "ade": 1,
-    "u": "melkweg.nl/en/agenda/takuya-nakamura-21-10-2026-1/",
-    "ul": "Tickets",
-    "note": "Japanese jazz meets jungle and electronics. Sold out. ADE."
-  },
-  {
-    "days": [
-      22
-    ],
-    "t": "22:00",
-    "n": "MEDUZA — Open To Close",
-    "v": "Melkweg",
-    "c": "night",
-    "ade": 1,
-    "u": "melkweg.nl/en/agenda/medvza-22-10-2026/",
-    "ul": "Tickets",
-    "note": "Italian house trio plays open-to-close at Melkweg for ADE."
-  },
-  {
-    "days": [
-      22
-    ],
-    "t": "21:00",
-    "n": "nimino",
-    "v": "Melkweg",
-    "c": "music",
-    "ade": 1,
-    "u": "melkweg.nl/en/agenda/nimino-22-10-2026/",
-    "ul": "Tickets",
-    "note": "Deep house, hip hop and UK Garage. Support: Montee. Sold out. ADE."
-  },
-  {
-    "days": [
-      24
-    ],
-    "t": "22:00",
-    "n": "Paul van Dyk — Open To Close",
-    "v": "Melkweg",
-    "c": "night",
-    "ade": 1,
-    "u": "melkweg.nl/en/agenda/paul-van-dyk-24-10-2026/",
-    "ul": "Tickets",
-    "note": "Techno legend plays all night open-to-close. Sold out. ADE."
-  },
-  {
-    "days": [
-      24
-    ],
-    "t": "23:00",
-    "n": "Boys Noize presents",
-    "v": "Melkweg",
-    "c": "night",
-    "ade": 1,
-    "u": "melkweg.nl/en/agenda/boys-noize-presents-ones-and-zeros-24-10-2026/",
-    "ul": "Tickets",
-    "note": "Boys Noize / Mechatok / SALOME. Electro · Techno · EBM. ADE."
-  },
-  {
-    "days": [
-      28
-    ],
-    "t": "20:00",
-    "n": "Jon Allen & the Luna Kings",
-    "v": "Melkweg",
-    "c": "music",
-    "u": "melkweg.nl/en/agenda/jon-allen-the-luna-kings-28-10-2026/",
-    "ul": "Tickets",
-    "note": "Americana · Blues."
-  },
-  {
-    "days": [
-      31
-    ],
-    "t": "20:00",
-    "n": "Only The Poets — Halloween Special",
-    "v": "Melkweg",
-    "c": "music",
-    "u": "melkweg.nl/en/agenda/only-the-poets-31-10-2026/",
-    "ul": "Tickets",
-    "note": "Indie pop · Teen pop · Alternative pop. Halloween show.",
-    "tags": [
-      "Halloween"
-    ]
-  },
-  {
-    "days": [
-      31
-    ],
-    "t": "20:00",
-    "n": "Schur — The No Schortcuts Tour",
-    "v": "Melkweg",
-    "c": "music",
-    "u": "melkweg.nl/en/agenda/schur-31-10-2026/",
-    "ul": "Tickets",
-    "note": "Indie rock · Hip hop · Alternative. US tour stop."
-  }
+ {
+  "n": "They Live (1988) – John Carpenter",
+  "v": "Filmtheater Kriterion",
+  "c": "film",
+  "days": [
+   19
+  ],
+  "t": "15:00",
+  "note": "John Carpenter classic on the big screen.",
+  "u": "kriterion.nl/films/they-live-1988",
+  "ul": "Info"
+ },
+ {
+  "n": "Lino for Prisoners: workshop & letter writing",
+  "v": "De Sering",
+  "c": "art",
+  "days": [
+   19
+  ],
+  "t": "18:00",
+  "note": "Make a linocut stamp and write letters to imprisoned activists.",
+  "u": "desering.org/event/lino-for-prisoners-workshop-and-letter-writing",
+  "ul": "Info",
+  "img": "img/de-sering-lino-for-prisoners-workshop-letter-writing-19.jpg"
+ },
+ {
+  "n": "Felice... Felice... (4K restoration) + intro",
+  "v": "Eye Filmmuseum",
+  "c": "film",
+  "days": [
+   19
+  ],
+  "t": "18:45",
+  "note": "Peter Delpeut’s love letter to Japan and to film history, première of the 4K restoration.",
+  "u": "eyefilm.nl/whats-on/felice-felice/1689240/1689950",
+  "ul": "Info",
+  "img": "img/eye-felice-felice-4k-restoration-intro-19.jpg"
+ },
+ {
+  "n": "Alien Chicks",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   19
+  ],
+  "t": "19:30",
+  "note": "Post punk band from London.",
+  "u": "paradiso.nl/en/program/alien-chicks/2885760",
+  "ul": "Info",
+  "img": "img/paradiso-alien-chicks-19.jpg"
+ },
+ {
+  "n": "Dave East + Marou & Massin",
+  "v": "Tolhuistuin",
+  "c": "music",
+  "days": [
+   19
+  ],
+  "t": "19:30",
+  "note": "Strong lyricist with a style reminiscent of ’90s New York hip hop.",
+  "u": "paradiso.nl/en/program/dave-east/2854309",
+  "ul": "Info",
+  "img": "img/paradiso-dave-east-marou-massin-19.jpg"
+ },
+ {
+  "n": "Inside Syria: the political future",
+  "v": "De Balie · Salon",
+  "c": "talk",
+  "days": [
+   19
+  ],
+  "t": "19:30",
+  "note": "Two years after Assad fell: Syrian scholars and exiled journalists on where the country stands. In English.",
+  "u": "debalie.nl/programma/inside-syria-19-10-2026",
+  "ul": "Info",
+  "img": "img/de-balie-inside-syria-the-political-future-19.jpg"
+ },
+ {
+  "n": "Slayyyter WOR$T GIRL IN THE WORLD TOUR + Kalika",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   19
+  ],
+  "t": "19:30",
+  "note": "Unhinged cocktail of punk, pop and rap.",
+  "u": "paradiso.nl/en/program/slayyyter-wor-t-girl-in-the-world-tour/2859039",
+  "ul": "Info",
+  "img": "img/paradiso-slayyyter-wor-t-girl-in-the-world-tour-kalika-19.jpg"
+ },
+ {
+  "n": "De Kopenhagen Trilogie – Eline Arbo / ITA",
+  "v": "Stadsschouwburg Amsterdam · Grote Zaal",
+  "c": "stage",
+  "days": [
+   19,
+   20,
+   21,
+   25,
+   26,
+   27,
+   28,
+   29
+  ],
+  "t": "19:30 (Sun 15:00)",
+  "note": "Tove Ditlevsen’s Childhood, Youth and Dependency in one show. Première 20 Oct. In Dutch.",
+  "u": "ita.nl/nl/voorstellingen/de-kopenhagen-trilogie",
+  "ul": "Info",
+  "img": "img/ita-de-kopenhagen-trilogie-eline-arbo-ita-19.jpg",
+  "isNew": "Première 20 Oct"
+ },
+ {
+  "n": "Big Tech and the new world order",
+  "v": "De Balie · Grote Zaal",
+  "c": "talk",
+  "days": [
+   19
+  ],
+  "t": "20:00",
+  "note": "Paul Verhagen on governments, AI and private military firms. In Dutch.",
+  "u": "debalie.nl/programma/big-tech-en-de-nieuwe-wereldorde-19-10-2026",
+  "ul": "Info",
+  "img": "img/de-balie-big-tech-and-the-new-world-order-19.jpg"
+ },
+ {
+  "n": "Krystian Zimerman: 24 surprises",
+  "v": "Concertgebouw · Grote Zaal",
+  "c": "music",
+  "days": [
+   19
+  ],
+  "t": "20:15",
+  "note": "The great Polish pianist plays 24 short pieces inspired by Bach’s Well-Tempered Clavier.",
+  "u": "concertgebouw.nl/concerten/41200339-grote-pianisten-krystian-zimerman-brengt-24-verrassingen",
+  "ul": "Info",
+  "img": "img/concertgebouw-krystian-zimerman-24-surprises-19.jpg"
+ },
+ {
+  "n": "Felukah",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   19
+  ],
+  "t": "22:00",
+  "note": "Arabfuturist sounds from Egypt with rap, soul and poetry.",
+  "u": "paradiso.nl/en/program/felukah/2919095",
+  "ul": "Info",
+  "img": "img/paradiso-felukah-19.jpg"
+ },
+ {
+  "n": "Cheeky Monday: Tamza",
+  "v": "Melkweg · Oude Zaal",
+  "c": "night",
+  "days": [
+   19
+  ],
+  "t": "23:00",
+  "note": "Drum & bass and jungle with Tamza, Oneiroi, Karimooo and Sama Sama.",
+  "u": "melkweg.nl/en/agenda/cheeky-monday-19-10-2026",
+  "ul": "Info"
+ },
+ {
+  "n": "DISCO — Autumn Holiday at Wereldmuseum",
+  "v": "Wereldmuseum Amsterdam",
+  "c": "art",
+  "days": [
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25
+  ],
+  "note": "Special autumn school holiday programming at the Wereldmuseum. Oct 10–25.",
+  "u": "amsterdam.wereldmuseum.nl/en/whats-on/activities/autumn-holiday",
+  "ul": "Info"
+ },
+ {
+  "n": "SAAM x Joostenberg Estate",
+  "v": "SAAM",
+  "c": "city",
+  "days": [
+   20
+  ],
+  "t": "18:00",
+  "note": "Five-course dinner with South African flavours and wines by winemaker Tyrrel Myburgh.",
+  "u": "debuik.nl/amsterdam/agenda/saam-x-joostenberg-estate",
+  "ul": "Info"
+ },
+ {
+  "n": "New Dutch Selected Artists’ Moving Image + Q&A",
+  "v": "Eye Filmmuseum",
+  "c": "film",
+  "days": [
+   20
+  ],
+  "t": "19:00",
+  "note": "Four new short films by Dutch artists and experimental filmmakers, with Q&A.",
+  "u": "eyefilm.nl/whats-on/new-dutch-selected-artists-moving-image/1680625/1680628",
+  "ul": "Info",
+  "img": "img/eye-new-dutch-selected-artists-moving-image-q-a-20.jpg"
+ },
+ {
+  "n": "John Craigie",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   20
+  ],
+  "t": "19:15",
+  "note": "Storytelling folk artist.",
+  "u": "paradiso.nl/en/program/john-craigie/2889434",
+  "ul": "Info",
+  "img": "img/paradiso-john-craigie-20.jpg"
+ },
+ {
+  "n": "Science & Cocktails: How Our Money Can Make Everyone Happy",
+  "v": "Tolhuistuin",
+  "c": "talk",
+  "days": [
+   20
+  ],
+  "t": "19:30",
+  "note": "Science, cocktails, and live music.",
+  "u": "paradiso.nl/en/program/science-cocktails-how-our-money-can-make-everyone-happy/2923591",
+  "ul": "Info"
+ },
+ {
+  "n": "Amsterdamse Iconen: Marleen Stikker",
+  "v": "Pakhuis de Zwijger",
+  "c": "talk",
+  "days": [
+   20
+  ],
+  "t": "20:00",
+  "note": "Een uur in gesprek met oprichter van Waag Futurelab en internetpionier Marleen Stikker.",
+  "u": "dezwijger.nl/agenda",
+  "ul": "Info"
+ },
+ {
+  "n": "Bach at his best: the Brandenburg Concertos",
+  "v": "Concertgebouw · Grote Zaal",
+  "c": "music",
+  "days": [
+   20
+  ],
+  "t": "20:15",
+  "note": "All of Bach’s Brandenburg Concertos in one evening.",
+  "u": "concertgebouw.nl/concerten/43714211-bach-op-zn-best-de-brandenburgse-concerten",
+  "ul": "Info"
+ },
+ {
+  "n": "Close-up Concertgebouworkest: From the Old World",
+  "v": "Concertgebouw · Kleine Zaal",
+  "c": "music",
+  "days": [
+   20
+  ],
+  "t": "20:15",
+  "note": "Orchestra musicians play chamber works European composers wrote in America.",
+  "u": "concertgebouw.nl/concerten/43281062-close-up-concertgebouworkest-uit-de-oude-wereld",
+  "ul": "Info"
+ },
+ {
+  "n": "PJ Morton",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   20
+  ],
+  "t": "20:30",
+  "note": "Soul Pioneer from New Orleans.",
+  "u": "paradiso.nl/en/program/pj-morton/2892511",
+  "ul": "Info",
+  "img": "img/paradiso-pj-morton-20.jpg"
+ },
+ {
+  "n": "Any Young Mechanic",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   20
+  ],
+  "t": "22:00",
+  "note": "Dynamic folk quintet.",
+  "u": "paradiso.nl/en/program/any-young-mechanic/2918766",
+  "ul": "Info",
+  "img": "img/paradiso-any-young-mechanic-20.jpg"
+ },
+ {
+  "n": "Techno Tuesday: Icey Planet",
+  "v": "Melkweg · Oude Zaal",
+  "c": "night",
+  "days": [
+   20
+  ],
+  "t": "23:30",
+  "note": "Groovy techno with A.R.T., Dexon and Icey Planet.",
+  "u": "melkweg.nl/en/agenda/techno-tuesday-icey-planet-20-10-2026",
+  "ul": "Info"
+ },
+ {
+  "n": "ENFF On Tour: Fantasy (ENG subs)",
+  "v": "Filmtheater Kriterion",
+  "c": "film",
+  "days": [
+   21
+  ],
+  "t": "13:15",
+  "note": "European Neighbourhood Film Festival.",
+  "u": "kriterion.nl/films/enff-on-tour-fantasy-eng-subs",
+  "ul": "Info"
+ },
+ {
+  "n": "Double D’s Collective: lesbian art at the Rietveld Pavilion",
+  "v": "Rietveld Academie",
+  "c": "art",
+  "days": [
+   21,
+   22,
+   23
+  ],
+  "t": "17:00",
+  "note": "Works by 14 artists from a new dyke collective: vernissage 21 Oct, talk & tour 22 Oct, finissage with DJs 23 Oct.",
+  "u": "rietveldacademie.nl/en/page/38948/pavilion-project-grand-opening-of-double-d%E2%80%99s-collective",
+  "ul": "Info",
+  "img": "img/rietveld-academie-double-ds-collective-lesbian-art-at-the-rietveld-21.jpg"
+ },
+ {
+  "n": "Malugi – ADE",
+  "v": "Paradiso",
+  "c": "night",
+  "days": [
+   21
+  ],
+  "t": "17:00",
+  "note": "Extended DJ set by German house DJ.",
+  "u": "paradiso.nl/en/program/malugi-ade/2888794",
+  "ul": "Info",
+  "img": "img/paradiso-malugi-ade-21.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Film Funk (2026)",
+  "v": "Studio/K",
+  "c": "film",
+  "days": [
+   21
+  ],
+  "t": "18:00",
+  "note": "Aly Muritiba’s Brazilian drama, screened during the VIRA programme.",
+  "u": "studio-k.nu/studiok-events/film-funk-2026",
+  "ul": "Info",
+  "img": "img/studio-k-film-funk-2026-21.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Mind Enterprises – ADE",
+  "v": "Melkweg · Max",
+  "c": "music",
+  "days": [
+   21
+  ],
+  "t": "18:00",
+  "note": "Italo disco, 90s and techno from the Italian producer.",
+  "u": "melkweg.nl/en/agenda/mind-enterprises-21-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-mind-enterprises-ade-21.jpg",
+  "ade": 1
+ },
+ {
+  "n": "ADE Opening Concert: KYBBA & Metropole Orkest",
+  "v": "Melkweg · Rabozaal",
+  "c": "music",
+  "days": [
+   21
+  ],
+  "t": "18:30",
+  "note": "Dancehall meets orchestra, with Busy Signal, Blaiz Fayah and Kalibwoy; conducted by Simon Dobson.",
+  "u": "melkweg.nl/en/agenda/ade-opening-concert-kybba-metropole-orkest-special-guests-21-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-ade-opening-concert-kybba-metropole-orkest-21.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Striptopia – ADE",
+  "v": "Melkweg · Oude Zaal",
+  "c": "night",
+  "days": [
+   21
+  ],
+  "t": "19:00",
+  "note": "Queer dance and house special.",
+  "u": "melkweg.nl/en/agenda/striptopia-21-10-2026",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "ADE: Sonic Journey – the history of electronic dance music",
+  "v": "Concertgebouw · Grote Zaal",
+  "c": "music",
+  "days": [
+   21
+  ],
+  "t": "19:30",
+  "note": "Lie down or sit and travel through the history of electronic music in the Grote Zaal.",
+  "u": "concertgebouw.nl/concerten/46159063-ade-sonic-journey-the-history-of-electronic-dance-music",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "Carl Jung: the evil within",
+  "v": "De Balie · Salon",
+  "c": "talk",
+  "days": [
+   21
+  ],
+  "t": "19:30",
+  "note": "What do we find when we look for evil in ourselves? In Dutch.",
+  "u": "debalie.nl/programma/carl-jung-het-kwaad-in-onszelf-21-10-2026",
+  "ul": "Info",
+  "img": "img/de-balie-carl-jung-the-evil-within-21.jpg"
+ },
+ {
+  "n": "Pakhuis Kino: Homework — housing documentary",
+  "v": "Pakhuis de Zwijger",
+  "c": "film",
+  "days": [
+   21
+  ],
+  "t": "19:30",
+  "note": "Documentaire over huurders die collectief strijden voor betere woonomstandigheden in Dublin en Amsterdam.",
+  "u": "dezwijger.nl/agenda",
+  "ul": "Info"
+ },
+ {
+  "n": "AADE: Subject Sue EP release – Details In The Dark",
+  "v": "OT301 · Studios",
+  "c": "night",
+  "days": [
+   21
+  ],
+  "t": "20:00",
+  "note": "Darkwave and ethereal techno with Subject Sue, M2K and Dear Omen.",
+  "u": "ot301.nl/agenda/22673",
+  "ul": "Info",
+  "img": "img/ot301-aade-subject-sue-ep-release-details-in-the-dark-21.jpg"
+ },
+ {
+  "n": "ADE | Chamos presents HAWRAVE w/ Paydar & Zouflebouf",
+  "v": "Skatecafe",
+  "c": "night",
+  "days": [
+   21
+  ],
+  "t": "20:00",
+  "note": "ADE night by Chamos.",
+  "u": "skatecafe.weticket.io/ade-chamos",
+  "ul": "Tickets",
+  "ade": 1
+ },
+ {
+  "n": "China: autocracy 2.0",
+  "v": "De Balie · Grote Zaal",
+  "c": "talk",
+  "days": [
+   21
+  ],
+  "t": "20:00",
+  "note": "With China correspondent Garrie van Pinxteren. In Dutch.",
+  "u": "debalie.nl/programma/china-autocratie-2-0-21-10-2026",
+  "ul": "Info"
+ },
+ {
+  "n": "Living in Revolutionary Times – Ivan Krastev",
+  "v": "De Balie",
+  "c": "talk",
+  "days": [
+   21
+  ],
+  "t": "20:00",
+  "note": "The Bulgarian political scientist on Europe’s crucial election year ahead. In English.",
+  "u": "debalie.nl/programma/living-in-revolutionary-times-11-12-2026",
+  "ul": "Info"
+ },
+ {
+  "n": "TECH FOR SOCIETY: Algoritmische besluitvorming",
+  "v": "Pakhuis de Zwijger",
+  "c": "talk",
+  "days": [
+   21
+  ],
+  "t": "20:00",
+  "note": "Wie beslist er nog als het algoritme de overheid stuurt?",
+  "u": "dezwijger.nl/agenda",
+  "ul": "Info"
+ },
+ {
+  "n": "The Bausa – ADE",
+  "v": "Parallel",
+  "c": "night",
+  "days": [
+   21
+  ],
+  "t": "20:00",
+  "note": "Scandi House straight from Norway.",
+  "u": "paradiso.nl/en/program/the-bausa/2907711",
+  "ul": "Info",
+  "img": "img/paradiso-the-bausa-ade-21.jpg",
+  "ade": 1
+ },
+ {
+  "n": "ADE: Kara-Lis Coverdale & Lia Kohl",
+  "v": "Concertgebouw · Kleine Zaal",
+  "c": "music",
+  "days": [
+   21
+  ],
+  "t": "20:15",
+  "note": "Two sound artists between ambient, organ and cello open ADE.",
+  "u": "concertgebouw.nl/concerten/46004305-ade-kara-lis-coverdale-lia-kohl",
+  "ul": "Info",
+  "img": "img/concertgebouw-ade-kara-lis-coverdale-lia-kohl-21.jpg",
+  "ade": 1
+ },
+ {
+  "n": "S!RENE – ADE",
+  "v": "Paradiso",
+  "c": "night",
+  "days": [
+   21
+  ],
+  "t": "21:00",
+  "note": "DJ and producer who performs a journey through rhythm, culture, and sound.",
+  "u": "paradiso.nl/en/program/s-rene-ade/2919587",
+  "ul": "Info",
+  "img": "img/paradiso-s-rene-ade-21.jpg",
+  "ade": 1
+ },
+ {
+  "n": "ADE Wednesday – Raving Charlie",
+  "v": "De Sering",
+  "c": "night",
+  "days": [
+   21
+  ],
+  "t": "22:00",
+  "note": "Hard techno, hardcore, hard bounce and neo rave until 06:00.",
+  "u": "desering.org/event/ade-wednesday---raving-charlie",
+  "ul": "Info",
+  "img": "img/de-sering-ade-wednesday-raving-charlie-21.jpg",
+  "ade": 1
+ },
+ {
+  "n": "ADE – VIM",
+  "v": "Bitterzoet",
+  "c": "night",
+  "days": [
+   21
+  ],
+  "t": "23:00",
+  "note": "Afro · Gqom · Amapiano. €25. ADE.",
+  "u": "bitterzoet.com/agenda",
+  "ade": 1,
+  "ul": "Info"
+ },
+ {
+  "n": "Firewire",
+  "v": "Garage Noord",
+  "c": "night",
+  "days": [
+   21
+  ],
+  "t": "23:00",
+  "note": "ADE Wednesday club night at Garage Noord.",
+  "u": "garagenoord.com/club/firewire",
+  "ul": "Info",
+  "img": "img/garage-noord-firewire-21.jpg",
+  "ade": 1
+ },
+ {
+  "n": "HUNNA X TRAPRAVE – ADE",
+  "v": "Nachbar",
+  "c": "night",
+  "days": [
+   21
+  ],
+  "t": "23:00",
+  "u": "nachbar.stager.co/shop/nachbar",
+  "ul": "Tickets",
+  "ade": 1
+ },
+ {
+  "n": "Oliver Heldens – ADE",
+  "v": "Melkweg · Max",
+  "c": "night",
+  "days": [
+   21
+  ],
+  "t": "23:00",
+  "note": "Future house with Badger, JØRD, J.Worra and Will Clarke.",
+  "u": "melkweg.nl/en/agenda/oliver-heldens-21-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-oliver-heldens-ade-21.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Pariah B2B Sam Girling – ADE",
+  "v": "Nachbar",
+  "c": "night",
+  "days": [
+   21
+  ],
+  "t": "23:00",
+  "u": "nachbar.stager.co/shop/nachbar",
+  "ul": "Tickets",
+  "ade": 1
+ },
+ {
+  "n": "bitbird presents San Holo & DROELOE – ADE",
+  "v": "Melkweg · Oude Zaal",
+  "c": "night",
+  "days": [
+   21
+  ],
+  "t": "23:30",
+  "note": "Future bass label night with ALIGN, Khamsin, Sensu and What So Not.",
+  "u": "melkweg.nl/en/agenda/san-holo-21-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-bitbird-presents-san-holo-droeloe-ade-21.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Basshall Presents: Kybba – ADE",
+  "v": "Parallel",
+  "c": "music",
+  "days": [
+   21
+  ],
+  "t": "23:59",
+  "note": "Pioneer and creator of the Basshall movement.",
+  "u": "paradiso.nl/en/program/basshall-presents-kybba-ade/2933767",
+  "ul": "Info",
+  "img": "img/paradiso-basshall-presents-kybba-ade-21.jpg",
+  "ade": 1
+ },
+ {
+  "n": "DJ SNAKE – ADE",
+  "v": "Paradiso",
+  "c": "night",
+  "days": [
+   21
+  ],
+  "t": "23:59",
+  "note": "Internationally renowned French DJ and producer.",
+  "u": "paradiso.nl/en/program/dj-snake-ade/2917119",
+  "ul": "Info",
+  "img": "img/paradiso-dj-snake-ade-21.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Amsterdam Dance Event, 31st edition",
+  "v": "City-wide",
+  "c": "city",
+  "days": [
+   21,
+   22,
+   23,
+   24,
+   25
+  ],
+  "note": "Five days across every club on this page.",
+  "u": "amsterdamdanceevent.nl",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "Takuya Nakamura – ADE",
+  "v": "Melkweg",
+  "c": "music",
+  "days": [
+   21
+  ],
+  "note": "Japanese jazz meets jungle and electronics.",
+  "u": "melkweg.nl/en/agenda/takuya-nakamura-21-10-2026-1",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "Free lunch concert: open rehearsal Concertgebouworkest",
+  "v": "Concertgebouw · Grote Zaal",
+  "c": "music",
+  "days": [
+   22
+  ],
+  "t": "12:30",
+  "note": "Free half-hour peek into a Concertgebouworkest rehearsal.",
+  "u": "concertgebouw.nl/concerten/46022583-gratis-lunchconcert-openbare-repetitie-concertgebouworkest",
+  "ul": "Info",
+  "free": 1
+ },
+ {
+  "n": "Oedipus x Vinyls at the Gallery: vinyl market, art and craft beer",
+  "v": "Oedipus Craft Space",
+  "c": "market",
+  "days": [
+   22
+  ],
+  "t": "14:00",
+  "u": "oedipus.weticket.io/ade-oedipus-x-vinyls-at-the-gallery",
+  "ul": "Tickets",
+  "ade": 1
+ },
+ {
+  "n": "Care In Its Own Words",
+  "v": "De Sering",
+  "c": "talk",
+  "days": [
+   22
+  ],
+  "t": "15:30",
+  "note": "Open conversation on care in nightlife, hosted with Nightflows.",
+  "u": "desering.org/event/care-in-its-own-words",
+  "ul": "Info",
+  "img": "img/de-sering-care-in-its-own-words-22.jpg",
+  "ade": 1
+ },
+ {
+  "n": "ADE | DJ Mag presents Amelie Lens",
+  "v": "Skatecafe",
+  "c": "night",
+  "days": [
+   22
+  ],
+  "t": "16:00",
+  "note": "The Belgian techno icon headlines DJ Mag’s ADE party.",
+  "u": "skatecafe.weticket.io/dj-mag-presents-ade",
+  "ul": "Tickets",
+  "img": "img/skatecafe-ade-dj-mag-presents-amelie-lens-22.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Film & Food: Shall We Dance? + ramen",
+  "v": "LAB111",
+  "c": "film",
+  "days": [
+   22
+  ],
+  "t": "18:00",
+  "note": "The 1996 Japanese ballroom classic with a bowl of ramen.",
+  "u": "lab111.nl/movie/film-food-shall-we-dance-incl-ramen",
+  "ul": "Info",
+  "img": "img/lab111-film-food-shall-we-dance-ramen-22.jpg"
+ },
+ {
+  "n": "MEDUZA – Open to Close",
+  "v": "Melkweg · Rabozaal",
+  "c": "night",
+  "days": [
+   22
+  ],
+  "t": "18:00",
+  "note": "Italian house trio plays all night (represented by Matt).",
+  "u": "melkweg.nl/en/agenda/medvza-22-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-meduza-open-to-close-22.jpg",
+  "ade": 1
+ },
+ {
+  "n": "ADE – S!RENE: Respect The Groove",
+  "v": "Bitterzoet",
+  "c": "music",
+  "days": [
+   22
+  ],
+  "t": "18:30",
+  "note": "Afro · Hip-Hop · Funk · Jungle · R&B. €17. ADE.",
+  "u": "bitterzoet.com/agenda",
+  "ade": 1,
+  "ul": "Info"
+ },
+ {
+  "n": "Temple of the Wild Geese + intro",
+  "v": "Eye Filmmuseum",
+  "c": "film",
+  "days": [
+   22
+  ],
+  "t": "18:45",
+  "note": "Opening of the Kawashima retrospective: an ironic drama of a mistress and a Buddhist monk.",
+  "u": "eyefilm.nl/whats-on/temple-of-the-wild-geese/1693748/1693797",
+  "ul": "Info",
+  "img": "img/eye-temple-of-the-wild-geese-intro-22.jpg"
+ },
+ {
+  "n": "Tones Presents: Juls – ADE",
+  "v": "Paradiso",
+  "c": "night",
+  "days": [
+   22
+  ],
+  "t": "18:45",
+  "note": "DJ set by Grammy-nominated Afrobeats producer.",
+  "u": "paradiso.nl/en/program/tones-presents-juls-ade/2941966",
+  "ul": "Info",
+  "img": "img/paradiso-tones-presents-juls-ade-22.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Kraak & Smaak (live) – ADE",
+  "v": "Melkweg · Max",
+  "c": "music",
+  "days": [
+   22
+  ],
+  "t": "19:00",
+  "note": "Dutch disco-funk band live.",
+  "u": "melkweg.nl/en/agenda/kraak-smaak-live-22-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-kraak-smaak-live-ade-22.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Motie at Night – ADE",
+  "v": "Motie @ Stopera",
+  "c": "night",
+  "days": [
+   22,
+   23,
+   24
+  ],
+  "t": "19:00",
+  "note": "Night festival in City Hall: DJs, guest kitchens, wine and Heleen Blanken’s light installation Helios.",
+  "u": "motieamsterdam.nl/program",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "Polish Film Festival: Innocent Sorcerers (Wajda, 1960)",
+  "v": "De Balie · Filmzaal",
+  "c": "film",
+  "days": [
+   22
+  ],
+  "t": "19:00",
+  "note": "Wajda’s portrait of a restless young generation, followed by a concert.",
+  "u": "debalie.nl/cinema/amsterdam-polish-film-festival-innocent-sorcerers",
+  "ul": "Info",
+  "img": "img/de-balie-polish-film-festival-innocent-sorcerers-wajda-19-22.jpg"
+ },
+ {
+  "n": "Romanian autumn dinner: Crud Kitchen @ Gentle Place Coffee",
+  "v": "Gentle Place Coffee",
+  "c": "city",
+  "days": [
+   22
+  ],
+  "t": "19:00",
+  "note": "Four Romanian courses with matching wines in Amsterdam-Noord.",
+  "u": "debuik.nl/amsterdam/agenda/roemeens-herfstdiner-met-crud-kitchen-gentle-place-coffee",
+  "ul": "Info"
+ },
+ {
+  "n": "How Diversity and Inclusion Came Under Attack",
+  "v": "De Balie · Salon",
+  "c": "talk",
+  "days": [
+   22
+  ],
+  "t": "19:30",
+  "note": "With David B. Oppenheimer, Samira Rafaela and Ivana Isailović. In English.",
+  "u": "debalie.nl/programma/how-diversity-and-inclusion-came-under-attack-22-10-2026",
+  "ul": "Info"
+ },
+ {
+  "n": "Queer Built × NAI010: Shaping Safe Queer Spaces — ADE",
+  "v": "Pakhuis de Zwijger",
+  "c": "talk",
+  "days": [
+   22
+  ],
+  "t": "19:30",
+  "note": "ADE special: nightclubs, their architecture and Beautiful Creatures. Talk + exhibition + drinks. [EN]",
+  "u": "dezwijger.nl/agenda",
+  "ade": 1,
+  "ul": "Info"
+ },
+ {
+  "n": "nimino – ADE",
+  "v": "Melkweg · Oude Zaal",
+  "c": "music",
+  "days": [
+   22
+  ],
+  "t": "19:30",
+  "note": "Deep house, hip hop and UK garage. Support: Montee.",
+  "u": "melkweg.nl/en/agenda/nimino-22-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-nimino-ade-22.jpg",
+  "ade": 1
+ },
+ {
+  "n": "AADE: Aili & Orson x TUKAN",
+  "v": "OT301 · Studios",
+  "c": "night",
+  "days": [
+   22
+  ],
+  "t": "20:00",
+  "note": "Live electronics and indie electronica with charlie avalon and Umbra.",
+  "u": "ot301.nl/agenda/22680",
+  "ul": "Info",
+  "img": "img/ot301-aade-aili-orson-x-tukan-22.jpg"
+ },
+ {
+  "n": "ADE | Shanti Celeste curates VBX",
+  "v": "Skatecafe",
+  "c": "night",
+  "days": [
+   22
+  ],
+  "t": "20:00",
+  "note": "With A For Alpha, Doudou MD b2b Jennifer Loveless, Hodge and more.",
+  "u": "skatecafe.weticket.io/ade-shanti-celeste-curates-vbx",
+  "ul": "Tickets",
+  "ade": 1
+ },
+ {
+  "n": "Eastern Margins & Natural Mind – ADE",
+  "v": "Parallel",
+  "c": "night",
+  "days": [
+   22
+  ],
+  "t": "20:00",
+  "note": "Club night focused on alternative East and Southeast Asian culture.",
+  "u": "paradiso.nl/en/program/eastern-margins/2926125",
+  "ul": "Info",
+  "img": "img/paradiso-eastern-margins-natural-mind-ade-22.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Helios x Young Marco (live) ft. Jonny Nash",
+  "v": "Motie @ Stopera",
+  "c": "music",
+  "days": [
+   22
+  ],
+  "t": "20:00",
+  "note": "One hour of live ambient music in City Hall’s glass-roofed passage.",
+  "u": "motieamsterdam.nl/helios",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "Pakhuis Kino: About Our Journey — specialty coffee documentary",
+  "v": "Pakhuis de Zwijger",
+  "c": "film",
+  "days": [
+   22
+  ],
+  "t": "20:00",
+  "note": "Hoe eerlijk zijn mooie verhalen over specialty coffee? Documentary screening.",
+  "u": "dezwijger.nl/agenda",
+  "ul": "Info"
+ },
+ {
+  "n": "State OFFF – ADE",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   22
+  ],
+  "t": "20:00",
+  "note": "A/V performance in which percussion and artificial language form an imagined body of rhythm and exhaustion.",
+  "u": "paradiso.nl/en/program/state-offf-ade/2901627",
+  "ul": "Info",
+  "img": "img/paradiso-state-offf-ade-22.jpg",
+  "ade": 1
+ },
+ {
+  "n": "VPRO Meet Up: Gates of Europe",
+  "v": "Pakhuis de Zwijger",
+  "c": "talk",
+  "days": [
+   22
+  ],
+  "t": "20:00",
+  "note": "Can Europe protect its borders while upholding human rights? With David Yambio, Hans Leijtens, Tineke Strik. [EN]",
+  "u": "dezwijger.nl/agenda",
+  "ul": "Info"
+ },
+ {
+  "n": "Beethoven’s Fifth – Concertgebouworkest",
+  "v": "Concertgebouw · Grote Zaal",
+  "c": "music",
+  "days": [
+   22
+  ],
+  "t": "20:15",
+  "note": "Riccardo Minasi conducts Beethoven 5, plus Emilie Mayer’s Faust Overture.",
+  "u": "concertgebouw.nl/concerten/45875727-de-vijfde-van-beethoven-door-het-concertgebouworkest",
+  "ul": "Info",
+  "img": "img/concertgebouw-beethovens-fifth-concertgebouworkest-22.jpg"
+ },
+ {
+  "n": "The Bookshop Invites ADE x Prince Claus Fund: Lady Donli x Raiany Sinara",
+  "v": "The Bookshop (ITA)",
+  "c": "music",
+  "days": [
+   22
+  ],
+  "t": "20:30",
+  "note": "Nigerian singer Lady Donli meets Brazilian artist Raiany Sinara.",
+  "u": "ita.nl/nl/voorstellingen/bookshop-invites-ade",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "ADE: Neon River & FAST DE",
+  "v": "Concertgebouw · Koorzaal",
+  "c": "night",
+  "days": [
+   22
+  ],
+  "t": "21:00",
+  "note": "The Koorzaal becomes a seatless club for the Amsterdam synth trio and FAST DE.",
+  "u": "concertgebouw.nl/concerten/46111465-ade-neon-river-fast-de",
+  "ul": "Info",
+  "img": "img/concertgebouw-ade-neon-river-fast-de-22.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Onda Forte – VIRA Clubnight",
+  "v": "Studio/K",
+  "c": "night",
+  "days": [
+   22
+  ],
+  "t": "21:00",
+  "note": "Brazilian-rooted DJ collective Onda takes over.",
+  "u": "studio-k.nu/studiok-events/onda-forte-vira-clubnight",
+  "ul": "Info",
+  "img": "img/studio-k-onda-forte-vira-clubnight-22.jpg",
+  "ade": 1
+ },
+ {
+  "n": "ADE Thursday – DC Salas & Magma",
+  "v": "De Sering",
+  "c": "night",
+  "days": [
+   22
+  ],
+  "t": "22:00",
+  "note": "DC Salas brings his hypnotic live set to Amsterdam for the first time, with the Magma collective.",
+  "u": "desering.org/event/ade-thursday---dc-salas--magma",
+  "ul": "Info",
+  "img": "img/de-sering-ade-thursday-dc-salas-magma-22.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Lawrence Hart & Mera Bhai pres: Dreamtraxx – ADE",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   22
+  ],
+  "t": "22:00",
+  "note": "Live performance by a multi-instrumentalist from the UK.",
+  "u": "paradiso.nl/en/program/lawrence-hart-ade/2895459",
+  "ul": "Info",
+  "img": "img/paradiso-lawrence-hart-mera-bhai-pres-dreamtraxx-ade-22.jpg",
+  "ade": 1
+ },
+ {
+  "n": "ADE – RAUM invites Clone Records",
+  "v": "Club RAUM",
+  "c": "night",
+  "days": [
+   22
+  ],
+  "t": "23:00",
+  "note": "Neel, Neska, Ottagone, Tauceti (NEXUS) + Afra B2B Detroit in Effect, L.F.T., Serge (STUDIO).",
+  "u": "clubraum.nl",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "Monstercat x Ophelia – ADE",
+  "v": "Melkweg · Max",
+  "c": "night",
+  "days": [
+   22
+  ],
+  "t": "23:00",
+  "note": "Two bass labels: Seven Lions, NGHTMRE, Koven, Trivecta and more.",
+  "u": "melkweg.nl/en/agenda/monstercat-x-ophelia-22-10-2026",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "OG Records x Nachbar – ADE",
+  "v": "Nachbar",
+  "c": "night",
+  "days": [
+   22
+  ],
+  "t": "23:00",
+  "u": "nachbar.stager.co/shop/nachbar",
+  "ul": "Tickets",
+  "ade": 1
+ },
+ {
+  "n": "ADE – Yellow Claw & Friends",
+  "v": "Bitterzoet",
+  "c": "night",
+  "days": [
+   22
+  ],
+  "t": "23:30",
+  "note": "Trap · Bass · Dubstep · House. €16. ADE.",
+  "u": "bitterzoet.com/agenda",
+  "ade": 1,
+  "ul": "Info"
+ },
+ {
+  "n": "Anjunadeep – ADE",
+  "v": "Paradiso",
+  "c": "night",
+  "days": [
+   22
+  ],
+  "t": "23:30",
+  "note": "Showcase by London-based deep house label.",
+  "u": "paradiso.nl/en/program/anjunadeep-amsterdam/2913607",
+  "ul": "Info",
+  "img": "img/paradiso-anjunadeep-ade-22.jpg",
+  "ade": 1
+ },
+ {
+  "n": "FACE 2 FACE – ADE",
+  "v": "Melkweg · Rabozaal",
+  "c": "night",
+  "days": [
+   22
+  ],
+  "t": "23:30",
+  "note": "Hard house and rave in back-to-back pairs.",
+  "u": "melkweg.nl/en/agenda/face-2-face-22-10-2026",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "PAARDENRAVE – ADE",
+  "v": "Melkweg · Annie",
+  "c": "night",
+  "days": [
+   22
+  ],
+  "t": "23:59",
+  "note": "Queer rave with DJ Sexstasy, Kahorsa and Kim Swim b2b DJ Aya.",
+  "u": "melkweg.nl/en/agenda/paardenrave-22-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-paardenrave-ade-22.jpg",
+  "ade": 1
+ },
+ {
+  "n": "ADE × Nxt: EarthSonic Premiere — Orbital & Paranoid London",
+  "v": "Nxt Museum",
+  "c": "music",
+  "days": [
+   22
+  ],
+  "note": "Live AV performance: Orbital and Paranoid London with immersive installation.",
+  "u": "nxtmuseum.com",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "ADE × Nxt: Motie — Heleen Blanken & Sophia Bulgakova",
+  "v": "Nxt Museum",
+  "c": "music",
+  "days": [
+   22,
+   23,
+   24
+  ],
+  "note": "Three-day ADE live AV installation with immersive sound and visuals.",
+  "u": "nxtmuseum.com",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "Hoketus 50! – Het Muziek",
+  "v": "Muziekgebouw aan ’t IJ",
+  "c": "music",
+  "days": [
+   22
+  ],
+  "note": "Louis Andriessen’s legendary Hoketus at 50, plus a new response piece by Michael Gordon (Bang on a Can).",
+  "u": "hetmuziek.nl/producties/hoketus-50/#dates",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "ADE | PIP goes Skatecafe",
+  "v": "Skatecafe",
+  "c": "night",
+  "days": [
+   23
+  ],
+  "t": "16:00",
+  "note": "Day-to-night party with B/V8, Bru (live), David Vunk & Jetti and many more.",
+  "u": "skatecafe.weticket.io/ade-pip-goes-skatecafe",
+  "ul": "Tickets",
+  "ade": 1
+ },
+ {
+  "n": "AADE: The Noodle Show – Nadia Struiwigh & Kessler",
+  "v": "OT301 · Ventilator Cinema",
+  "c": "music",
+  "days": [
+   23
+  ],
+  "t": "17:00",
+  "note": "Electronica workshop and jam session.",
+  "u": "ot301.nl/agenda/23233",
+  "ul": "Info",
+  "img": "img/ot301-aade-the-noodle-show-nadia-struiwigh-kessler-23.jpg"
+ },
+ {
+  "n": "Clubbing Heritage Amsterdam: How We Gather, What We Build, Where We Go Next",
+  "v": "Pakhuis de Zwijger",
+  "c": "talk",
+  "days": [
+   23
+  ],
+  "t": "17:00",
+  "note": "ADE panel on the history and future of Amsterdam's club culture. [EN]",
+  "u": "dezwijger.nl/agenda",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "Davyboi – ADE",
+  "v": "Melkweg · Max",
+  "c": "night",
+  "days": [
+   23
+  ],
+  "t": "17:00",
+  "note": "Hard house and rave with DJ Guestlist and George Radsport b2b NYRA.",
+  "u": "melkweg.nl/en/agenda/davyboi-23-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-davyboi-ade-23.jpg",
+  "ade": 1
+ },
+ {
+  "n": "IMANU presents DE_VERTE – ADE",
+  "v": "Melkweg · Rabozaal",
+  "c": "night",
+  "days": [
+   23
+  ],
+  "t": "17:30",
+  "note": "Drum & bass with Flava D, Kaskade, Mary Droppinz and more.",
+  "u": "melkweg.nl/en/agenda/imanu-presents-de-verte-23-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-imanu-presents-de-verte-ade-23.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Plein Publiek: Joy Wielkens",
+  "v": "De Balie",
+  "c": "talk",
+  "days": [
+   23
+  ],
+  "t": "17:30",
+  "note": "Early-evening talk with the musical star. In Dutch.",
+  "u": "debalie.nl/programma/plein-publiek-joy-wielkens-23-10-2026",
+  "ul": "Info",
+  "img": "img/de-balie-plein-publiek-joy-wielkens-23.jpg"
+ },
+ {
+  "n": "Get Physical! – ADE",
+  "v": "Melkweg · Oude Zaal",
+  "c": "night",
+  "days": [
+   23
+  ],
+  "t": "18:00",
+  "note": "Deep and melodic house: Monkey Safari, Helsloot b2b Meloko, Cioz.",
+  "u": "melkweg.nl/en/agenda/get-physical-23-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-get-physical-ade-23.jpg",
+  "ade": 1
+ },
+ {
+  "n": "DEEWEE: 2manydjs + Charlotte Adigéry & Bolis Pupul (dj-set) + LEO VINCENT + HATIHATI – ADE",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   23
+  ],
+  "t": "18:30",
+  "note": "Flemish electronica at its finest.",
+  "u": "paradiso.nl/en/program/2many-djs/2932088",
+  "ul": "Info",
+  "img": "img/paradiso-deewee-2manydjs-charlotte-adigery-bolis-pupul-dj-23.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Polish Film Festival: The Promised Land (Wajda)",
+  "v": "De Balie · Filmzaal",
+  "c": "film",
+  "days": [
+   23
+  ],
+  "t": "18:30",
+  "note": "Three friends chase wealth in ruthless 19th-century Łódź; one of Wajda’s greatest.",
+  "u": "debalie.nl/cinema/amsterdam-polish-film-festival-the-promised-land",
+  "ul": "Info",
+  "img": "img/de-balie-polish-film-festival-the-promised-land-wajda-23.jpg"
+ },
+ {
+  "n": "Bambii – ADE",
+  "v": "Parallel",
+  "c": "night",
+  "days": [
+   23
+  ],
+  "t": "19:00",
+  "note": "Clubnight with dancehall, bass and rave.",
+  "u": "paradiso.nl/en/program/bambii-parallel-ade/2929300",
+  "ul": "Info",
+  "img": "img/paradiso-bambii-ade-23.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Starjunk 95 – ADE",
+  "v": "Melkweg · Annie",
+  "c": "music",
+  "days": [
+   23
+  ],
+  "t": "19:00",
+  "note": "Anime-inspired electronic live show.",
+  "u": "melkweg.nl/en/agenda/starjunk-95-23-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-starjunk-95-ade-23.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Needle Drop presents: Daft Punk’s Electroma",
+  "v": "LAB111",
+  "c": "film",
+  "days": [
+   23
+  ],
+  "t": "19:45",
+  "note": "Daft Punk’s wordless road movie about two robots who want to be human.",
+  "u": "lab111.nl/movie/needle-drop-presents-daft-punks-electroma-2006",
+  "ul": "Info",
+  "img": "img/lab111-needle-drop-presents-daft-punks-electroma-23.jpg"
+ },
+ {
+  "n": "Interstella 5555 (Daft Punk x Leiji Matsumoto)",
+  "v": "LAB111",
+  "c": "film",
+  "days": [
+   23,
+   25
+  ],
+  "t": "19:55 & 21:30",
+  "note": "The anime film set to Daft Punk’s Discovery.",
+  "u": "lab111.nl/movie/daft-punk-leiji-matsumotos-interstella-5555-the-5tory-of-the-5ecret-5tar-5ystem",
+  "ul": "Info",
+  "img": "img/lab111-interstella-5555-daft-punk-x-leiji-matsumoto-23.jpg"
+ },
+ {
+  "n": "AADE: Anderworld zine launch",
+  "v": "OT301 · Ventilator Bar",
+  "c": "art",
+  "days": [
+   23
+  ],
+  "t": "20:00",
+  "note": "Zine launch and expo with Chagall. Free.",
+  "u": "ot301.nl/agenda/23223",
+  "ul": "Info",
+  "img": "img/ot301-aade-anderworld-zine-launch-23.jpg",
+  "free": 1
+ },
+ {
+  "n": "ADE x DARKMATTER: Sapodilla",
+  "v": "W139",
+  "c": "music",
+  "days": [
+   23
+  ],
+  "t": "20:00",
+  "note": "Electronic listening session with Amanah and Maguette Dieng, part of The Nature of Remembering.",
+  "u": "w139.nl/event/ade-x-darkmatter-sapodilla",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "Helios x Oceanic (live)",
+  "v": "Motie @ Stopera",
+  "c": "music",
+  "days": [
+   23
+  ],
+  "t": "20:00",
+  "note": "New, unreleased music by Oceanic around the Helios installation.",
+  "u": "motieamsterdam.nl/helios",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "ADE: Minimal Collective x Oude Kerk – Post-Space",
+  "v": "Oude Kerk",
+  "c": "music",
+  "days": [
+   23,
+   24
+  ],
+  "t": "20:30",
+  "note": "Organ and electronics in Amsterdam’s oldest building: Buttechno & Tapio Viitasaari, Carmen Villain, Son Of Chi & Okgwa.",
+  "u": "oudekerk.nl/nu-te-zien/evenementen/minimal-collective-presents-post-space/46167",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "Warhaus – Ha Ha Heartbeats – ADE + Charlie Avalon",
+  "v": "Cinetol",
+  "c": "music",
+  "days": [
+   23
+  ],
+  "t": "20:30",
+  "note": "Discover a new side to Warhaus during Amsterdam Dance Event.",
+  "u": "paradiso.nl/en/program/warhaus-ha-ha-heartbeats/2930261",
+  "ul": "Info",
+  "img": "img/paradiso-warhaus-ha-ha-heartbeats-ade-charlie-avalon-23.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Concertgebouworkest Essentials: Beethoven’s Fifth",
+  "v": "Concertgebouw · Grote Zaal",
+  "c": "music",
+  "days": [
+   23
+  ],
+  "t": "21:00",
+  "note": "Short, informal late concert around Beethoven 5.",
+  "u": "concertgebouw.nl/concerten/45875726-concertgebouworkest-essentials-de-vijfde-van-beethoven",
+  "ul": "Info",
+  "img": "img/concertgebouw-concertgebouworkest-essentials-beethovens-fifth-23.jpg"
+ },
+ {
+  "n": "Dave Clarke presents: 30 Years of ADE",
+  "v": "Melkweg",
+  "c": "night",
+  "days": [
+   23
+  ],
+  "t": "21:00",
+  "note": "30th-anniversary show: Daniel Avery b2b Richard Fearless, Dasha Rush, Ash Code (live), plus classic music docs.",
+  "u": "melkweg.nl/en/agenda/dave-clarke-presents-30-years-of-ade",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "Girly Pop! presents Jennifer’s Body + intro",
+  "v": "LAB111",
+  "c": "film",
+  "days": [
+   23
+  ],
+  "t": "21:00",
+  "note": "Cult horror-comedy with Megan Fox, introduced by Girly Pop!.",
+  "u": "lab111.nl/movie/jennifers-body",
+  "ul": "Info",
+  "img": "img/lab111-girly-pop-presents-jennifers-body-intro-23.jpg",
+  "tags": [
+   "Halloween"
+  ]
+ },
+ {
+  "n": "Club Kid (2026) – ADE preview",
+  "v": "Melkweg · Cinema",
+  "c": "film",
+  "days": [
+   23
+  ],
+  "t": "21:45",
+  "note": "Preview of a comedy-drama set in the techno scene.",
+  "u": "melkweg.nl/en/agenda/club-kid-2026-23-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-club-kid-2026-ade-preview-23.jpg",
+  "ade": 1
+ },
+ {
+  "n": "AADE: Anderworld release night",
+  "v": "OT301 · Studios",
+  "c": "night",
+  "days": [
+   23
+  ],
+  "t": "22:00",
+  "note": "EBM, darkwave and industrial techno: BlackBeach (live), Camy Huot (live), Parrish Smith.",
+  "u": "ot301.nl/agenda/22675",
+  "ul": "Info",
+  "img": "img/ot301-aade-anderworld-release-night-23.jpg"
+ },
+ {
+  "n": "French II (live) – ADE",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   23
+  ],
+  "t": "22:00",
+  "note": "Live show by electronic producer from Tilburg.",
+  "u": "paradiso.nl/en/program/french-ii-live-ade/2931862",
+  "ul": "Info",
+  "img": "img/paradiso-french-ii-live-ade-23.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Sissi’s ADE Friday w/ Bronka x Kurashi",
+  "v": "Sissi's",
+  "c": "night",
+  "days": [
+   23
+  ],
+  "t": "22:00",
+  "note": "ADE night with Bronka and Kurashi.",
+  "u": "sissisamsterdam.weticket.io/sissis-ade-bronka-x-kurashi",
+  "ul": "Tickets",
+  "img": "img/sissis-sissis-ade-friday-w-bronka-x-kurashi-23.jpg",
+  "ade": 1
+ },
+ {
+  "n": "ADE Friday – Dusty Cabinets",
+  "v": "De Sering",
+  "c": "night",
+  "days": [
+   23
+  ],
+  "t": "23:00",
+  "note": "Dusty Cabinets bring the Krackfree sound system: dense smoke, live acts, heavy bass.",
+  "u": "desering.org/event/ade-friday---dusty-cabinets",
+  "ul": "Info",
+  "img": "img/de-sering-ade-friday-dusty-cabinets-23.jpg",
+  "ade": 1
+ },
+ {
+  "n": "ADE – SPIELRAUM 55HRS",
+  "v": "Club RAUM",
+  "c": "night",
+  "days": [
+   23,
+   24,
+   25
+  ],
+  "t": "23:00",
+  "note": "55-hour marathon: Djrum, DVS1, Luke Slater, Dasha Rush, Kittin & The Hacker, JakoJako b2b Tommy Four Seven and more.",
+  "u": "shop.clubraum.nl/7ed0d24a957f41cfbead4cdf91dc336a",
+  "ul": "Tickets",
+  "ade": 1
+ },
+ {
+  "n": "APE – Amsterdam Punk Event",
+  "v": "Garage Noord",
+  "c": "night",
+  "days": [
+   23
+  ],
+  "t": "23:00",
+  "note": "Punk-minded club night during ADE week.",
+  "u": "garagenoord.com/club/ape",
+  "ul": "Info",
+  "img": "img/garage-noord-ape-amsterdam-punk-event-23.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Tsepo invites Nathalie Seres & Twiena – ADE",
+  "v": "Nachbar",
+  "c": "night",
+  "days": [
+   23
+  ],
+  "t": "23:00",
+  "note": "Mostly",
+  "u": "nachbar.stager.co/shop/nachbar",
+  "ul": "Tickets",
+  "ade": 1
+ },
+ {
+  "n": "Rampage – ADE",
+  "v": "Melkweg · Rabozaal",
+  "c": "night",
+  "days": [
+   23
+  ],
+  "t": "23:30",
+  "note": "Dubstep and drum & bass with Zomboy and Mefjus.",
+  "u": "melkweg.nl/en/agenda/rampage-23-10-2026",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "ADE – Basshall: Back to the Origins",
+  "v": "Bitterzoet",
+  "c": "night",
+  "days": [
+   23
+  ],
+  "t": "23:59",
+  "note": "Basshall · Shatta · Dancehall · Latin. €20. ADE.",
+  "u": "bitterzoet.com/agenda",
+  "ade": 1,
+  "ul": "Info"
+ },
+ {
+  "n": "Modus – ADE",
+  "v": "Parallel",
+  "c": "night",
+  "days": [
+   23
+  ],
+  "t": "23:59",
+  "note": "Electronic clubnight with LB aka Labat, LOVEFOXY & more.",
+  "u": "paradiso.nl/en/program/modus-ade/2914833",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "Silva Bumpa – ADE",
+  "v": "Paradiso",
+  "c": "night",
+  "days": [
+   23
+  ],
+  "t": "23:59",
+  "note": "The future of UK Garage & Bassline.",
+  "u": "paradiso.nl/en/program/silva-buma-ade/2916967",
+  "ul": "Info",
+  "img": "img/paradiso-silva-bumpa-ade-23.jpg",
+  "ade": 1
+ },
+ {
+  "n": "annie's ADE weekender",
+  "v": "Melkweg · Annie",
+  "c": "night",
+  "days": [
+   23
+  ],
+  "t": "23:59",
+  "note": "Hard house and performance: M¥SS KETA (hybrid), DBBD, LESSSSS, DJ Sexstasy.",
+  "u": "melkweg.nl/en/agenda/opening-club-weekender-23-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-annie-s-ade-weekender-23.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Symposihmm: Capture & Control",
+  "v": "The Hmm",
+  "c": "talk",
+  "days": [
+   24
+  ],
+  "t": "11:00",
+  "note": "Symposium on how platforms capture and manipulate our minds and the planet.",
+  "u": "thehmm.nl/event/symposihmm-%f0%9f%93%a1-capture-control",
+  "ul": "Info",
+  "img": "img/the-hmm-symposihmm-capture-control-24.jpg"
+ },
+ {
+  "n": "Body Language – Silence as a Language (workshop)",
+  "v": "OT301 · 4bid Gallery",
+  "c": "art",
+  "days": [
+   24
+  ],
+  "t": "12:00",
+  "note": "Donation-based movement workshop in the 4bid Gallery.",
+  "u": "ot301.nl/agenda/23332",
+  "ul": "Info",
+  "img": "img/ot301-body-language-silence-as-a-language-workshop-24.jpg"
+ },
+ {
+  "n": "Network (1976) – Sidney Lumet",
+  "v": "Filmtheater Kriterion",
+  "c": "film",
+  "days": [
+   24
+  ],
+  "t": "13:00",
+  "note": "Sidney Lumet classic. 'I'm mad as hell...'",
+  "u": "kriterion.nl/films/network-1976",
+  "ul": "Info"
+ },
+ {
+  "n": "Rooted in Culture: UK Sounds Influencing House Culture",
+  "v": "The Bookshop (ITA)",
+  "c": "talk",
+  "days": [
+   24
+  ],
+  "t": "13:00",
+  "note": "ADE afternoon of dance workshops, panels and DJs on UK sounds in house music.",
+  "u": "ita.nl/nl/voorstellingen/rooted-in-culture-uk-sounds-influencing-house-culture",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "La Tempête: Bach, Mendelssohn & Brahms",
+  "v": "Concertgebouw · Grote Zaal",
+  "c": "music",
+  "days": [
+   24
+  ],
+  "t": "14:15",
+  "note": "Theatrical, unpredictable programme by the French ensemble.",
+  "u": "concertgebouw.nl/concerten/45743344-la-tempete-met-bach-mendelssohn-brahms",
+  "ul": "Info",
+  "img": "img/concertgebouw-la-tempete-bach-mendelssohn-brahms-24.jpg"
+ },
+ {
+  "n": "Polish Film Festival: Man of Marble / Man of Iron",
+  "v": "De Balie · Filmzaal",
+  "c": "film",
+  "days": [
+   24
+  ],
+  "t": "14:30",
+  "note": "Double bill of Wajda classics with a talk in between.",
+  "u": "debalie.nl/cinema/amsterdam-polish-film-festival-man-of-marble-man-of-iron",
+  "ul": "Info",
+  "img": "img/de-balie-polish-film-festival-man-of-marble-man-of-iron-24.jpg"
+ },
+ {
+  "n": "Speedy J presents STOOR Live – ADE",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   24,
+   25
+  ],
+  "t": "16:00",
+  "note": "Hardware jam combining electronic music and video art.",
+  "u": "paradiso.nl/en/program/speedy-j-presents-stoor-live-ade-2026/2868773",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "VIRA exhibition",
+  "v": "Studio/K",
+  "c": "art",
+  "days": [
+   24
+  ],
+  "t": "16:00",
+  "note": "Brazil–Netherlands cultural programme: exhibition and open decks.",
+  "u": "studio-k.nu/studiok-events/vira-exhibition",
+  "ul": "Info",
+  "img": "img/studio-k-vira-exhibition-24.jpg",
+  "free": 1,
+  "ade": 1
+ },
+ {
+  "n": "Gia Fu – ADE",
+  "v": "Parallel",
+  "c": "night",
+  "days": [
+   24
+  ],
+  "t": "17:00",
+  "note": "International salsa DJ who combines Afro-Caribbean Latin rhythms with traditional East Asian sounds.",
+  "u": "paradiso.nl/en/program/gia-fu/2922019",
+  "ul": "Info",
+  "img": "img/paradiso-gia-fu-ade-24.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Flaming Ears (1992) – Austrian cult queer SF",
+  "v": "Filmtheater Kriterion",
+  "c": "film",
+  "days": [
+   24,
+   31
+  ],
+  "t": "17:59",
+  "note": "Rare 1992 Austrian queer sci-fi cult film. ENG subtitles.",
+  "u": "kriterion.nl/films/flaming-ears-1992-eng-subs",
+  "ul": "Info"
+ },
+ {
+  "n": "ADE – JEA: Can I Get A Jea! (2 nights)",
+  "v": "Bitterzoet",
+  "c": "night",
+  "days": [
+   24,
+   25
+  ],
+  "t": "18:00",
+  "note": "Afro Caribbean. Oct 24 (23:59) + Oct 25 (18:00). €25. ADE.",
+  "u": "bitterzoet.com/agenda",
+  "ade": 1,
+  "ul": "Info"
+ },
+ {
+  "n": "Paul van Dyk – Open to Close",
+  "v": "Melkweg · Rabozaal",
+  "c": "night",
+  "days": [
+   24
+  ],
+  "t": "18:00",
+  "note": "Trance pioneer plays all night.",
+  "u": "melkweg.nl/en/agenda/paul-van-dyk-24-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-paul-van-dyk-open-to-close-24.jpg",
+  "ade": 1
+ },
+ {
+  "n": "GoldFish – ADE",
+  "v": "Melkweg · Max",
+  "c": "night",
+  "days": [
+   24
+  ],
+  "t": "18:30",
+  "note": "South African duo blending house, jazz and live instruments.",
+  "u": "melkweg.nl/en/agenda/goldfish-24-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-goldfish-ade-24.jpg",
+  "ade": 1
+ },
+ {
+  "n": "ADE – Dave Nunes: Diaspora ADE Special",
+  "v": "Bitterzoet",
+  "c": "music",
+  "days": [
+   24
+  ],
+  "t": "19:00",
+  "note": "House · Afro · Baile Funk. €17.95. ADE.",
+  "u": "bitterzoet.com/agenda",
+  "ade": 1,
+  "ul": "Info"
+ },
+ {
+  "n": "4AM KRU – ADE",
+  "v": "Melkweg · Oude Zaal",
+  "c": "music",
+  "days": [
+   24
+  ],
+  "t": "19:30",
+  "note": "Jungle and rave live set.",
+  "u": "melkweg.nl/en/agenda/4am-kru-24-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-4am-kru-ade-24.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Arkayla",
+  "v": "Zonnehuis",
+  "c": "music",
+  "days": [
+   24
+  ],
+  "t": "19:30",
+  "note": "Four-piece band joins the ranks of Manchester’s illustrious musical names.",
+  "u": "paradiso.nl/en/program/arkayla/2909539",
+  "ul": "Info",
+  "img": "img/paradiso-arkayla-24.jpg"
+ },
+ {
+  "n": "AADE: ADEV after",
+  "v": "OT301 · Studios",
+  "c": "night",
+  "days": [
+   24
+  ],
+  "t": "20:00",
+  "note": "Modular, techno and IDM with Alberta Balsam, Wilco Prinsen (live) and Keynu (live).",
+  "u": "ot301.nl/agenda/22676",
+  "ul": "Info",
+  "img": "img/ot301-aade-adev-after-24.jpg"
+ },
+ {
+  "n": "Helios x Gizem Öz (live)",
+  "v": "Motie @ Stopera",
+  "c": "music",
+  "days": [
+   24
+  ],
+  "t": "20:00",
+  "note": "Layered ambient soundscapes from field recordings and synthesizers.",
+  "u": "motieamsterdam.nl/helios",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "Dvořák’s Stabat Mater",
+  "v": "Concertgebouw · Grote Zaal",
+  "c": "music",
+  "days": [
+   24
+  ],
+  "t": "20:15",
+  "note": "Two big Amsterdam choirs perform Dvořák’s emotional Stabat Mater.",
+  "u": "concertgebouw.nl/concerten/46013260-nederlands-concertkoor-en-toonkunstkoor-amsterdam-dvoraks-stabat-mater",
+  "ul": "Info",
+  "img": "img/concertgebouw-dvoraks-stabat-mater-24.jpg"
+ },
+ {
+  "n": "ADE | Patta x Keep Hush x Sankofa Archives",
+  "v": "Skatecafe",
+  "c": "night",
+  "days": [
+   24
+  ],
+  "t": "21:00",
+  "note": "Riddimbox, Eycee b2b Chale, Mondesir & Jarreau Vandal (live) and more.",
+  "u": "skatecafe.weticket.io/ade-patta-x-keep-hush-1",
+  "ul": "Tickets",
+  "ade": 1
+ },
+ {
+  "n": "ADE: Christian Löffler & Adna",
+  "v": "Concertgebouw · Kleine Zaal",
+  "c": "music",
+  "days": [
+   24
+  ],
+  "t": "21:00",
+  "note": "Intimate live set by the German producer with singer Adna.",
+  "u": "concertgebouw.nl/concerten/45966474-ade-christian-loffler-adna",
+  "ul": "Info",
+  "img": "img/concertgebouw-ade-christian-loffler-adna-24.jpg",
+  "ade": 1
+ },
+ {
+  "n": "KitKatClub: Kinks of Berlin – ADE première",
+  "v": "Melkweg · Cinema",
+  "c": "film",
+  "days": [
+   24
+  ],
+  "t": "21:00",
+  "note": "Documentary about the legendary Berlin club.",
+  "u": "melkweg.nl/en/agenda/kitkatclub-kinks-of-berlin-2026-24-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-kitkatclub-kinks-of-berlin-ade-premiere-24.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Aum recordings – ADE",
+  "v": "Nachbar",
+  "c": "night",
+  "days": [
+   24
+  ],
+  "t": "22:00",
+  "note": "ADE label night with deep and atmospheric sounds.",
+  "u": "nachbar.stager.co/shop/nachbar",
+  "ul": "Tickets",
+  "ade": 1
+ },
+ {
+  "n": "ADE Saturday – Dusty Cabinets",
+  "v": "De Sering",
+  "c": "night",
+  "days": [
+   24
+  ],
+  "t": "23:00",
+  "note": "Second night: LNR, k means, Saint Abdullah & Eomac (live), MBODJ.",
+  "u": "desering.org/event/ade-saturday---dusty-cabinets",
+  "ul": "Info",
+  "img": "img/de-sering-ade-saturday-dusty-cabinets-24.jpg",
+  "ade": 1
+ },
+ {
+  "n": "GN does a party with Nyege Nyege & Trackwork",
+  "v": "Garage Noord",
+  "c": "night",
+  "days": [
+   24
+  ],
+  "t": "23:00",
+  "note": "The Ugandan label behind Nyege Nyege festival and London’s Trackwork take over.",
+  "u": "garagenoord.com/club/gn-does-a-party-with-nyege-nyege-trackwork",
+  "ul": "Info",
+  "img": "img/garage-noord-gn-does-a-party-with-nyege-nyege-trackwork-24.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Sissi’s ADE Saturday",
+  "v": "Sissi's",
+  "c": "night",
+  "days": [
+   24
+  ],
+  "t": "23:00",
+  "note": "ADE Saturday club night.",
+  "u": "sissisamsterdam.weticket.io/sissis-ade-saturday-2",
+  "ul": "Tickets",
+  "ade": 1
+ },
+ {
+  "n": "Boys Noize presents – ADE",
+  "v": "Melkweg · Rabozaal",
+  "c": "night",
+  "days": [
+   24
+  ],
+  "t": "23:30",
+  "note": "Electro, techno and EBM with Mechatok and SALOME.",
+  "u": "melkweg.nl/en/agenda/boys-noize-presents-ones-and-zeros-24-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-boys-noize-presents-ade-24.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Blendsworld – ADE",
+  "v": "Melkweg · Max",
+  "c": "night",
+  "days": [
+   24
+  ],
+  "t": "23:59",
+  "note": "Afro house and afrotech with Dlala Thukzin and Danni Gato.",
+  "u": "melkweg.nl/en/agenda/blendsworld-24-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-blendsworld-ade-24.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Descendants ADE",
+  "v": "Parallel",
+  "c": "night",
+  "days": [
+   24
+  ],
+  "t": "23:59",
+  "note": "Afro-electronic club night.",
+  "u": "paradiso.nl/en/program/descendants-ade-parallel/2905527",
+  "ul": "Info",
+  "img": "img/paradiso-descendants-ade-24.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Encore – ADE",
+  "v": "Melkweg · Oude Zaal",
+  "c": "night",
+  "days": [
+   24
+  ],
+  "t": "23:59",
+  "note": "R&B, hip hop and afro with Turne, Jahwin and Lee Millz.",
+  "u": "melkweg.nl/en/agenda/encore-ade-special-24-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-encore-ade-24.jpg",
+  "ade": 1
+ },
+ {
+  "n": "A Soft Guide to Chill: ADE",
+  "v": "W139",
+  "c": "music",
+  "days": [
+   24
+  ],
+  "note": "BBTCOR bring back the 90s chill-out room: an immersive sound journey.",
+  "u": "w139.nl/event/a-soft-guide-to-chill-ade",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "Theta Session – ADE",
+  "v": "Parallel",
+  "c": "music",
+  "days": [
+   25
+  ],
+  "t": "08:00",
+  "note": "Meditative Sound Experience.",
+  "u": "paradiso.nl/en/program/theta-session-ade/2920571",
+  "ul": "Info",
+  "ade": 1
+ },
+ {
+  "n": "De Griezelbus (9+)",
+  "v": "Filmtheater Kriterion",
+  "c": "film",
+  "days": [
+   25,
+   31
+  ],
+  "t": "09:30",
+  "note": "Dutch horror film for kids 9+. Halloween programming.",
+  "u": "kriterion.nl/films/de-griezelbus-9",
+  "ul": "Info",
+  "tags": [
+   "Halloween"
+  ]
+ },
+ {
+  "n": "Concertgebouworkest brass play The Nutcracker",
+  "v": "Concertgebouw · Grote Zaal",
+  "c": "music",
+  "days": [
+   25
+  ],
+  "t": "11:00",
+  "note": "Sunday-morning concert: Tchaikovsky’s Nutcracker for brass.",
+  "u": "concertgebouw.nl/concerten/37473491-koperblazers-van-het-concertgebouworkest-spelen-tsjaikovskis-notenkraker",
+  "ul": "Info"
+ },
+ {
+  "n": "Museum Market: art, design, fashion and food stalls",
+  "v": "Museumplein",
+  "c": "market",
+  "days": [
+   25
+  ],
+  "t": "11:00",
+  "u": "iamsterdam.com/en/whats-on/calendar/shopping/markets/museum-market",
+  "ul": "Info"
+ },
+ {
+  "n": "ADE | FSTM takeover",
+  "v": "Skatecafe",
+  "c": "night",
+  "days": [
+   25
+  ],
+  "t": "13:00",
+  "note": "Helena Hauff b2b Quest, Call Super b2b Ryan Elliott, Eris Drew, DJ Masda and more.",
+  "u": "skatecafe.weticket.io/ade-fstm-w-blasha-allatt-call-super-b2b-ryan-elliott-dj-masda-eris-drew-hannecart-helena-hauff-b2b-quest-mad-miran-rey-colino-1",
+  "ul": "Tickets",
+  "ade": 1
+ },
+ {
+  "n": "De minder gelukkige terugkeer van Joszef Katus naar het land van Rembrandt",
+  "v": "Filmtheater Kriterion",
+  "c": "film",
+  "days": [
+   25
+  ],
+  "t": "14:00",
+  "note": "Dutch film.",
+  "u": "kriterion.nl/films/de-minder-gelukkige-terugkeer-van-joszef-katus-naar-het-land-van-rembrandt",
+  "ul": "Info"
+ },
+ {
+  "n": "Beethoven’s Fifth – Concertgebouworkest",
+  "v": "Concertgebouw · Grote Zaal",
+  "c": "music",
+  "days": [
+   25
+  ],
+  "t": "14:15",
+  "note": "Riccardo Minasi conducts Beethoven 5, plus Emilie Mayer’s Faust Overture.",
+  "u": "concertgebouw.nl/concerten/45875725-de-vijfde-van-beethoven-door-het-concertgebouworkest",
+  "ul": "Info",
+  "img": "img/concertgebouw-beethovens-fifth-concertgebouworkest-25.jpg"
+ },
+ {
+  "n": "Ronald Brautigam plays Beethoven",
+  "v": "Concertgebouw · Kleine Zaal",
+  "c": "music",
+  "days": [
+   25
+  ],
+  "t": "14:15",
+  "note": "The Pathétique and Moonlight sonatas.",
+  "u": "concertgebouw.nl/concerten/37970583-beethoven-ronald-brautigam-speelt-o.a.-de-pathetique-en-mondschein",
+  "ul": "Info",
+  "img": "img/concertgebouw-ronald-brautigam-plays-beethoven-25.jpg"
+ },
+ {
+  "n": "Polish Film Festival: Afterimage (Wajda)",
+  "v": "De Balie · Filmzaal",
+  "c": "film",
+  "days": [
+   25
+  ],
+  "t": "14:30",
+  "note": "Wajda’s final film, on artistic freedom under Stalinism.",
+  "u": "debalie.nl/cinema/amsterdam-polish-film-festival",
+  "ul": "Info",
+  "img": "img/de-balie-polish-film-festival-afterimage-wajda-25.jpg"
+ },
+ {
+  "n": "AADE: PRSPCT Fundraver for Gaza Skate Team",
+  "v": "OT301 · Studios",
+  "c": "night",
+  "days": [
+   25
+  ],
+  "t": "16:00",
+  "note": "Hardcore and drum & bass with The Outside Agency, Pythius, Dolphin and more.",
+  "u": "ot301.nl/agenda/23009",
+  "ul": "Info",
+  "img": "img/ot301-aade-prspct-fundraver-for-gaza-skate-team-25.jpg"
+ },
+ {
+  "n": "Film & Drink: Jennifer’s Body + cocktail",
+  "v": "LAB111",
+  "c": "film",
+  "days": [
+   25
+  ],
+  "t": "16:30",
+  "note": "Halloween-season screening with a cocktail.",
+  "u": "lab111.nl/movie/film-drink-jennifers-body-incl-cocktail",
+  "ul": "Info",
+  "img": "img/lab111-film-drink-jennifers-body-cocktail-25.jpg",
+  "tags": [
+   "Halloween"
+  ]
+ },
+ {
+  "n": "Aftershock: The Seismic Impact of Dubstep",
+  "v": "Melkweg · Cinema",
+  "c": "talk",
+  "days": [
+   25
+  ],
+  "t": "17:00",
+  "note": "Book launch on dubstep history, presented by Sonic Boom.",
+  "u": "melkweg.nl/en/agenda/aftershock-the-seismic-impact-of-dubstep-25-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-aftershock-the-seismic-impact-of-dubstep-25.jpg",
+  "ade": 1
+ },
+ {
+  "n": "Amsterdam Dub Event: Moritz von Oswald & Radikal Guru",
+  "v": "Melkweg · Oude Zaal",
+  "c": "music",
+  "days": [
+   25
+  ],
+  "t": "18:00",
+  "note": "Dub on a full sound system, part of ADE.",
+  "u": "melkweg.nl/en/agenda/amsterdam-dub-event-25-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-amsterdam-dub-event-moritz-von-oswald-radikal-gu-25.jpg",
+  "ade": 1
+ },
+ {
+  "n": "ADE – Afrolosjes × Gowtu × Melv!ee & Friends",
+  "v": "Bitterzoet",
+  "c": "night",
+  "days": [
+   25
+  ],
+  "t": "23:00",
+  "note": "Afro · Amapiano · Suriname Sounds. €10. ADE.",
+  "u": "bitterzoet.com/agenda",
+  "ade": 1,
+  "ul": "Info"
+ },
+ {
+  "n": "Ladri di Saponette (1989, ENG subs)",
+  "v": "Filmtheater Kriterion",
+  "c": "film",
+  "days": [
+   26
+  ],
+  "t": "16:00",
+  "note": "Italian comedy. ENG subtitles.",
+  "u": "kriterion.nl/films/ladri-di-saponette-1989-eng-subs",
+  "ul": "Info"
+ },
+ {
+  "n": "Backstage & Blik Vooruit",
+  "v": "Paradiso",
+  "c": "talk",
+  "days": [
+   26
+  ],
+  "t": "17:00",
+  "note": "30 years backstage & a vision for the future in a single tour.",
+  "u": "paradiso.nl/en/program/backstage-blauwdruk/2935212",
+  "ul": "Info"
+ },
+ {
+  "n": "Palestine 36 x Intifooda pop-up",
+  "v": "Studio/K",
+  "c": "city",
+  "days": [
+   26
+  ],
+  "t": "18:00",
+  "note": "Plant-based Palestinian dishes by Intifooda Kitchen; proceeds go to the Palestinian Film Festival Amsterdam.",
+  "u": "studio-k.nu/studiok-events/palestinian-film-festival-amsterdam-pffa-benefit-event",
+  "ul": "Info",
+  "img": "img/studio-k-palestine-36-x-intifooda-pop-up-26.jpg"
+ },
+ {
+  "n": "Cuisine Carine kitchen takeover @ Louie Louie",
+  "v": "Louie Louie",
+  "c": "city",
+  "days": [
+   26
+  ],
+  "t": "19:00",
+  "note": "One-night takeover: apéro, plat du jour and something sweet.",
+  "u": "debuik.nl/amsterdam/agenda/cuisine-carine-kitchen-takeover-louie-louie",
+  "ul": "Info"
+ },
+ {
+  "n": "Chanel Beads + urika's bedroom",
+  "v": "Tolhuistuin",
+  "c": "music",
+  "days": [
+   26
+  ],
+  "t": "19:30",
+  "note": "Shane Lavers’ experimental project that blurs the line between analogue and digital.",
+  "u": "paradiso.nl/en/program/chanel-beads/2907645",
+  "ul": "Info",
+  "img": "img/paradiso-chanel-beads-urika-s-bedroom-26.jpg"
+ },
+ {
+  "n": "Is every journalist an activist?",
+  "v": "De Balie · Grote Zaal",
+  "c": "talk",
+  "days": [
+   26
+  ],
+  "t": "19:30",
+  "note": "With Giselle van Cann (NOS), Eric Smit (The Firewall) and Natasja Gibbs. In Dutch.",
+  "u": "debalie.nl/programma/is-elke-journalist-een-activist-26-10-2026",
+  "ul": "Info",
+  "img": "img/de-balie-is-every-journalist-an-activist-26.jpg"
+ },
+ {
+  "n": "Popup Choir: Taylor Swift",
+  "v": "Concertgebouw · Grote Zaal",
+  "c": "music",
+  "days": [
+   26
+  ],
+  "t": "20:15",
+  "note": "Sing-along: the whole Grote Zaal becomes a choir.",
+  "u": "concertgebouw.nl/concerten/45959877-popup-choir-taylor-swift-zing-mee-met-maarten-bos-en-tijmen-de-koning",
+  "ul": "Info"
+ },
+ {
+  "n": "Natanya – THE ATTITUDE TOUR",
+  "v": "Bitterzoet",
+  "c": "music",
+  "days": [
+   26
+  ],
+  "t": "20:30",
+  "note": "A blend of Y2K pop, alternative r&b and poetic storytelling from London.",
+  "u": "paradiso.nl/en/program/natanya-the-attitude-tour/2902260",
+  "ul": "Info",
+  "img": "img/paradiso-natanya-the-attitude-tour-26.jpg"
+ },
+ {
+  "n": "HIMKOK from Oslo @ The Tailor Bar",
+  "v": "The Tailor Bar",
+  "c": "city",
+  "days": [
+   26
+  ],
+  "t": "21:00",
+  "note": "Oslo’s HIMKOK takes over the bar with cocktails created for the night.",
+  "u": "debuik.nl/amsterdam/agenda/himkok-uit-oslo-the-tailor-bar",
+  "ul": "Info"
+ },
+ {
+  "n": "Cheeky Monday @ Onder Hans",
+  "v": "Melkweg",
+  "c": "night",
+  "days": [
+   26
+  ],
+  "t": "23:00",
+  "note": "Drum & bass and jungle, big local lineup.",
+  "u": "melkweg.nl/en/agenda/cheeky-monday-cheeky-at-onder-hans-26-10-2026",
+  "ul": "Info"
+ },
+ {
+  "n": "Sparta (Ulrich Seidl) + intro",
+  "v": "Eye Filmmuseum",
+  "c": "film",
+  "days": [
+   27
+  ],
+  "t": "18:45",
+  "note": "Seidl’s companion piece to Rimini, part of the Seidl programme.",
+  "u": "eyefilm.nl/whats-on/bose-spiele-rimini-sparta/1662379/1680991",
+  "ul": "Info",
+  "img": "img/eye-sparta-ulrich-seidl-intro-27.jpg"
+ },
+ {
+  "n": "Queer Poetry Night — Unwanted Words Project",
+  "v": "Pakhuis de Zwijger",
+  "c": "talk",
+  "days": [
+   27
+  ],
+  "t": "19:00",
+  "note": "Spoken word, poetry, storytelling, op-eds, drama & music. Celebrating queer voices. [EN]",
+  "u": "dezwijger.nl/agenda",
+  "ul": "Info"
+ },
+ {
+  "n": "Goldie Boutilier + Ugly Ozo",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   27
+  ],
+  "t": "19:30",
+  "note": "Cinematic pop.",
+  "u": "paradiso.nl/en/program/goldie-boutilier/2895936",
+  "ul": "Info",
+  "img": "img/paradiso-goldie-boutilier-ugly-ozo-27.jpg"
+ },
+ {
+  "n": "Fresku & Metropole Orkest",
+  "v": "Concertgebouw · Grote Zaal",
+  "c": "music",
+  "days": [
+   27
+  ],
+  "t": "20:15",
+  "note": "Dutch rapper Fresku with a full orchestra: hip hop meets orchestral music.",
+  "u": "concertgebouw.nl/concerten/43931216-fresku-metropole-orkest-o.l.v.-simon-dobson",
+  "ul": "Info",
+  "img": "img/concertgebouw-fresku-metropole-orkest-27.jpg"
+ },
+ {
+  "n": "Spotlight Lucie Horsch: baroque with Altstaedt & Dunford",
+  "v": "Concertgebouw · Kleine Zaal",
+  "c": "music",
+  "days": [
+   27
+  ],
+  "t": "20:15",
+  "note": "Recorder star Lucie Horsch with cellist Nicolas Altstaedt and Thomas Dunford on lute.",
+  "u": "concertgebouw.nl/concerten/41773095-spotlight-op-lucie-horsch-barok-met-altstaedt-en-dunford",
+  "ul": "Info",
+  "img": "img/concertgebouw-spotlight-lucie-horsch-baroque-with-altstaedt-du-27.jpg"
+ },
+ {
+  "n": "Stu Larsen + Tim Hart",
+  "v": "Tolhuistuin",
+  "c": "music",
+  "days": [
+   27
+  ],
+  "t": "20:15",
+  "note": "Heartfelt folk songs about silence and solitude.",
+  "u": "paradiso.nl/en/program/stu-larsen/2843715",
+  "ul": "Info",
+  "img": "img/paradiso-stu-larsen-tim-hart-27.jpg"
+ },
+ {
+  "n": "Black Achievement Month: beyond victimhood",
+  "v": "De Balie · Salon",
+  "c": "talk",
+  "days": [
+   27
+  ],
+  "t": "20:30",
+  "note": "Conversation on building a future beyond trauma and colonial legacy. In Dutch.",
+  "u": "debalie.nl/programma/black-achievement-month-voorbij-slachtofferschap-27-10-2026",
+  "ul": "Info"
+ },
+ {
+  "n": "Okvsho + experience",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   27
+  ],
+  "t": "20:30",
+  "note": "Project by brothers from Zurich with roots in electronic music and modern jazz.",
+  "u": "paradiso.nl/en/program/okvsho/2867806",
+  "ul": "Info",
+  "img": "img/paradiso-okvsho-experience-27.jpg"
+ },
+ {
+  "n": "Yaro Mila",
+  "v": "Tolhuistuin",
+  "c": "music",
+  "days": [
+   27
+  ],
+  "t": "20:30",
+  "note": "Amsterdam-based electropop artist.",
+  "u": "paradiso.nl/en/program/yaro-mila/2905947",
+  "ul": "Info",
+  "img": "img/paradiso-yaro-mila-27.jpg"
+ },
+ {
+  "n": "Jawdropped",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   27
+  ],
+  "t": "22:00",
+  "note": "Upbeat indie and power pop from Los Angeles.",
+  "u": "paradiso.nl/en/program/jawdropped/2913625",
+  "ul": "Info",
+  "img": "img/paradiso-jawdropped-27.jpg"
+ },
+ {
+  "n": "Amsterdam’s 751st birthday: free entry for Amsterdammers",
+  "v": "Oude Kerk",
+  "c": "city",
+  "days": [
+   27
+  ],
+  "note": "Bring post with your Amsterdam address; the former city vault (IJzeren Kapel) is open all day.",
+  "u": "oudekerk.nl/nu-te-zien/evenementen/verjaardag-amsterdam-gratis-open-voor-amsterdammers/46568",
+  "ul": "Info",
+  "free": 1
+ },
+ {
+  "n": "Live Model Painting",
+  "v": "The Creative Lab",
+  "c": "art",
+  "days": [
+   27
+  ],
+  "note": "Sketch and paint a live model with a glass of wine, in Amsterdam-Noord.",
+  "u": "thecreativelab.shop/event/live-model-painting",
+  "ul": "Info"
+ },
+ {
+  "n": "Free lunch concert: Nederlandse Fluit Academie",
+  "v": "Concertgebouw · Kleine Zaal",
+  "c": "music",
+  "days": [
+   28
+  ],
+  "t": "12:30",
+  "note": "Free half-hour lunchtime concert.",
+  "u": "concertgebouw.nl/concerten/46012123-gratis-lunchconcert-nederlandse-fluit-academie",
+  "ul": "Info",
+  "free": 1
+ },
+ {
+  "n": "Trump vs. the world: what’s at stake in the midterms",
+  "v": "De Balie · Grote Zaal",
+  "c": "talk",
+  "days": [
+   28
+  ],
+  "t": "19:00",
+  "note": "With Ruben Terlou, Eelco Bosch van Rosenthal and Bram Vermeulen. In Dutch.",
+  "u": "debalie.nl/programma/trump-vs-de-wereld-wat-er-op-het-spel-staat-met-de-midterms-28-10-2026",
+  "ul": "Info",
+  "img": "img/de-balie-trump-vs-the-world-whats-at-stake-in-the-midterm-28.jpg"
+ },
+ {
+  "n": "Walter Trout",
+  "v": "Melkweg · Max",
+  "c": "music",
+  "days": [
+   28
+  ],
+  "t": "19:00",
+  "note": "Blues-rock veteran with new album Sign of the Times.",
+  "u": "melkweg.nl/en/agenda/walter-trout-28-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-walter-trout-28.jpg"
+ },
+ {
+  "n": "Bel Cobain",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   28
+  ],
+  "t": "19:30",
+  "note": "Combination of jazz, soul, and psychedelic art-pop.",
+  "u": "paradiso.nl/en/program/bel-cobain/2885192",
+  "ul": "Info",
+  "img": "img/paradiso-bel-cobain-28.jpg"
+ },
+ {
+  "n": "Charlie Jeer",
+  "v": "Melkweg · Annie",
+  "c": "music",
+  "days": [
+   28
+  ],
+  "t": "19:30",
+  "note": "Saxophonist mixing deep house and jazz.",
+  "u": "melkweg.nl/en/agenda/charlie-jeer-28-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-charlie-jeer-28.jpg"
+ },
+ {
+  "n": "CinéDialoog: Gardens of Fez",
+  "v": "De Balie · Filmzaal",
+  "c": "film",
+  "days": [
+   28
+  ],
+  "t": "19:30",
+  "note": "Documentary about the centuries-old city gardens of Fez, followed by a talk.",
+  "u": "debalie.nl/programma/cinedialoog-gardens-of-fez-28-10-2026",
+  "ul": "Info"
+ },
+ {
+  "n": "Girls In Hawaii + Blumi",
+  "v": "Tolhuistuin",
+  "c": "music",
+  "days": [
+   28
+  ],
+  "t": "19:30",
+  "note": "Belgian indie gem.",
+  "u": "paradiso.nl/en/program/girls-in-hawaii/2866457",
+  "ul": "Info",
+  "img": "img/paradiso-girls-in-hawaii-blumi-28.jpg"
+ },
+ {
+  "n": "Jon Allen & the Luna Kings",
+  "v": "Melkweg · Oude Zaal",
+  "c": "music",
+  "days": [
+   28
+  ],
+  "t": "19:30",
+  "note": "Americana and blues.",
+  "u": "melkweg.nl/en/agenda/jon-allen-the-luna-kings-28-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-jon-allen-the-luna-kings-28.jpg"
+ },
+ {
+  "n": "Ryan Beatty – Arms Over Armor Tour",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   28
+  ],
+  "t": "19:30",
+  "note": "Los Angeles singer-songwriter returns to Amsterdam with new album.",
+  "u": "paradiso.nl/en/program/ryan-beatty/2892924",
+  "ul": "Info",
+  "img": "img/paradiso-ryan-beatty-arms-over-armor-tour-28.jpg"
+ },
+ {
+  "n": "Shall We Dance? ballroom workshop",
+  "v": "LAB111",
+  "c": "city",
+  "days": [
+   28
+  ],
+  "t": "19:30",
+  "note": "Learn some ballroom steps at the cinema.",
+  "u": "lab111.nl/movie/shall-we-dance-ballroom-dancing-workshop",
+  "ul": "Info",
+  "img": "img/lab111-shall-we-dance-ballroom-workshop-28.jpg"
+ },
+ {
+  "n": "Angèle Etoundi Essamba — overzichtspublicatie 'Themes, beyond the frame'",
+  "v": "Pakhuis de Zwijger",
+  "c": "talk",
+  "days": [
+   28
+  ],
+  "t": "20:00",
+  "note": "In gesprek met Tracy Metz: fotografie als beeldhouwkunst, ter gelegenheid van het nieuwe boek.",
+  "u": "dezwijger.nl/agenda",
+  "ul": "Info"
+ },
+ {
+  "n": "Klaus Mäkelä conducts Mahler 7",
+  "v": "Concertgebouw · Grote Zaal",
+  "c": "music",
+  "days": [
+   28,
+   30
+  ],
+  "t": "20:15",
+  "note": "Mahler’s Seventh Symphony with the Concertgebouworkest.",
+  "u": "concertgebouw.nl/concerten/45881816-klaus-makela-dirigeert-mahler-7-bij-het-concertgebouworkest",
+  "ul": "Info"
+ },
+ {
+  "n": "Quatuor Arod: Bartók, Carlos Simon & Fanny Mendelssohn",
+  "v": "Concertgebouw · Kleine Zaal",
+  "c": "music",
+  "days": [
+   28
+  ],
+  "t": "20:15",
+  "note": "The Paris string quartet returns to the Kleine Zaal.",
+  "u": "concertgebouw.nl/concerten/37331019-quatuor-arod-speelt-bartok-carlos-simon-en-fanny-mendelssohn",
+  "ul": "Info",
+  "img": "img/concertgebouw-quatuor-arod-bartok-carlos-simon-fanny-mendelsso-28.jpg"
+ },
+ {
+  "n": "Leven aan de Rand + intro",
+  "v": "Eye Filmmuseum",
+  "c": "film",
+  "days": [
+   28
+  ],
+  "t": "20:30",
+  "note": "Heartwarming documentary about solidarity in Amsterdam-Noord.",
+  "u": "eyefilm.nl/whats-on/leven-aan-de-rand/1700388/1700816",
+  "ul": "Info"
+ },
+ {
+  "n": "Detailed Talks – workshop with Amber van Gastel",
+  "v": "Mediamatic Biotoop",
+  "c": "talk",
+  "days": [
+   28
+  ],
+  "note": "Card-game workshop on communicating through images and associations, by neurodivergent designer Amber van Gastel.",
+  "u": "mediamatic.net/en/page/393018/detailed-talks",
+  "ul": "Info",
+  "img": "img/mediamatic-detailed-talks-workshop-with-amber-van-gastel-28.jpg"
+ },
+ {
+  "n": "Treći svijet",
+  "v": "Filmtheater Kriterion",
+  "c": "film",
+  "days": [
+   29
+  ],
+  "t": "14:30",
+  "note": "Bosnian film.",
+  "u": "kriterion.nl/films/trei-svijet",
+  "ul": "Info"
+ },
+ {
+  "n": "Jim Saah – IN MY EYES book talk",
+  "v": "OT301 · 4bid Gallery",
+  "c": "talk",
+  "days": [
+   29
+  ],
+  "t": "19:00",
+  "note": "The DC punk photographer presents his book. Donation-based.",
+  "u": "ot301.nl/agenda/23112",
+  "ul": "Info",
+  "img": "img/ot301-jim-saah-in-my-eyes-book-talk-29.jpg"
+ },
+ {
+  "n": "Marina Sena",
+  "v": "Melkweg · Max",
+  "c": "music",
+  "days": [
+   29
+  ],
+  "t": "19:00",
+  "note": "Brazilian pop star: MPB and brega.",
+  "u": "melkweg.nl/en/agenda/marina-sena-29-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-marina-sena-29.jpg"
+ },
+ {
+  "n": "Brainwash Festival: Bold Ideas for Curious Minds w/ Deborah Levy",
+  "v": "Skatecafe",
+  "c": "talk",
+  "days": [
+   29
+  ],
+  "t": "19:30",
+  "note": "The British novelist in conversation, part of Brainwash Festival.",
+  "u": "skatecafe.weticket.io/brainwash-festival-bold-ideas-for-curious-minds-w-deborah-levy",
+  "ul": "Tickets"
+ },
+ {
+  "n": "Fangs (Anyab) – Halloween screening",
+  "v": "OT301 · Ventilator Cinema",
+  "c": "film",
+  "days": [
+   29
+  ],
+  "t": "19:30",
+  "note": "Egyptian horror musical in the Ventilator Cinema.",
+  "u": "ot301.nl/agenda/23013",
+  "ul": "Info",
+  "img": "img/ot301-fangs-anyab-halloween-screening-29.jpg",
+  "tags": [
+   "Halloween"
+  ]
+ },
+ {
+  "n": "Fight The Power: Earth’s Greatest Enemy + panel",
+  "v": "LAB111",
+  "c": "film",
+  "days": [
+   29
+  ],
+  "t": "19:30",
+  "note": "Documentary followed by a panel talk.",
+  "u": "lab111.nl/movie/fight-the-power-earths-greatest-enemy-2025-incl-panel-talk",
+  "ul": "Info",
+  "img": "img/lab111-fight-the-power-earths-greatest-enemy-panel-29.jpg"
+ },
+ {
+  "n": "Marcoca",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   29
+  ],
+  "t": "19:30",
+  "note": "Hypnotizing mix of psychedelische surf and jazz.",
+  "u": "paradiso.nl/en/program/marcoca/2850213",
+  "ul": "Info",
+  "img": "img/paradiso-marcoca-29.jpg"
+ },
+ {
+  "n": "Melanie C",
+  "v": "Melkweg · Oude Zaal",
+  "c": "music",
+  "days": [
+   29
+  ],
+  "t": "19:30",
+  "note": "The Spice Girl solo: 90s Britpop and dance pop.",
+  "u": "melkweg.nl/en/agenda/mel-c-29-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-melanie-c-29.jpg"
+ },
+ {
+  "n": "The language of the Third Reich – Victor Klemperer",
+  "v": "De Balie · Salon",
+  "c": "talk",
+  "days": [
+   29
+  ],
+  "t": "19:30",
+  "note": "Bert Natter on how Nazi newspeak blurred good and evil. In Dutch.",
+  "u": "debalie.nl/programma/publieke-intellectuelen-victor-klemperer-29-10-2026",
+  "ul": "Info"
+ },
+ {
+  "n": "The Texas Chain Saw Massacre (50th anniversary)",
+  "v": "LAB111",
+  "c": "film",
+  "days": [
+   29,
+   30,
+   31
+  ],
+  "t": "19:35 & 21:45",
+  "note": "Tobe Hooper’s horror landmark back on the big screen for Halloween.",
+  "u": "lab111.nl/movie/the-texas-chain-saw-massacre-50th-anniversary",
+  "ul": "Info",
+  "img": "img/lab111-the-texas-chain-saw-massacre-50th-anniversary-29.jpg",
+  "tags": [
+   "Halloween"
+  ]
+ },
+ {
+  "n": "CinéDialoog: Caméra d’Afrique",
+  "v": "De Balie · Filmzaal",
+  "c": "film",
+  "days": [
+   29
+  ],
+  "t": "20:00",
+  "note": "Classic documentary on African cinema and the colonial gaze, plus discussion.",
+  "u": "debalie.nl/cinema/cinedialoog-camera-dafrique",
+  "ul": "Info",
+  "img": "img/de-balie-cinedialoog-camera-dafrique-29.jpg"
+ },
+ {
+  "n": "Meeuw – Het Nationale Theater / Nina Spijkers",
+  "v": "Stadsschouwburg Amsterdam · Rabozaal",
+  "c": "stage",
+  "days": [
+   29,
+   30,
+   31
+  ],
+  "t": "20:00",
+  "note": "Chekhov’s The Seagull with a contemporary twist. Q&A after the 30 Oct show. In Dutch.",
+  "u": "ita.nl/nl/voorstellingen/meeuw",
+  "ul": "Info",
+  "img": "img/ita-meeuw-het-nationale-theater-nina-spijkers-29.jpg"
+ },
+ {
+  "n": "25 years Concertgebouworkest Academy",
+  "v": "Concertgebouw · Grote Zaal",
+  "c": "music",
+  "days": [
+   29
+  ],
+  "t": "20:15",
+  "note": "Klaus Mäkelä leads current and former academy players.",
+  "u": "concertgebouw.nl/concerten/45881817-25-jaar-academie-concertgebouworkest",
+  "ul": "Info"
+ },
+ {
+  "n": "Aristo Sham plays Brahms",
+  "v": "Concertgebouw · Kleine Zaal",
+  "c": "music",
+  "days": [
+   29
+  ],
+  "t": "20:15",
+  "note": "Cliburn winner plays Brahms’ piano sonatas.",
+  "u": "concertgebouw.nl/concerten/43425438-aristo-sham-speelt-brahms-pianosonates",
+  "ul": "Info",
+  "img": "img/concertgebouw-aristo-sham-plays-brahms-29.jpg"
+ },
+ {
+  "n": "Cat Power",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   29
+  ],
+  "t": "20:30",
+  "note": "Idiosyncratic singer-songwriter performs ‘The Greatest’ in full.",
+  "u": "paradiso.nl/en/program/cat-power/2741096",
+  "ul": "Info",
+  "img": "img/paradiso-cat-power-29.jpg"
+ },
+ {
+  "n": "Westside Cowboy + Wyatt",
+  "v": "Tolhuistuin",
+  "c": "music",
+  "days": [
+   29
+  ],
+  "t": "20:30",
+  "note": "Impressive indie rock from Manchester.",
+  "u": "paradiso.nl/en/program/westside-cowboy/2872946",
+  "ul": "Info",
+  "img": "img/paradiso-westside-cowboy-wyatt-29.jpg"
+ },
+ {
+  "n": "Ella Eyre + Angelo Benson",
+  "v": "Zonnehuis",
+  "c": "music",
+  "days": [
+   29
+  ],
+  "t": "20:45",
+  "note": "British singer-songwriter at the intersection of R&B, soul, and pop.",
+  "u": "paradiso.nl/en/program/ella-eyre/2910927",
+  "ul": "Info",
+  "img": "img/paradiso-ella-eyre-angelo-benson-29.jpg"
+ },
+ {
+  "n": "Romy white invites LEXII",
+  "v": "Nachbar",
+  "c": "night",
+  "days": [
+   29
+  ],
+  "t": "21:00",
+  "note": "Intimate Nachbar club night.",
+  "u": "nachbar.stager.co/shop/nachbar",
+  "ul": "Tickets"
+ },
+ {
+  "n": "Kabeaushé",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   29
+  ],
+  "t": "22:00",
+  "note": "Explosive pop music with influences from hip-hop and rock.",
+  "u": "paradiso.nl/en/program/kabeaushe/2892200",
+  "ul": "Info",
+  "img": "img/paradiso-kabeaushe-29.jpg"
+ },
+ {
+  "n": "Spacebunker w/ UpVampin, ARAPAIMA, Lui Surreal (live) & CVPID",
+  "v": "Garage Noord",
+  "c": "night",
+  "days": [
+   29
+  ],
+  "t": "23:00",
+  "note": "Night of live electronic sets.",
+  "u": "garagenoord.com/club/spacebunker-w-upvampin-live-arapaima-live-lui-surreal-live-cvpid-hybrid",
+  "ul": "Info",
+  "img": "img/garage-noord-spacebunker-w-upvampin-arapaima-lui-surreal-live-29.jpg"
+ },
+ {
+  "n": "GRASnacht 10!",
+  "v": "Het Muziek Studio",
+  "c": "music",
+  "days": [
+   29
+  ],
+  "note": "Residents Mees Vervuurt (percussion and silence) and Anna voor de Wind (Berio on clarinet).",
+  "u": "hetmuziek.nl/producties/grasnachtherfst26/#dates",
+  "ul": "Info"
+ },
+ {
+  "n": "Imagine Fantastic Film Festival",
+  "v": "Filmhallen, LAB111 and Hal West",
+  "c": "film",
+  "days": [
+   29,
+   30,
+   31
+  ],
+  "note": "Genre and fantastic cinema.",
+  "u": "imaginefilmfestival.com",
+  "ul": "Info"
+ },
+ {
+  "n": "Fair Priced Vintage — Europe's biggest vintage clothing market",
+  "v": "NDSM",
+  "c": "market",
+  "days": [
+   30,
+   31
+  ],
+  "t": "11:00",
+  "note": "Transparent pricing, no haggling.",
+  "u": "fairpricedvintage.com",
+  "ul": "Info"
+ },
+ {
+  "n": "All That Remains (The Right of Return) – Inas Halabi",
+  "v": "W139",
+  "c": "film",
+  "days": [
+   30
+  ],
+  "t": "16:30",
+  "note": "Closing event of The Nature of Remembering with the artist and filmmaker.",
+  "u": "w139.nl/event/all-that-remains-the-right-of-return",
+  "ul": "Info",
+  "img": "img/w139-all-that-remains-the-right-of-return-inas-halabi-30.jpg"
+ },
+ {
+  "n": "Plein Publiek: Milou Brand",
+  "v": "De Balie",
+  "c": "talk",
+  "days": [
+   30
+  ],
+  "t": "17:30",
+  "note": "The author of Zwemmen in het geld on taxing the rich. In Dutch.",
+  "u": "debalie.nl/programma/plein-publiek-milou-brand-30-10-2026",
+  "ul": "Info",
+  "img": "img/de-balie-plein-publiek-milou-brand-30.jpg"
+ },
+ {
+  "n": "No Barrier x Breakdown: Halloween Special",
+  "v": "Melkweg · Oude Zaal",
+  "c": "night",
+  "days": [
+   30
+  ],
+  "t": "18:00",
+  "note": "Punk, metalcore and emo night.",
+  "u": "melkweg.nl/en/agenda/no-barrier-30-10-2026",
+  "ul": "Info",
+  "tags": [
+   "Halloween"
+  ]
+ },
+ {
+  "n": "Science Fiction, Fantasy & Marxism – Jelle Klaas",
+  "v": "OT301 · Ventilator Cinema",
+  "c": "talk",
+  "days": [
+   30
+  ],
+  "t": "18:45",
+  "note": "Talk and screening on what sci-fi and fantasy say about capitalism.",
+  "u": "ot301.nl/agenda/23014",
+  "ul": "Info",
+  "img": "img/ot301-science-fiction-fantasy-marxism-jelle-klaas-30.jpg"
+ },
+ {
+  "n": "EMBER #3",
+  "v": "OT301 · 4bid Gallery",
+  "c": "music",
+  "days": [
+   30
+  ],
+  "t": "19:00",
+  "note": "Intimate evening with Anouk van Wijk and Nene Moné. Donation-based.",
+  "u": "ot301.nl/agenda/23257",
+  "ul": "Info",
+  "img": "img/ot301-ember-3-30.jpg"
+ },
+ {
+  "n": "London Calling",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   30
+  ],
+  "t": "19:00",
+  "note": "Indie / alt / (post)punk festival for high-profile up and coming bands.",
+  "u": "paradiso.nl/en/program/london-calling/2851991",
+  "ul": "Info"
+ },
+ {
+  "n": "Mike D 5D",
+  "v": "Melkweg · Max",
+  "c": "music",
+  "days": [
+   30
+  ],
+  "t": "19:00",
+  "note": "Hardcore hip hop and rap.",
+  "u": "melkweg.nl/en/agenda/mike-d-30-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-mike-d-5d-30.jpg"
+ },
+ {
+  "n": "Wajda’s Legacy: documentaries from the Wajda School",
+  "v": "De Balie · Filmzaal",
+  "c": "film",
+  "days": [
+   30
+  ],
+  "t": "19:00",
+  "note": "Shorts from Warsaw’s film school for emerging directors.",
+  "u": "debalie.nl/cinema/wajdas-legacy-documentaries-from-the-wajda-school",
+  "ul": "Info",
+  "img": "img/de-balie-wajdas-legacy-documentaries-from-the-wajda-schoo-30.jpg"
+ },
+ {
+  "n": "Benjamin Steer",
+  "v": "Melkweg · Annie",
+  "c": "music",
+  "days": [
+   30
+  ],
+  "t": "19:30",
+  "note": "Indie pop and folk.",
+  "u": "melkweg.nl/en/agenda/benjamin-steer-30-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-benjamin-steer-30.jpg"
+ },
+ {
+  "n": "Flat Earth Society: The Coltrane Mutations",
+  "v": "Concertgebouw · Kleine Zaal",
+  "c": "music",
+  "days": [
+   30
+  ],
+  "t": "20:15",
+  "note": "Belgian big band’s wild tribute to John Coltrane.",
+  "u": "concertgebouw.nl/concerten/43931217-flat-earth-society-the-coltrane-mutations",
+  "ul": "Info",
+  "img": "img/concertgebouw-flat-earth-society-the-coltrane-mutations-30.jpg"
+ },
+ {
+  "n": "Dan Whitlam + Zoë Love Smith + May",
+  "v": "Zonnehuis",
+  "c": "music",
+  "days": [
+   30
+  ],
+  "t": "20:45",
+  "note": "Mix of spoken word en rap from Londen.",
+  "u": "paradiso.nl/en/program/dan-whitlam/2885391",
+  "ul": "Info",
+  "img": "img/paradiso-dan-whitlam-zoe-love-smith-may-30.jpg"
+ },
+ {
+  "n": "NOFX: 40 Years of Fuckin' Up + Q&A with El Hefe",
+  "v": "Melkweg · Cinema",
+  "c": "film",
+  "days": [
+   30
+  ],
+  "t": "21:45",
+  "note": "Punk documentary followed by a Q&A with the guitarist.",
+  "u": "melkweg.nl/en/agenda/nofx-40-years-of-fuckin-up-2026-30-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-nofx-40-years-of-fuckin-up-q-a-with-el-hefe-30.jpg"
+ },
+ {
+  "n": "De Sering’s Community Halloween Bash",
+  "v": "De Sering West",
+  "c": "night",
+  "days": [
+   30
+  ],
+  "t": "22:00",
+  "note": "Spooky drinks, costumes and tarot readings. Free with RSVP.",
+  "u": "form.jotform.com/262673916040356",
+  "ul": "RSVP",
+  "img": "img/de-sering-de-serings-community-halloween-bash-30.jpg",
+  "free": 1,
+  "tags": [
+   "Halloween"
+  ]
+ },
+ {
+  "n": "Idilay All Night Long",
+  "v": "Nachbar",
+  "c": "night",
+  "days": [
+   30
+  ],
+  "t": "22:00",
+  "note": "Idilay plays all night at Nachbar.",
+  "u": "nachbar.stager.co/shop/nachbar",
+  "ul": "Tickets"
+ },
+ {
+  "n": "Zwarte Liefde",
+  "v": "Skatecafe",
+  "c": "night",
+  "days": [
+   30
+  ],
+  "t": "22:00",
+  "note": "Big local lineup: Abstract, Chuckie, Leks (UK), Postmen (live), Silloh (UK) and more.",
+  "u": "skatecafe.weticket.io/zwarte-liefde",
+  "ul": "Tickets",
+  "img": "img/skatecafe-zwarte-liefde-30.jpg"
+ },
+ {
+  "n": "Co-curated by Oceanic w/ Tristan Arp (live), ISA W & Oceanic",
+  "v": "Garage Noord",
+  "c": "night",
+  "days": [
+   30
+  ],
+  "t": "23:00",
+  "note": "Tristan Arp plays live; Oceanic curate the night.",
+  "u": "garagenoord.com/club/co-curated-by-oceanic-w-tristan-arp-live-isa-w-oceanic",
+  "ul": "Info",
+  "img": "img/garage-noord-co-curated-by-oceanic-w-tristan-arp-live-isa-w-o-30.jpg"
+ },
+ {
+  "n": "VIS 01 AMS – Bella Hall & Sachiko",
+  "v": "OT301 · Studios",
+  "c": "night",
+  "days": [
+   30
+  ],
+  "t": "23:00",
+  "note": "Techno, breakbeat, jungle and experimental club sounds.",
+  "u": "ot301.nl/agenda/23069",
+  "ul": "Info",
+  "img": "img/ot301-vis-01-ams-bella-hall-sachiko-30.jpg"
+ },
+ {
+  "n": "LC LATE – FRIDAY NIGHT",
+  "v": "Paradiso",
+  "c": "night",
+  "days": [
+   30
+  ],
+  "t": "23:30",
+  "note": "Discover new indie music in the late hours.",
+  "u": "paradiso.nl/en/program/lc-late-friday-night/2921551",
+  "ul": "Info"
+ },
+ {
+  "n": "AanTafel!",
+  "v": "Melkweg · Annie",
+  "c": "night",
+  "days": [
+   30
+  ],
+  "t": "23:59",
+  "note": "Eclectic funk club night by DTM.",
+  "u": "melkweg.nl/en/agenda/aantafel-30-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-aantafel-30.jpg"
+ },
+ {
+  "n": "Fi Di Gyal Dem",
+  "v": "Parallel",
+  "c": "night",
+  "days": [
+   30
+  ],
+  "t": "23:59",
+  "note": "Clubnight with Dancehall, Soca and Bouyon.",
+  "u": "paradiso.nl/en/program/fi-di-gyal-dem-parallel/2929266",
+  "ul": "Info",
+  "img": "img/paradiso-fi-di-gyal-dem-30.jpg"
+ },
+ {
+  "n": "Pon Di Pride: Mischief Night",
+  "v": "Melkweg · Oude Zaal",
+  "c": "night",
+  "days": [
+   30
+  ],
+  "t": "23:59",
+  "note": "Queer dancehall and ball culture.",
+  "u": "melkweg.nl/en/agenda/pon-di-pride-30-10-2026",
+  "ul": "Info"
+ },
+ {
+  "n": "Raving Charlie – Halloween Edition",
+  "v": "Melkweg · Max",
+  "c": "night",
+  "days": [
+   30
+  ],
+  "t": "23:59",
+  "note": "Hard techno and nu-rave.",
+  "u": "melkweg.nl/en/agenda/raving-charlie-30-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-raving-charlie-halloween-edition-30.jpg",
+  "tags": [
+   "Halloween"
+  ]
+ },
+ {
+  "n": "We Love 00s Halloween",
+  "v": "Paradiso",
+  "c": "night",
+  "days": [
+   30
+  ],
+  "t": "23:59",
+  "note": "Nostalgic club night takes you back to the 2000s.",
+  "u": "paradiso.nl/en/program/we-love-00s/2938925",
+  "ul": "Info"
+ },
+ {
+  "n": "IJ-Hallen flea market",
+  "v": "IJ-Hallen · NDSM",
+  "c": "market",
+  "days": [
+   31
+  ],
+  "t": "09:00",
+  "note": "Europe’s biggest flea market: 600 indoor stands. Also on Sunday 1 Nov.",
+  "u": "ijhallen.nl/agenda.php",
+  "ul": "Info"
+ },
+ {
+  "n": "de Appel: Eight-hour Organising/Venting — Making a Banner, Printing Shirts, Talking about Class (open)",
+  "v": "de Appel",
+  "c": "talk",
+  "days": [
+   31
+  ],
+  "t": "12:00",
+  "u": "deappel.nl",
+  "ul": "Info",
+  "free": 1
+ },
+ {
+  "n": "Visual Encounters Film Fest 2026",
+  "v": "OT301 · Ventilator Cinema",
+  "c": "film",
+  "days": [
+   31
+  ],
+  "t": "12:30",
+  "note": "Day of documentaries in the Ventilator Cinema.",
+  "u": "ot301.nl/agenda/23011",
+  "ul": "Info",
+  "img": "img/ot301-visual-encounters-film-fest-2026-31.jpg"
+ },
+ {
+  "n": "London Calling – High Tea",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   31
+  ],
+  "t": "13:00",
+  "note": "Afternoon showcase programme featuring Momo Boyd, Knats, Tokyo Tea Room and more.",
+  "u": "paradiso.nl/en/program/london-calling-high-tea/2921602",
+  "ul": "Info"
+ },
+ {
+  "n": "London Calling",
+  "v": "Paradiso",
+  "c": "music",
+  "days": [
+   31
+  ],
+  "t": "14:00",
+  "note": "Indie / alt / (post)punk festival for high-profile up and coming bands.",
+  "u": "paradiso.nl/en/program/london-calling/2851999",
+  "ul": "Info"
+ },
+ {
+  "n": "Videodrome (1983) – David Cronenberg",
+  "v": "Filmtheater Kriterion",
+  "c": "film",
+  "days": [
+   31
+  ],
+  "t": "14:00",
+  "note": "Cronenberg body horror classic for Halloween.",
+  "u": "kriterion.nl/films/videodrome-1983",
+  "ul": "Info"
+ },
+ {
+  "n": "Sheherazade & Darvishi",
+  "v": "Concertgebouw · Grote Zaal",
+  "c": "music",
+  "days": [
+   31
+  ],
+  "t": "14:15",
+  "note": "Two cello concertos and Rimsky-Korsakov’s Sheherazade.",
+  "u": "concertgebouw.nl/concerten/45743534-oosterse-klanken-van-sheherazade-darvishi",
+  "ul": "Info",
+  "img": "img/concertgebouw-sheherazade-darvishi-31.jpg"
+ },
+ {
+  "n": "Suzaki Paradise Red Light + intro",
+  "v": "Eye Filmmuseum",
+  "c": "film",
+  "days": [
+   31
+  ],
+  "t": "16:45",
+  "note": "Kawashima’s unsentimental story of a young couple on the edge of Tokyo’s red-light district.",
+  "u": "eyefilm.nl/whats-on/suzaki-paradise-red-light/1693752/1693778",
+  "ul": "Info",
+  "img": "img/eye-suzaki-paradise-red-light-intro-31.jpg"
+ },
+ {
+  "n": "Only The Poets – Halloween Special",
+  "v": "Melkweg · Max",
+  "c": "music",
+  "days": [
+   31
+  ],
+  "t": "18:30",
+  "note": "UK indie pop band.",
+  "u": "melkweg.nl/en/agenda/only-the-poets-31-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-only-the-poets-halloween-special-31.jpg",
+  "tags": [
+   "Halloween"
+  ]
+ },
+ {
+  "n": "Una Notte al Circo @ Lolo",
+  "v": "Lolo",
+  "c": "city",
+  "days": [
+   31
+  ],
+  "t": "18:30",
+  "note": "Lolo turns into a dark circus for Halloween: dinner, cocktails and live entertainment.",
+  "u": "debuik.nl/amsterdam/agenda/una-notta-al-circo-lolo",
+  "ul": "Info",
+  "tags": [
+   "Halloween"
+  ]
+ },
+ {
+  "n": "Maghreb Film Festival: Poupiya",
+  "v": "De Balie · Filmzaal",
+  "c": "film",
+  "days": [
+   31
+  ],
+  "t": "19:00",
+  "note": "A young man’s search for love collides with a colonel haunted by Algeria’s past.",
+  "u": "debalie.nl/programma/maghreb-film-festival-poupiya-31-10-2026",
+  "ul": "Info",
+  "img": "img/de-balie-maghreb-film-festival-poupiya-31.jpg"
+ },
+ {
+  "n": "The Hmm @ Brainwash Festival",
+  "v": "Brainwash Festival · IJzaal",
+  "c": "talk",
+  "days": [
+   31
+  ],
+  "t": "19:00",
+  "note": "AI workshops for kids 8+ and their parents: Make your own Slopject and Squish the System.",
+  "u": "thehmm.nl/event/the-hmm-brainwash-festival",
+  "ul": "Info",
+  "img": "img/the-hmm-the-hmm-brainwash-festival-31.jpg"
+ },
+ {
+  "n": "Schur – The No Schortcuts Tour",
+  "v": "Melkweg · Oude Zaal",
+  "c": "music",
+  "days": [
+   31
+  ],
+  "t": "19:30",
+  "note": "Indie rock with hip hop edges.",
+  "u": "melkweg.nl/en/agenda/schur-31-10-2026",
+  "ul": "Info",
+  "img": "img/melkweg-schur-the-no-schortcuts-tour-31.jpg"
+ },
+ {
+  "n": "Derk Sauer Lecture: Evan Gershkovich",
+  "v": "De Balie · Grote Zaal",
+  "c": "talk",
+  "days": [
+   31
+  ],
+  "t": "20:00",
+  "note": "The WSJ journalist who spent 16 months in a Russian prison gives the first lecture. In English.",
+  "u": "debalie.nl/programma/derk-sauer-lecture-by-evan-gershkovich-31-10-2026",
+  "ul": "Info",
+  "img": "img/de-balie-derk-sauer-lecture-evan-gershkovich-31.jpg"
+ },
+ {
+  "n": "Carlotta Dalia: from Bach to Castelnuovo-Tedesco",
+  "v": "Concertgebouw · Kleine Zaal",
+  "c": "music",
+  "days": [
+   31
+  ],
+  "t": "20:15",
+  "note": "Amsterdam debut of the Tuscan guitarist.",
+  "u": "concertgebouw.nl/concerten/37899480-meesters-op-de-gitaar-carlotta-dalia---van-bach-tot-castelnuovo-tedesco",
+  "ul": "Info",
+  "img": "img/concertgebouw-carlotta-dalia-from-bach-to-castelnuovo-tedesco-31.jpg"
+ },
+ {
+  "n": "Stravinsky’s Rite of Spring & Wynton Marsalis’ Cello Concerto",
+  "v": "Concertgebouw · Grote Zaal",
+  "c": "music",
+  "days": [
+   31
+  ],
+  "t": "20:15",
+  "note": "Hannu Lintu conducts the Netherlands Philharmonic.",
+  "u": "concertgebouw.nl/concerten/45550450-stravinskys-le-sacre-du-printemps-en-wynton-marsalis-celloconcert",
+  "ul": "Info",
+  "img": "img/concertgebouw-stravinskys-rite-of-spring-wynton-marsalis-cello-31.jpg"
+ },
+ {
+  "n": "Imagine Halloween Party – Drag King Mannish Pixel",
+  "v": "OT301 · Studios",
+  "c": "night",
+  "days": [
+   31
+  ],
+  "t": "22:00",
+  "note": "Soul, funk, hip hop, rock ’n’ roll and exotica in costume.",
+  "u": "ot301.nl/agenda/23117",
+  "ul": "Info",
+  "tags": [
+   "Halloween"
+  ]
+ },
+ {
+  "n": "Pacific Ondergronds & Kruispunt present: Halloweenfest",
+  "v": "Skatecafe",
+  "c": "night",
+  "days": [
+   31
+  ],
+  "t": "22:00",
+  "note": "Halloween party by two Amsterdam collectives.",
+  "u": "skatecafe.weticket.io/pacific-ondergronds-kruispunt-presenteren-halloweenfest",
+  "ul": "Tickets",
+  "img": "img/skatecafe-pacific-ondergronds-kruispunt-present-halloweenf-31.jpg",
+  "tags": [
+   "Halloween"
+  ]
+ },
+ {
+  "n": "Kumata x New World Dysorder",
+  "v": "Garage Noord",
+  "c": "night",
+  "days": [
+   31
+  ],
+  "t": "23:00",
+  "note": "Halloween-night party by two Amsterdam crews.",
+  "u": "garagenoord.com/club/new-world-dysorder-x-kumata",
+  "ul": "Info",
+  "img": "img/garage-noord-kumata-x-new-world-dysorder-31.jpg"
+ },
+ {
+  "n": "Sissi’s Saturday: SLALLOWEEN by Slim Radio",
+  "v": "Sissi's",
+  "c": "night",
+  "days": [
+   31
+  ],
+  "t": "23:00",
+  "note": "Halloween party hosted by Slim Radio.",
+  "u": "sissisamsterdam.weticket.io/sissis-halloween-by-slimradio",
+  "ul": "Tickets",
+  "img": "img/sissis-sissis-saturday-slalloween-by-slim-radio-31.jpg",
+  "tags": [
+   "Halloween"
+  ]
+ },
+ {
+  "n": "Sumibu Halloween Night",
+  "v": "Melkweg · Annie",
+  "c": "night",
+  "days": [
+   31
+  ],
+  "t": "23:00",
+  "note": "Hip hop Halloween party.",
+  "u": "melkweg.nl/en/agenda/sumibu-halloween-night-31-10-2026",
+  "ul": "Info",
+  "tags": [
+   "Halloween"
+  ]
+ },
+ {
+  "n": "A Bitter Halloween",
+  "v": "Bitterzoet",
+  "c": "night",
+  "days": [
+   31
+  ],
+  "t": "23:30",
+  "note": "Annual Halloween party at Bitterzoet. €10.",
+  "u": "bitterzoet.com/agenda",
+  "ul": "Info"
+ },
+ {
+  "n": "Indiesleaze Halloween Night",
+  "v": "Paradiso",
+  "c": "night",
+  "days": [
+   31
+  ],
+  "t": "23:30",
+  "note": "Dance night with live music where y2k nostalgia meets new music.",
+  "u": "paradiso.nl/en/program/indiesleaze-halloween-night/2921614",
+  "ul": "Info"
+ },
+ {
+  "n": "LC LATE – SATURDAY NIGHT w/ Sex Mask, Cutouts, Tanzana, Mouth Ulcers",
+  "v": "Paradiso",
+  "c": "night",
+  "days": [
+   31
+  ],
+  "t": "23:30",
+  "note": "Discover new indie music in the late hours.",
+  "u": "paradiso.nl/en/program/lc-late-saturday-night-w-sex-mask-the-cutouts-tanzana-mouth-ulcers/2921572",
+  "ul": "Info"
+ },
+ {
+  "n": "Olá Brazil! Halloween",
+  "v": "Melkweg · Max",
+  "c": "night",
+  "days": [
+   31
+  ],
+  "t": "23:30",
+  "note": "Costume party with baile funk, samba and forró.",
+  "u": "melkweg.nl/en/agenda/ola-brazil-31-10-2026",
+  "ul": "Info",
+  "tags": [
+   "Halloween"
+  ]
+ },
+ {
+  "n": "CULTUR FM AMSTERDAM",
+  "v": "Parallel",
+  "c": "night",
+  "days": [
+   31
+  ],
+  "t": "23:59",
+  "note": "Clubnight with Afrobeats, Amapiano, and Gqom.",
+  "u": "paradiso.nl/en/program/cultur-fm/2942114",
+  "ul": "Info",
+  "img": "img/paradiso-cultur-fm-amsterdam-31.jpg"
+ },
+ {
+  "n": "Abracadabra — magic & Jewish history",
+  "v": "Joods Museum Amsterdam",
+  "c": "art",
+  "note": "Exhibition on the history of magic and Jewish mysticism. Until Mar 29, 2027.",
+  "u": "jck.nl/en/agenda/abracadabra",
+  "run": true,
+  "s": 19,
+  "e": 31,
+  "ul": "Info"
+ },
+ {
+  "n": "Carel Visser — free sculpture garden",
+  "v": "Rijksmuseum gardens",
+  "c": "art",
+  "note": "Free outdoor sculpture exhibition in the Rijksmuseum gardens. Until Oct 25.",
+  "u": "rijksmuseum.nl/en/whats-on",
+  "free": 1,
+  "run": true,
+  "s": 19,
+  "e": 25,
+  "ul": "Info"
+ },
+ {
+  "n": "Chez Matisse: 80 rarely lent works from Centre Pompidou",
+  "v": "H'ART Museum",
+  "c": "art",
+  "u": "hartmuseum.nl/en",
+  "ul": "Info",
+  "isNew": "Opened 3 Oct",
+  "run": true,
+  "s": 19,
+  "e": 99,
+  "when": "Now"
+ },
+ {
+  "n": "Cold in Church – Sails of Anarchy",
+  "v": "Arti et Amicitiae",
+  "c": "art",
+  "note": "Immersive installation around the Amsterdam collective’s new concept album Convent.",
+  "u": "arti.nl/agenda/09-10-2026/sails-of-anarchy",
+  "ul": "Info",
+  "img": "img/arti-et-amicitiae-cold-in-church-sails-of-anarchy-19.jpg",
+  "run": true,
+  "s": 19,
+  "e": 99,
+  "when": "Until 7 Nov"
+ },
+ {
+  "n": "Eight Cubic Meters: Chaya Adelaars – Dubbel Glas/Double Glazing",
+  "v": "Rietveld Academie",
+  "c": "art",
+  "note": "Small-scale exhibition in the academy’s Eight Cubic Meters space.",
+  "u": "rietveldacademie.nl/en/page/38556/eight-cubic-meters-by-chaya-adelaars-dubbel-glas-double-glazing",
+  "ul": "Info",
+  "run": true,
+  "s": 19,
+  "e": 99,
+  "when": "Until 19 Nov"
+ },
+ {
+  "n": "Frida Kahlo: Viva la Vida — Immersive Exhibition",
+  "v": "Vincent Hall",
+  "c": "art",
+  "note": "Immersive exhibition dedicated to Frida Kahlo's life and work. Until Jan 10, 2027.",
+  "u": "frida.amsterdam",
+  "run": true,
+  "s": 19,
+  "e": 31,
+  "ul": "Info"
+ },
+ {
+  "n": "From Vermeer to Van Gogh — digital immersive",
+  "v": "Fabrique des Lumières",
+  "c": "art",
+  "note": "Immersive exhibition of Dutch Masters. Daily mornings until Nov 1, 2026.",
+  "u": "fabrique-lumieres.com/en",
+  "run": true,
+  "s": 19,
+  "e": 31,
+  "ul": "Info"
+ },
+ {
+  "n": "Glass, Made in Antiquity",
+  "v": "Allard Pierson",
+  "c": "art",
+  "note": "Until Nov 1, 2026.",
+  "u": "allardpierson.nl/en",
+  "run": true,
+  "s": 19,
+  "e": 31,
+  "ul": "Info"
+ },
+ {
+  "n": "Hailun Ma — photography",
+  "v": "Foam Photography Museum",
+  "c": "art",
+  "note": "Temporarily closed — check foam.org before visiting; exhibitions on view when open.",
+  "u": "foam.org/programme",
+  "run": true,
+  "s": 19,
+  "e": 31,
+  "ul": "Info"
+ },
+ {
+  "n": "Human Water – On Body Agency (Human Water Foundation)",
+  "v": "Arti et Amicitiae",
+  "c": "art",
+  "note": "Opening exhibition for breast-cancer awareness month.",
+  "u": "arti.nl/agenda/12-10-2026/human-water-foundation-kick-off-tentoonstelling",
+  "ul": "Info",
+  "img": "img/arti-et-amicitiae-human-water-on-body-agency-human-water-foundatio-19.jpg",
+  "run": true,
+  "s": 19,
+  "e": 23,
+  "when": "Until 23 Oct"
+ },
+ {
+  "n": "Keerthana Kunnath: Not What You Saw",
+  "v": "Foam Photography Museum",
+  "c": "art",
+  "note": "Temporarily closed — check foam.org before visiting; exhibitions on view when open.",
+  "u": "foam.org/programme",
+  "run": true,
+  "s": 19,
+  "e": 31,
+  "ul": "Info"
+ },
+ {
+  "n": "Lapdogs of the Bourgeoisie 2026: Class Hegemony in Contemporary Art",
+  "v": "de Appel",
+  "c": "art",
+  "note": "20 years later, revisiting how class shapes art production and reception.",
+  "u": "deappel.nl",
+  "ul": "Info",
+  "run": true,
+  "s": 19,
+  "e": 99,
+  "when": "Until 21 Nov"
+ },
+ {
+  "n": "Maqam: Yomna el Beyaly, In Her Own Way",
+  "v": "Mercatorplein",
+  "c": "art",
+  "note": "Part of Al Nisa, multiple artists, 1 Oct to 20 Dec.",
+  "u": "maqam.amsterdam",
+  "ul": "Info",
+  "run": true,
+  "s": 19,
+  "e": 29,
+  "when": "Until 29 Oct"
+ },
+ {
+  "n": "Nadav Kander: The Edge of Things",
+  "v": "Foam Photography Museum",
+  "c": "art",
+  "note": "Temporarily closed — check foam.org before visiting; exhibitions on view when open.",
+  "u": "foam.org/programme",
+  "run": true,
+  "s": 19,
+  "e": 31,
+  "ul": "Info"
+ },
+ {
+  "n": "Naza",
+  "v": "Filmtheater Kriterion",
+  "c": "film",
+  "note": "Intense French drama. Multiple daily screenings.",
+  "u": "kriterion.nl/films/naza",
+  "ul": "Info",
+  "run": true,
+  "s": 19,
+  "e": 21,
+  "when": "Until 21 Oct"
+ },
+ {
+  "n": "Ode aan Kusama @ Restaurant Sandberg",
+  "v": "Restaurant Sandberg",
+  "c": "city",
+  "note": "Five-course dinners inspired by Yayoi Kusama, next to the Stedelijk retrospective.",
+  "u": "debuik.nl/amsterdam/agenda/ode-aan-kusama-restaurant-sandberg",
+  "ul": "Info",
+  "run": true,
+  "s": 19,
+  "e": 31,
+  "when": "Until 31 Oct"
+ },
+ {
+  "n": "Pioneers of Media Art",
+  "v": "Nxt Museum",
+  "c": "art",
+  "note": "Immersive new media art exhibition — Amsterdam's largest digital art space.",
+  "u": "nxtmuseum.com",
+  "ul": "Info",
+  "run": true,
+  "s": 19,
+  "e": 99,
+  "when": "Now"
+ },
+ {
+  "n": "Please Continue… Conversations with Holocaust Witnesses",
+  "v": "Holocaust Museum Amsterdam",
+  "c": "art",
+  "note": "Installation with testimonies of Holocaust survivors. Until Jun 6, 2027. Part of the Jewish Cultural Quarter.",
+  "u": "jck.nl/en/agenda/please-continue-conversations-with-holocaust-witnesses",
+  "run": true,
+  "s": 19,
+  "e": 31,
+  "ul": "Info"
+ },
+ {
+  "n": "Queer Amsterdam, the Pink City",
+  "v": "Nieuwe Kerk",
+  "c": "art",
+  "note": "Long-running exhibition on Amsterdam's queer history. Until Apr 4, 2027.",
+  "u": "nieuwekerk.nl/en/exhibitions",
+  "run": true,
+  "s": 19,
+  "e": 31,
+  "ul": "Info"
+ },
+ {
+  "n": "SAMEN-samen",
+  "v": "Arti et Amicitiae",
+  "c": "art",
+  "note": "Artists working in duos.",
+  "u": "arti.nl/agenda/13-10-2026/samen-samen",
+  "ul": "Info",
+  "img": "img/arti-et-amicitiae-samen-samen-19.jpg",
+  "run": true,
+  "s": 19,
+  "e": 99,
+  "when": "Until 15 Nov"
+ },
+ {
+  "n": "Snogeiros – People of the Snoge",
+  "v": "Joods Museum · Portuguese Synagogue",
+  "c": "art",
+  "note": "Exhibition about the Sephardic Jewish community of Amsterdam. In the Portuguese Synagogue. Until Nov 8, 2026.",
+  "u": "jck.nl/en/agenda/snogeiros-people-of-the-snoge",
+  "run": true,
+  "s": 19,
+  "e": 31,
+  "ul": "Info"
+ },
+ {
+  "n": "The Land of Chocolate Sprinkles — Building a New World Together",
+  "v": "H'ART Museum",
+  "c": "art",
+  "note": "Until Nov 8, 2026.",
+  "u": "hartmuseum.nl/en",
+  "run": true,
+  "s": 19,
+  "e": 31,
+  "ul": "Info"
+ },
+ {
+  "n": "The Nature of Remembering",
+  "v": "W139",
+  "c": "art",
+  "note": "Group exhibition on memory, land and loss, initiated by Lawil Karama.",
+  "u": "w139.nl/event/the-nature-of-remembering",
+  "ul": "Info",
+  "img": "img/w139-the-nature-of-remembering-19.jpg",
+  "free": 1,
+  "run": true,
+  "s": 19,
+  "e": 31,
+  "when": "Until 1 Nov"
+ },
+ {
+  "n": "Toutes Directions",
+  "v": "Filmtheater Kriterion",
+  "c": "film",
+  "note": "French road movie by Hafsia Herzi. Multiple daily screenings.",
+  "u": "kriterion.nl/films/toutes-directions",
+  "ul": "Info",
+  "run": true,
+  "s": 19,
+  "e": 21,
+  "when": "Until 21 Oct"
+ },
+ {
+  "n": "Ulrich Seidl: Paradies trilogy (Liebe / Glaube / Hoffnung)",
+  "v": "Filmtheater Kriterion",
+  "c": "film",
+  "note": "All three Paradies films screening this week. Ties to Eye Film Seidl retrospective.",
+  "u": "kriterion.nl/programma",
+  "ul": "Info",
+  "run": true,
+  "s": 19,
+  "e": 21
+ },
+ {
+  "n": "Ulrich Seidl: Über das Leben, die Liebe und den Tod",
+  "v": "Eye Filmmuseum",
+  "c": "art",
+  "note": "Exhibition on the Austrian filmmaker’s unsettling portraits of ordinary lives, with films and talks.",
+  "u": "eyefilm.nl/programma/ulrich-seidl/1633828",
+  "ul": "Info",
+  "run": true,
+  "s": 19,
+  "e": 99,
+  "when": "Until 31 Jan 2027"
+ },
+ {
+  "n": "Unfinished Pasts: Return, Keep, or…?",
+  "v": "Wereldmuseum Amsterdam",
+  "c": "art",
+  "note": "Major exhibition on colonial collections and restitution. Until Jan 3, 2027.",
+  "u": "amsterdam.wereldmuseum.nl/en/whats-on/exhibitions",
+  "run": true,
+  "s": 19,
+  "e": 31,
+  "ul": "Info"
+ },
+ {
+  "n": "Wellness, Wigs and Weapons",
+  "v": "Arti et Amicitiae",
+  "c": "art",
+  "note": "Exhibition that feels like a boutique slowly detaching from reality.",
+  "u": "arti.nl/agenda/09-10-2026/wellness-wigs-and-weapons",
+  "ul": "Info",
+  "img": "img/arti-et-amicitiae-wellness-wigs-and-weapons-19.jpg",
+  "run": true,
+  "s": 19,
+  "e": 99,
+  "when": "Until 7 Nov"
+ },
+ {
+  "n": "Yayoi Kusama retrospective",
+  "v": "Stedelijk Museum",
+  "c": "art",
+  "note": "Record-breaking retrospective of Japan's most influential living artist. Until 17 Jan 2027. Timed-entry ticket required.",
+  "u": "stedelijk.nl/nl/nu-te-zien",
+  "run": true,
+  "s": 19,
+  "e": 31,
+  "ul": "Info"
+ },
+ {
+  "n": "The Elegant Beasts of Yuzo Kawashima",
+  "v": "Eye Filmmuseum",
+  "c": "film",
+  "note": "Retrospective of the Japanese director who links 1950s classics to the New Wave.",
+  "u": "eyefilm.nl/programma/yuzo-kawashima/1693482",
+  "ul": "Info",
+  "img": "img/eye-the-elegant-beasts-of-yuzo-kawashima-22.jpg",
+  "run": true,
+  "s": 22,
+  "e": 99,
+  "when": "22 Oct – 11 Nov"
+ },
+ {
+  "n": "Adolphe de Meyer: The Substance of a Venetian Dream",
+  "v": "Huis Marseille",
+  "c": "art",
+  "note": "World première: 75 rediscovered Venice photographs by Adolphe de Meyer, his first European museum show. Opens 24 Oct.",
+  "u": "huismarseille.nl/en/exhibitions/venetian-dream/",
+  "run": true,
+  "s": 24,
+  "e": 31,
+  "ul": "Info"
+ },
+ {
+  "n": "Andrzej Steinbach: Hier",
+  "v": "Huis Marseille",
+  "c": "art",
+  "note": "Opens Oct 24. Until Feb 7, 2027.",
+  "u": "huismarseille.nl/en/exhibitions/",
+  "run": true,
+  "s": 24,
+  "e": 31,
+  "ul": "Info"
+ },
+ {
+  "n": "Maya Inès Touam: Belongings",
+  "v": "Huis Marseille",
+  "c": "art",
+  "note": "First Dutch solo show by the French-Algerian artist: tableaus where myth meets contemporary themes. Opens 24 Oct.",
+  "u": "huismarseille.nl/en/exhibitions/maya-ines-touam/",
+  "run": true,
+  "s": 24,
+  "e": 31,
+  "ul": "Info"
+ },
+ {
+  "n": "Régis Gonçalves – In Memoriam",
+  "v": "Arti et Amicitiae",
+  "c": "art",
+  "note": "In memory of men persecuted for sodomy in Amsterdam, 1730–1810.",
+  "u": "arti.nl/agenda/26-10-2026/regis-goncalves-in-memoriam",
+  "ul": "Info",
+  "img": "img/arti-et-amicitiae-regis-goncalves-in-memoriam-26.jpg",
+  "run": true,
+  "s": 26,
+  "e": 99,
+  "when": "26 Oct – 6 Nov"
+ }
 ]
