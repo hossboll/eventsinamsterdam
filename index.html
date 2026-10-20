@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AMSTERDAM AGENDA // OCT 2026</title>
+    <title>AMSTERDAM AGENDA</title>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,600;1,6..72,400&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
     <!-- Google Material Symbols -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0&icon_names=location_on,schedule,signpost,event,movie,music_note,nightlife,restaurant,apartment,storefront,podium,palette,theater_comedy,stadium,campaign" />
@@ -390,18 +390,67 @@
 
     <div class="page-info-footer">
         <span id="db-status">DATABASE: LOADING...</span>
-        <span>OCT 2026 · AMSTERDAM</span>
+        <span id="range-label">AMSTERDAM</span>
     </div>
 
     <script>
         let eventsData = [];
         
-        const now = new Date();
-        const currentMonth = now.getMonth();
-        const currentYear = now.getFullYear();
-        let today = (currentMonth === 9 && currentYear === 2026) ? now.getDate() : 8;
-        let tomorrow = today + 1;
-        if (tomorrow > 31) tomorrow = 31;
+        // ---- Dates ---------------------------------------------------------------
+        // events.json uses ISO dates: days: ["2026-10-21", ...], run events: s/e: "YYYY-MM-DD".
+        // Legacy numeric days (pre-Nov 2026 data) are read as October 2026; e >= 99 = open-ended.
+        // "Today" is computed in Amsterdam time. Test another day with ?today=YYYY-MM-DD.
+        const TZ = 'Europe/Amsterdam';
+        const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+        const DOW = ['Su','Mo','Tu','We','Th','Fr','Sa'];
+        const LEGACY_MONTH = '2026-10';
+
+        function toISO(d) {
+            if (d === null || d === undefined || d === '') return null;
+            if (typeof d === 'number') return d >= 99 ? '9999-12-31' : `${LEGACY_MONTH}-${String(d).padStart(2, '0')}`;
+            return String(d).slice(0, 10);
+        }
+        function amsterdamToday() {
+            const override = new URLSearchParams(location.search).get('today');
+            if (override && /^\d{4}-\d{2}-\d{2}$/.test(override)) return override;
+            return new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+        }
+        function parseISO(iso) { const [y, m, d] = iso.split('-').map(Number); return new Date(Date.UTC(y, m - 1, d)); }
+        function addDays(iso, n) { const dt = parseISO(iso); dt.setUTCDate(dt.getUTCDate() + n); return dt.toISOString().slice(0, 10); }
+        function dayNum(iso) { return parseISO(iso).getUTCDate(); }
+        function monLabel(iso) { return MONTHS[parseISO(iso).getUTCMonth()]; }
+        function dowLabel(iso) { return DOW[parseISO(iso).getUTCDay()]; }
+        function shortDate(iso) { return `${monLabel(iso)} ${dayNum(iso)}`; }
+        function eventDays(item) { return Array.isArray(item.days) ? item.days.map(toISO).filter(Boolean) : []; }
+        function runStart(item) { return toISO(item.s) || '0000-01-01'; }
+        function runEnd(item) { return toISO(item.e) || '9999-12-31'; }
+        function formatDays(list) {
+            // ["2026-10-30","2026-10-31","2026-11-01"] -> "Oct 30, 31 · Nov 1"
+            const groups = [];
+            list.forEach(iso => {
+                const key = iso.slice(0, 7);
+                const g = groups[groups.length - 1];
+                if (g && g.key === key) g.days.push(dayNum(iso));
+                else groups.push({ key, mon: monLabel(iso), days: [dayNum(iso)] });
+            });
+            return groups.map(g => `${g.mon} ${g.days.join(', ')}`).join(' · ');
+        }
+        function calStamp(dt) { return dt.toISOString().replace(/[-:]/g, '').slice(0, 15); } // YYYYMMDDTHHMMSS
+        function lastEventDay() {
+            let last = today;
+            eventsData.forEach(item => eventDays(item).forEach(d => { if (d > last) last = d; }));
+            const cap = addDays(today, 42);
+            return last > cap ? cap : last;
+        }
+        function rangeLabel(from, to) {
+            const [y1, y2] = [from.slice(0, 4), to.slice(0, 4)];
+            const [m1, m2] = [monLabel(from).toUpperCase(), monLabel(to).toUpperCase()];
+            if (from.slice(0, 7) === to.slice(0, 7)) return `${m1} ${y1}`;
+            return y1 === y2 ? `${m1}–${m2} ${y1}` : `${m1} ${y1}–${m2} ${y2}`;
+        }
+
+        const today = amsterdamToday();
+        const tomorrow = addDays(today, 1);
 
         const grid = document.getElementById('grid');
         const searchInput = document.getElementById('search');
@@ -493,26 +542,27 @@
         }
 
         function renderDays() {
-            const days = ['Su','Mo','Tu','We','Th','Fr','Sa'];
-            const firstDow = 4;
+            // Chips run from today to the last event date in events.json (max 6 weeks ahead).
+            const last = lastEventDay();
 
             let html = `
                 <button class="day-chip ${activeDay===null?'active':''}" onclick="selectDay(null, this)">All upcoming</button>
-                <button class="day-chip today ${activeDay===today?'active':''}" onclick="selectDay(${today}, this)">Today (Oct ${today})</button>
-                <button class="day-chip ${activeDay===tomorrow?'active':''}" onclick="selectDay(${tomorrow}, this)">Tomorrow (Oct ${tomorrow})</button>
+                <button class="day-chip today ${activeDay===today?'active':''}" onclick="selectDay('${today}', this)">Today (${shortDate(today)})</button>
+                <button class="day-chip ${activeDay===tomorrow?'active':''}" onclick="selectDay('${tomorrow}', this)">Tomorrow (${shortDate(tomorrow)})</button>
             `;
 
-            for (let i = 1; i <= 31; i++) {
-                const dowIndex = (firstDow + i - 1) % 7;
-                const dow = days[dowIndex];
-                const isWeekend = (dowIndex === 0 || dowIndex === 6);
-                
-                if (i === today || i === tomorrow) continue;
-
-                html += `<button class="day-chip ${isWeekend ? 'weekend' : ''} ${activeDay===i?'active':''}" onclick="selectDay(${i}, this)">${dow} ${i}</button>`;
+            for (let iso = addDays(tomorrow, 1); iso <= last; iso = addDays(iso, 1)) {
+                const dow = dowLabel(iso);
+                const isWeekend = (dow === 'Sa' || dow === 'Su');
+                const label = dayNum(iso) === 1 ? `${dow} ${dayNum(iso)} ${monLabel(iso)}` : `${dow} ${dayNum(iso)}`;
+                html += `<button class="day-chip ${isWeekend ? 'weekend' : ''} ${activeDay===iso?'active':''}" onclick="selectDay('${iso}', this)">${label}</button>`;
             }
 
             daySelectorContainer.innerHTML = html;
+
+            const label = rangeLabel(today, last);
+            document.getElementById('range-label').textContent = `${label} · AMSTERDAM`;
+            document.title = `AMSTERDAM AGENDA // ${label}`;
         }
 
         window.selectDay = function(day, btn) {
@@ -539,12 +589,12 @@
 
             let filtered, ongoingItems = [];
             if (activeDay !== null) {
-                filtered = allFiltered.filter(item => item.days && Array.isArray(item.days) && item.days.includes(activeDay));
-                ongoingItems = allFiltered.filter(item => item.run && activeDay >= (item.s||1) && activeDay <= (item.e||31));
+                filtered = allFiltered.filter(item => !item.run && eventDays(item).includes(activeDay));
+                ongoingItems = allFiltered.filter(item => item.run && activeDay >= runStart(item) && activeDay <= runEnd(item));
             } else {
                 filtered = allFiltered.filter(item => {
-                    if (item.run) return true;
-                    if (item.days) return item.days.some(d => d >= today);
+                    if (item.run) return runEnd(item) >= today;
+                    if (item.days) return eventDays(item).some(d => d >= today);
                     return true;
                 });
                 ongoingItems = [];
@@ -557,7 +607,7 @@
             }
 
             const totalShown = filtered.length + ongoingItems.length;
-            dbStatus.textContent = activeDay ? `${totalShown} ENTRIES FOR OCT ${activeDay}` : `${totalShown} ENTRIES`;
+            dbStatus.textContent = activeDay ? `${totalShown} ENTRIES FOR ${shortDate(activeDay).toUpperCase()}` : `${totalShown} ENTRIES`;
 
             const renderCard = (item) => {
                 const url = fixUrl(item.u);
@@ -595,17 +645,25 @@
                 const linkLabel = item.ul || 'Info →';
                 const linkHtml = url ? `<a class="event-link" href="${url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${linkLabel}</a>` : '';
 
-                let rawDateText = item.when || (item.days ? `Oct ${item.days.join(', ')}` : 'October 2026');
-                if (item.t) rawDateText = item.t + ' · ' + rawDateText;
+                const allDays = eventDays(item);
+                const upcomingDays = allDays.filter(d => d >= today);
+                const shownDays = upcomingDays.length ? upcomingDays : allDays;
+                let dateText = item.when || (shownDays.length ? formatDays(shownDays) : '');
+                if (!dateText && item.run && runEnd(item) < '9999-12-31') dateText = `Until ${shortDate(runEnd(item))}`;
+                let rawDateText = [item.t, dateText].filter(Boolean).join(' · ');
                 let dateFooterText = `<span class="material-symbols-outlined">schedule</span> ` + rawDateText;
 
                 let catConfig = categoryConfig[item.c] || { label: item.c ? item.c.charAt(0).toUpperCase() + item.c.slice(1) : '', icon: 'signpost' };
                 let catFooterText = `<span class="material-symbols-outlined">${catConfig.icon}</span> ${catConfig.label}`;
 
-                let eventDayNum = item.days && item.days.length ? item.days[0] : today;
-                let formattedDay = String(eventDayNum).padStart(2, '0');
-                let startTimeStr = item.t ? item.t.replace(':', '') + '00' : '190000';
-                let gCalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(item.n || 'Event')}&dates=202610${formattedDay}T${startTimeStr}/202610${formattedDay}T220000&details=${encodeURIComponent(note)}&location=${encodeURIComponent(cleanLocation)}`;
+                // Calendar: the selected day if the event is on it, else the next upcoming date (runs: selected day or today)
+                const calDay = (activeDay && (allDays.includes(activeDay) || item.run)) ? activeDay
+                    : (upcomingDays[0] || allDays[0] || today);
+                const tm = (item.t || '').match(/(\d{1,2}):(\d{2})/);
+                const startDt = parseISO(calDay);
+                startDt.setUTCHours(tm ? Number(tm[1]) : 19, tm ? Number(tm[2]) : 0);
+                const endDt = new Date(startDt.getTime() + 3 * 3600 * 1000);
+                let gCalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(item.n || 'Event')}&dates=${calStamp(startDt)}/${calStamp(endDt)}&ctz=${encodeURIComponent(TZ)}&details=${encodeURIComponent(note)}&location=${encodeURIComponent(cleanLocation)}`;
 
                 // Icon-only calendar button
                 const calendarHtml = `<a class="cal-link" href="${gCalUrl}" target="_blank" rel="noopener" title="Add to calendar" onclick="event.stopPropagation()"><span class="material-symbols-outlined">event</span></a>`;
