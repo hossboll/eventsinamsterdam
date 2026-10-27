@@ -397,7 +397,9 @@
         const now = new Date();
         const currentMonth = now.getMonth();
         const currentYear = now.getFullYear();
-        let today = (currentMonth === 9 && currentYear === 2026) ? now.getDate() : 8;
+        // Default to October 20, 2026 if out of range, or today's date if in October 2026
+        let today = (currentMonth === 9 && currentYear === 2026) ? now.getDate() : 20;
+        if (today < 20 || today > 31) today = 20;
         let tomorrow = today + 1;
         if (tomorrow > 31) tomorrow = 31;
 
@@ -492,6 +494,7 @@
 
         function renderDays() {
             const days = ['Su','Mo','Tu','We','Th','Fr','Sa'];
+            // October 1, 2026 starts on a Thursday (dowIndex = 4)
             const firstDow = 4;
 
             let html = `
@@ -500,12 +503,11 @@
                 <button class="day-chip ${activeDay===tomorrow?'active':''}" onclick="selectDay(${tomorrow}, this)">Tomorrow (Oct ${tomorrow})</button>
             `;
 
-            for (let i = 1; i <= 31; i++) {
+            for (let i = 20; i <= 31; i++) {
+                if (i === today || i === tomorrow) continue;
                 const dowIndex = (firstDow + i - 1) % 7;
                 const dow = days[dowIndex];
                 const isWeekend = (dowIndex === 0 || dowIndex === 6);
-                
-                if (i === today || i === tomorrow) continue;
 
                 html += `<button class="day-chip ${isWeekend ? 'weekend' : ''} ${activeDay===i?'active':''}" onclick="selectDay(${i}, this)">${dow} ${i}</button>`;
             }
@@ -535,14 +537,29 @@
                 return matchesCat && matchSearch;
             });
 
-            let filtered, ongoingItems = [];
+            let filtered = [];
+            let ongoingItems = [];
+
             if (activeDay !== null) {
-                filtered = allFiltered.filter(item => item.days && Array.isArray(item.days) && item.days.includes(activeDay));
-                ongoingItems = allFiltered.filter(item => item.run && activeDay >= (item.s||1) && activeDay <= (item.e||31));
+                const targetDateStr = `2026-10-${String(activeDay).padStart(2, '0')}`;
+                
+                filtered = allFiltered.filter(item => {
+                    if (item.days && Array.isArray(item.days)) {
+                        return item.days.includes(targetDateStr);
+                    }
+                    return false;
+                });
+
+                ongoingItems = allFiltered.filter(item => {
+                    if (item.run && item.s && item.e) {
+                        return targetDateStr >= item.s && targetDateStr <= item.e;
+                    }
+                    return false;
+                });
             } else {
                 filtered = allFiltered.filter(item => {
                     if (item.run) return true;
-                    if (item.days) return item.days.some(d => d >= today);
+                    if (item.days) return item.days.some(d => d >= '2026-10-20');
                     return true;
                 });
                 ongoingItems = [];
@@ -593,19 +610,18 @@
                 const linkLabel = item.ul || 'Info →';
                 const linkHtml = url ? `<a class="event-link" href="${url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${linkLabel}</a>` : '';
 
-                let rawDateText = item.when || (item.days ? `Oct ${item.days.join(', ')}` : 'October 2026');
+                let rawDateText = item.when || (item.days ? `Oct ${item.days.map(d => parseInt(d.split('-')[2])).join(', ')}` : 'October 2026');
                 if (item.t) rawDateText = item.t + ' · ' + rawDateText;
                 let dateFooterText = `<span class="material-symbols-outlined">schedule</span> ` + rawDateText;
 
                 let catConfig = categoryConfig[item.c] || { label: item.c ? item.c.charAt(0).toUpperCase() + item.c.slice(1) : '', icon: 'signpost' };
                 let catFooterText = `<span class="material-symbols-outlined">${catConfig.icon}</span> ${catConfig.label}`;
 
-                let eventDayNum = item.days && item.days.length ? item.days[0] : today;
+                let eventDayNum = (item.days && item.days.length) ? item.days[0].split('-')[2] : today;
                 let formattedDay = String(eventDayNum).padStart(2, '0');
                 let startTimeStr = item.t ? item.t.replace(':', '') + '00' : '190000';
                 let gCalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(item.n || 'Event')}&dates=202610${formattedDay}T${startTimeStr}/202610${formattedDay}T220000&details=${encodeURIComponent(note)}&location=${encodeURIComponent(cleanLocation)}`;
 
-                // Icon-only calendar button
                 const calendarHtml = `<a class="cal-link" href="${gCalUrl}" target="_blank" rel="noopener" title="Add to calendar" onclick="event.stopPropagation()"><span class="material-symbols-outlined">event</span></a>`;
 
                 card.innerHTML = `
