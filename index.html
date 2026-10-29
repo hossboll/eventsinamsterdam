@@ -59,15 +59,16 @@
         }
 
         header {
-            border-bottom: 2px solid var(--ink-black);
+            border-bottom: 1px solid var(--ink-black);
             padding-bottom: 10px;
             margin-bottom: 15px;
             display: flex;
-            justify-content: left;
+            align-items: center;
+            justify-content: space-between;
         }
 
         .magazine-title-logo {
-            max-height: 100px;
+            max-height: 56px;
             width: auto;
             display: block;
         }
@@ -87,6 +88,47 @@
             transition: box-shadow 0.2s ease;
         }
 
+        .city-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            min-width: 0;
+            padding-bottom: 14px;
+            border-bottom: 1px solid var(--ink-black);
+        }
+
+        .city-buttons {
+            display: flex;
+            gap: 6px;
+            min-width: 0;
+            overflow-x: auto;
+            scrollbar-width: thin;
+        }
+
+        .city-btn,
+        .about-link {
+            flex: 0 0 auto;
+            padding: 6px 9px;
+            border: 1px solid var(--ink-black);
+            background: transparent;
+            color: var(--ink-black);
+            font: inherit;
+            font-size: 0.82rem;
+            text-decoration: none;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .city-btn:hover,
+        .city-btn.active,
+        .about-link:hover {
+            background: var(--accent-color);
+            color: #fff;
+            border-color: var(--accent-color);
+        }
+
+        .about-link { margin-left: auto; }
+
         .controls-section.is-scrolled {
             box-shadow: 0 6px 12px rgba(17, 17, 17, 0.08);
         }
@@ -95,7 +137,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             gap: 15px;
             position: relative;
         }
@@ -109,25 +151,46 @@
             color: var(--ink-black);
             padding: 6px 0;
             width: 280px;
+            min-width: 0;
+            flex: 0 1 25%;
+            order: 1;
         }
 
         .search-box::placeholder { color: rgba(17,17,17,0.7); }
 
         .mobile-filter-toggle {
-            display: none;
+            display: inline-flex;
+            align-items: center;
+            flex: 0 0 auto;
+            order: 0;
             background: transparent;
             border: 1px solid var(--ink-black);
             padding: 6px 12px;
             font-family: 'Space Grotesk', sans-serif;
             font-size: 0.9rem;
-            text-transform: uppercase;
+            text-transform: none;
             cursor: pointer;
         }
 
-        .filter-buttons { 
-            display: flex; 
-            gap: 10px; 
-            flex-wrap: wrap; 
+        .filter-buttons {
+            display: none;
+            position: absolute;
+            top: calc(100% + 8px);
+            left: 0;
+            z-index: 200;
+            min-width: 190px;
+            max-height: min(65vh, 480px);
+            overflow-y: auto;
+            padding: 10px;
+            border: 1px solid var(--ink-black);
+            background: var(--paper-bg);
+            flex-direction: column;
+            gap: 5px;
+            box-shadow: 4px 4px 0 var(--ink-black);
+        }
+
+        .filter-buttons.open {
+            display: flex;
         }
 
         .filter-btn {
@@ -141,7 +204,9 @@
             transition: background 0.1s, color 0.1s, border-color 0.1s;
             display: inline-flex;
             align-items: center;
+            width: 100%;
             gap: 5px;
+            text-align: left;
         }
 
         .filter-btn:hover, .filter-btn.active {
@@ -151,39 +216,9 @@
         }
 
         @media (max-width: 768px) {
-            header { justify-content: center; }
-            .controls-top {
-                justify-content: space-between;
-                flex-wrap: nowrap;
-            }
+            header { justify-content: space-between; }
             .search-box {
                 flex: 1 1 280px;
-                min-width: 0;
-            }
-            .mobile-filter-toggle {
-                display: block;
-                flex: 0 0 auto;
-            }
-            .filter-buttons {
-                display: none;
-                position: absolute;
-                top: 100%;
-                right: 0;
-                background: var(--paper-bg);
-                border: 1px solid var(--ink-black);
-                padding: 12px;
-                flex-direction: column;
-                gap: 6px;
-                box-shadow: 4px 4px 0px var(--ink-black);
-                z-index: 200;
-                min-width: 160px;
-            }
-            .filter-buttons.open {
-                display: flex;
-            }
-            .filter-btn {
-                width: 100%;
-                text-align: left;
             }
         }
 
@@ -194,8 +229,7 @@
             -webkit-mask-image: linear-gradient(to right, #000 0%, #000 calc(100% - 32px), transparent 100%);
             mask-image: linear-gradient(to right, #000 0%, #000 calc(100% - 32px), transparent 100%);
             padding-bottom: 8px;
-            border-top: 1px dotted var(--ink-black);
-            padding-top: 14px;
+            padding-top: 8px;
         }
 
         .day-chip {
@@ -403,11 +437,6 @@
             font-size: 0.9rem;
         }
 
-        .about-copy {
-            max-width: 640px;
-            line-height: 1.6;
-        }
-
         .footer-meta {
             display: flex;
             flex-wrap: wrap;
@@ -454,14 +483,23 @@
     <a class="skip-link" href="#main-content">Skip to events</a>
     <header>
         <img class="magazine-title-logo" src="logo-stroooop-3.svg" alt="stroooop logo">
+        <a class="about-link" href="about.html">About</a>
     </header>
+
+    <div class="city-row">
+        <div class="city-buttons" role="group" aria-label="Select a city">
+            <button class="city-btn active" type="button" data-city="Amsterdam" aria-pressed="true">Amsterdam</button>
+            <button class="city-btn" type="button" data-city="Utrecht" aria-pressed="false">Utrecht</button>
+            <button class="city-btn" type="button" data-city="Den Haag" aria-pressed="false">Den Haag</button>
+        </div>
+    </div>
 
     <section class="controls-section" id="controls-section" aria-label="Event search and filters">
         <div class="controls-top">
+            <button class="mobile-filter-toggle" id="filter-toggle" type="button" aria-controls="filter-container" aria-expanded="false">Category: All ▾</button>
+            <div class="filter-buttons" id="filter-container" role="group" aria-label="Filter by category"></div>
             <label class="visually-hidden" for="search">Search events</label>
             <input type="search" class="search-box" id="search" placeholder="Search events...">
-            <button class="mobile-filter-toggle" id="filter-toggle" type="button" aria-controls="filter-container" aria-expanded="false">Filters</button>
-            <div class="filter-buttons" id="filter-container" role="group" aria-label="Filter by category"></div>
         </div>
         <div class="day-selector" id="day-selector-container" role="group" aria-label="Filter by date"></div>
     </section>
@@ -472,10 +510,9 @@
     </main>
 
     <footer class="page-info-footer">
-        <p class="about-copy">Stroooop is an independent guide to Amsterdam’s alternative scene. No mainstream filler, no tourist traps. Just a clear, dedicated overview of the city's underground and DIY culture. We filter out the excess so you know exactly where to go.</p>
         <div class="footer-meta">
             <span id="db-status" role="status" aria-live="polite" aria-atomic="true">DATABASE: LOADING...</span>
-            <span>UPCOMING EVENTS · AMSTERDAM</span>
+            <span id="city-label">UPCOMING EVENTS · AMSTERDAM</span>
             <a class="privacy-link" href="privacy.html">Privacy policy</a>
         </div>
     </footer>
@@ -504,10 +541,28 @@
         const daySelectorContainer = document.getElementById('day-selector-container');
         const dbStatus = document.getElementById('db-status');
         const controlsSection = document.getElementById('controls-section');
+        const cityButtons = document.querySelectorAll('.city-btn');
+        const pageHeading = document.getElementById('page-heading');
+        const cityLabel = document.getElementById('city-label');
 
         let activeCategory = null;
         let activeDay = today;
         let searchQuery = '';
+        let selectedCity = 'Amsterdam';
+
+        cityButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                selectedCity = button.dataset.city;
+                cityButtons.forEach(cityButton => {
+                    const isSelected = cityButton === button;
+                    cityButton.classList.toggle('active', isSelected);
+                    cityButton.setAttribute('aria-pressed', String(isSelected));
+                });
+                pageHeading.textContent = `Upcoming events in ${selectedCity}`;
+                cityLabel.textContent = `UPCOMING EVENTS · ${selectedCity.toUpperCase()}`;
+                renderGrid();
+            });
+        });
 
         const categoryConfig = {
             film: { label: 'Film', icon: 'movie' },
@@ -538,17 +593,20 @@
             filterToggle.setAttribute('aria-expanded', String(isOpen));
         });
 
+        function closeCategoryMenu() {
+            filterContainer.classList.remove('open');
+            filterToggle.setAttribute('aria-expanded', 'false');
+        }
+
         document.addEventListener('click', (e) => {
             if (!filterContainer.contains(e.target) && e.target !== filterToggle) {
-                filterContainer.classList.remove('open');
-                filterToggle.setAttribute('aria-expanded', 'false');
+                closeCategoryMenu();
             }
         });
 
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape' && filterContainer.classList.contains('open')) {
-                filterContainer.classList.remove('open');
-                filterToggle.setAttribute('aria-expanded', 'false');
+                closeCategoryMenu();
                 filterToggle.focus();
             }
         });
@@ -623,6 +681,14 @@
 
         function renderFilters() {
             const categories = [...new Set(eventsData.map(e => e.c).filter(category => typeof category === 'string' && category))];
+            const activeConfig = activeCategory && Object.hasOwn(categoryConfig, activeCategory)
+                ? categoryConfig[activeCategory]
+                : null;
+            const activeLabel = activeConfig?.label || (activeCategory
+                ? activeCategory.charAt(0).toUpperCase() + activeCategory.slice(1)
+                : 'All');
+            filterToggle.textContent = `Category: ${activeLabel} ▾`;
+
             const allButton = document.createElement('button');
             allButton.type = 'button';
             allButton.className = `filter-btn ${!activeCategory ? 'active' : ''}`;
@@ -632,7 +698,8 @@
                 activeCategory = null;
                 renderFilters();
                 renderGrid();
-                allButtonAfterRender();
+                closeCategoryMenu();
+                filterToggle.focus();
             });
             filterContainer.replaceChildren(allButton);
             
@@ -649,28 +716,11 @@
                     activeCategory = activeCategory === cat ? null : cat;
                     renderFilters();
                     renderGrid();
-                    if (window.matchMedia('(max-width: 768px)').matches) {
-                        filterContainer.classList.remove('open');
-                        filterToggle.setAttribute('aria-expanded', 'false');
-                        filterToggle.focus();
-                    } else {
-                        const selected = [...filterContainer.querySelectorAll('.filter-btn')]
-                            .find(button => button.textContent.trim() === config.label);
-                        selected?.focus();
-                    }
+                    closeCategoryMenu();
+                    filterToggle.focus();
                 };
                 filterContainer.appendChild(btn);
             });
-        }
-
-        function allButtonAfterRender() {
-            if (window.matchMedia('(max-width: 768px)').matches) {
-                filterContainer.classList.remove('open');
-                filterToggle.setAttribute('aria-expanded', 'false');
-                filterToggle.focus();
-            } else {
-                filterContainer.querySelector('.filter-btn')?.focus();
-            }
         }
 
         function renderDays() {
@@ -715,6 +765,15 @@
 
         function renderGrid() {
             grid.replaceChildren();
+
+            if (selectedCity !== 'Amsterdam') {
+                const message = document.createElement('p');
+                message.className = 'grid-message';
+                message.textContent = `Event listings for ${selectedCity} are coming soon.`;
+                grid.appendChild(message);
+                dbStatus.textContent = `EVENT LISTINGS FOR ${selectedCity.toUpperCase()} COMING SOON`;
+                return;
+            }
 
             const allFiltered = eventsData.filter(item => {
                 const matchesCat = activeCategory ? item.c === activeCategory : true;
