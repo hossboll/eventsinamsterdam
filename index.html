@@ -7,7 +7,7 @@
     <title>AMSTERDAM AGENDA // UPCOMING EVENTS</title>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,600;1,6..72,400&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
     <!-- Google Material Symbols -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0&icon_names=location_on,schedule,signpost,event,movie,music_note,nightlife,restaurant,apartment,storefront,podium,palette,theater_comedy,stadium,campaign" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0&icon_names=location_on,schedule,signpost,event,movie,music_note,nightlife,restaurant,apartment,storefront,podium,palette,theater_comedy,stadium,campaign,search,close,expand_more" />
     <style>
         :root {
             --paper-bg: #f4d0f3;
@@ -88,26 +88,27 @@
             transition: box-shadow 0.2s ease;
         }
 
-        .city-row {
+        .controls-top {
             display: flex;
+            justify-content: flex-start;
             align-items: center;
-            justify-content: flex-end;
-            gap: 12px;
+            flex-wrap: nowrap;
+            gap: 15px;
             min-width: 0;
-            padding-bottom: 14px;
-            border-bottom: 1px solid var(--ink-black);
+            position: relative;
         }
 
         .city-buttons {
             display: flex;
             gap: 6px;
-            min-width: 0;
-            overflow-x: auto;
-            scrollbar-width: thin;
+            flex: 0 0 auto;
+            margin-left: auto;
         }
 
         .city-btn,
-        .about-link {
+        .about-link,
+        .city-toggle,
+        .mobile-filter-toggle {
             flex: 0 0 auto;
             padding: 6px 9px;
             border: 1px solid var(--ink-black);
@@ -120,9 +121,20 @@
             white-space: nowrap;
         }
 
+        .city-toggle,
+        .mobile-filter-toggle {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.9rem;
+        }
+
         .city-btn:hover,
         .city-btn.active,
-        .about-link:hover {
+        .about-link:hover,
+        .city-toggle:hover,
+        .mobile-filter-toggle:hover {
             background: var(--accent-color);
             color: #fff;
             border-color: var(--accent-color);
@@ -130,20 +142,32 @@
 
         .about-link { margin-left: auto; }
 
+        .category-control {
+            position: relative;
+            flex: 0 0 auto;
+        }
+
+        .city-control { display: none; }
+
+        .city-toggle,
+        .city-menu,
+        .search-toggle,
+        .search-close {
+            display: none;
+        }
+
+        .search-control {
+            display: flex;
+            flex: 0 1 25%;
+            min-width: 0;
+        }
+
         .controls-section.is-scrolled {
             box-shadow: 0 6px 12px rgba(17, 17, 17, 0.08);
         }
 
-        .controls-top {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            flex-wrap: nowrap;
-            gap: 15px;
-            position: relative;
-        }
-
         .search-box {
+            display: block;
             background: transparent;
             border: none;
             border-bottom: 1px dotted var(--ink-black);
@@ -151,27 +175,12 @@
             font-size: 1.05rem;
             color: var(--ink-black);
             padding: 6px 0;
-            width: 280px;
+            width: 100%;
             min-width: 0;
-            flex: 0 1 25%;
-            order: 1;
+            flex: 1 1 auto;
         }
 
         .search-box::placeholder { color: rgba(17,17,17,0.7); }
-
-        .mobile-filter-toggle {
-            display: inline-flex;
-            align-items: center;
-            flex: 0 0 auto;
-            order: 0;
-            background: transparent;
-            border: 1px solid var(--ink-black);
-            padding: 6px 12px;
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 0.9rem;
-            text-transform: none;
-            cursor: pointer;
-        }
 
         .filter-buttons {
             display: none;
@@ -188,6 +197,25 @@
             flex-direction: column;
             gap: 5px;
             box-shadow: 4px 4px 0 var(--ink-black);
+        }
+
+        .city-menu {
+            display: none;
+            position: absolute;
+            top: calc(100% + 8px);
+            left: 0;
+            z-index: 200;
+            min-width: 160px;
+            padding: 10px;
+            border: 1px solid var(--ink-black);
+            background: var(--paper-bg);
+            flex-direction: column;
+            gap: 5px;
+            box-shadow: 4px 4px 0 var(--ink-black);
+        }
+
+        .city-menu.open {
+            display: flex;
         }
 
         .filter-buttons.open {
@@ -218,10 +246,76 @@
 
         @media (max-width: 768px) {
             header { justify-content: space-between; }
-            .city-row { justify-content: flex-start; }
-            .search-box {
-                flex: 1 1 280px;
+            .controls-top {
+                justify-content: flex-start;
+                gap: 6px;
             }
+            .city-buttons { display: none; }
+            .city-toggle,
+            .search-toggle { display: inline-flex; }
+            .city-control {
+                display: block;
+                order: 0;
+            }
+            .category-control { order: 1; }
+            .search-control { order: 2; }
+            .mobile-filter-toggle,
+            .city-toggle {
+                padding: 5px 6px;
+                font-size: 0.8rem;
+                min-height: 38px;
+            }
+            .city-menu { min-width: 145px; }
+            .filter-buttons { min-width: 170px; }
+            .search-control {
+                display: flex;
+                align-items: center;
+                margin-left: auto;
+            }
+            .search-control.open {
+                position: absolute;
+                inset: 0 0 auto;
+                z-index: 210;
+                width: 100%;
+                min-height: 42px;
+                padding: 4px 6px;
+                border: 1px solid var(--ink-black);
+                background: var(--paper-bg);
+                gap: 8px;
+            }
+            .search-control.open .search-toggle { display: none; }
+            .search-control.open .search-box {
+                display: block;
+                flex: 1 1 auto;
+                width: auto;
+                min-width: 0;
+            }
+            .search-control.open .search-close { display: inline-flex; }
+            .search-toggle,
+            .search-close {
+                align-items: center;
+                justify-content: center;
+                width: 38px;
+                height: 38px;
+                flex: 0 0 38px;
+                padding: 0;
+                border: 1px solid var(--ink-black);
+                background: transparent;
+                color: var(--ink-black);
+                cursor: pointer;
+            }
+            .search-toggle:hover,
+            .search-close:hover {
+                background: var(--accent-color);
+                color: #fff;
+            }
+            .search-control:not(.open) .search-box,
+            .search-control:not(.open) .search-close { display: none; }
+            .search-control:not(.open) {
+                flex: 0 0 38px;
+                width: 38px;
+            }
+            .search-control.open .search-box { font-size: 1rem; }
         }
 
         .day-selector {
@@ -488,20 +582,33 @@
         <a class="about-link" href="about.html">About</a>
     </header>
 
-    <div class="city-row">
-        <div class="city-buttons" role="group" aria-label="Select a city">
-            <button class="city-btn active" type="button" data-city="Amsterdam" aria-pressed="true">Amsterdam</button>
-            <button class="city-btn" type="button" data-city="Utrecht" aria-pressed="false">Utrecht</button>
-            <button class="city-btn" type="button" data-city="Den Haag" aria-pressed="false">Den Haag</button>
-        </div>
-    </div>
-
     <section class="controls-section" id="controls-section" aria-label="Event search and filters">
         <div class="controls-top">
-            <button class="mobile-filter-toggle" id="filter-toggle" type="button" aria-controls="filter-container" aria-expanded="false">Category: All ▾</button>
-            <div class="filter-buttons" id="filter-container" role="group" aria-label="Filter by category"></div>
-            <label class="visually-hidden" for="search">Search events</label>
-            <input type="search" class="search-box" id="search" placeholder="Search events...">
+            <div class="city-control">
+                <button class="city-toggle" id="city-toggle" type="button" aria-controls="city-menu" aria-expanded="false">
+                    <span id="city-toggle-label">Amsterdam</span><span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+                </button>
+                <div class="city-menu" id="city-menu" role="group" aria-label="Select a city"></div>
+            </div>
+            <div class="category-control">
+                <button class="mobile-filter-toggle" id="filter-toggle" type="button" aria-controls="filter-container" aria-expanded="false">Category: All</button>
+                <div class="filter-buttons" id="filter-container" role="group" aria-label="Filter by category"></div>
+            </div>
+            <div class="search-control" id="search-control">
+                <label class="visually-hidden" for="search">Search events</label>
+                <input type="search" class="search-box" id="search" placeholder="Search events...">
+                <button class="search-toggle" id="search-toggle" type="button" aria-label="Open search" aria-expanded="false">
+                    <span class="material-symbols-outlined" aria-hidden="true">search</span>
+                </button>
+                <button class="search-close" id="search-close" type="button" aria-label="Close search">
+                    <span class="material-symbols-outlined" aria-hidden="true">close</span>
+                </button>
+            </div>
+            <div class="city-buttons" id="desktop-city-buttons" role="group" aria-label="Select a city">
+                <button class="city-btn active" type="button" data-city="Amsterdam" aria-pressed="true">Amsterdam</button>
+                <button class="city-btn" type="button" data-city="Utrecht" aria-pressed="false">Utrecht</button>
+                <button class="city-btn" type="button" data-city="Den Haag" aria-pressed="false">Den Haag</button>
+            </div>
         </div>
         <div class="day-selector" id="day-selector-container" role="group" aria-label="Filter by date"></div>
     </section>
@@ -544,6 +651,12 @@
         const dbStatus = document.getElementById('db-status');
         const controlsSection = document.getElementById('controls-section');
         const cityButtons = document.querySelectorAll('.city-btn');
+        const cityToggle = document.getElementById('city-toggle');
+        const cityMenu = document.getElementById('city-menu');
+        const cityToggleLabel = document.getElementById('city-toggle-label');
+        const searchControl = document.getElementById('search-control');
+        const searchToggle = document.getElementById('search-toggle');
+        const searchClose = document.getElementById('search-close');
         const pageHeading = document.getElementById('page-heading');
         const cityLabel = document.getElementById('city-label');
 
@@ -552,19 +665,68 @@
         let searchQuery = '';
         let selectedCity = 'Amsterdam';
 
-        cityButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                selectedCity = button.dataset.city;
-                cityButtons.forEach(cityButton => {
-                    const isSelected = cityButton === button;
-                    cityButton.classList.toggle('active', isSelected);
-                    cityButton.setAttribute('aria-pressed', String(isSelected));
-                });
-                pageHeading.textContent = `Upcoming events in ${selectedCity}`;
-                cityLabel.textContent = `UPCOMING EVENTS · ${selectedCity.toUpperCase()}`;
-                renderGrid();
+        const cities = ['Amsterdam', 'Utrecht', 'Den Haag'];
+
+        function selectCity(city) {
+            selectedCity = city;
+            document.querySelectorAll('.city-btn').forEach(button => {
+                const isSelected = button.dataset.city === city;
+                button.classList.toggle('active', isSelected);
+                button.setAttribute('aria-pressed', String(isSelected));
             });
+            cityToggleLabel.textContent = city;
+            pageHeading.textContent = `Upcoming events in ${selectedCity}`;
+            cityLabel.textContent = `UPCOMING EVENTS · ${selectedCity.toUpperCase()}`;
+            closeCityMenu();
+            renderGrid();
+        }
+
+        function closeCityMenu() {
+            cityMenu.classList.remove('open');
+            cityToggle.setAttribute('aria-expanded', 'false');
+        }
+
+        cities.forEach(city => {
+            const button = document.createElement('button');
+            button.type = 'button';
+            button.className = `city-btn ${city === selectedCity ? 'active' : ''}`;
+            button.dataset.city = city;
+            button.setAttribute('aria-pressed', String(city === selectedCity));
+            button.textContent = city;
+            button.addEventListener('click', () => {
+                selectCity(city);
+                cityToggle.focus();
+            });
+            cityMenu.appendChild(button);
         });
+
+        cityButtons.forEach(button => button.addEventListener('click', () => selectCity(button.dataset.city)));
+
+        cityToggle.addEventListener('click', (event) => {
+            event.stopPropagation();
+            closeCategoryMenu();
+            const isOpen = cityMenu.classList.toggle('open');
+            cityToggle.setAttribute('aria-expanded', String(isOpen));
+        });
+
+        searchToggle.addEventListener('click', () => {
+            closeCategoryMenu();
+            closeCityMenu();
+            searchControl.classList.add('open');
+            searchToggle.setAttribute('aria-expanded', 'true');
+            searchInput.focus();
+        });
+
+        function closeSearch() {
+            searchControl.classList.remove('open');
+            searchToggle.setAttribute('aria-expanded', 'false');
+            searchInput.value = '';
+            searchQuery = '';
+            renderGrid();
+            searchToggle.focus();
+        }
+
+        searchClose.addEventListener('click', closeSearch);
 
         const categoryConfig = {
             film: { label: 'Film', icon: 'movie' },
@@ -591,6 +753,7 @@
 
         filterToggle.addEventListener('click', (e) => {
             e.stopPropagation();
+            closeCityMenu();
             const isOpen = filterContainer.classList.toggle('open');
             filterToggle.setAttribute('aria-expanded', String(isOpen));
         });
@@ -604,6 +767,7 @@
             if (!filterContainer.contains(e.target) && e.target !== filterToggle) {
                 closeCategoryMenu();
             }
+            if (!cityMenu.contains(e.target) && e.target !== cityToggle) closeCityMenu();
         });
 
         document.addEventListener('keydown', (e) => {
@@ -611,6 +775,11 @@
                 closeCategoryMenu();
                 filterToggle.focus();
             }
+            if (e.key === 'Escape' && cityMenu.classList.contains('open')) {
+                closeCityMenu();
+                cityToggle.focus();
+            }
+            if (e.key === 'Escape' && searchControl.classList.contains('open')) closeSearch();
         });
 
         function fixUrl(u) {
@@ -689,7 +858,12 @@
             const activeLabel = activeConfig?.label || (activeCategory
                 ? activeCategory.charAt(0).toUpperCase() + activeCategory.slice(1)
                 : 'All');
-            filterToggle.textContent = `Category: ${activeLabel} ▾`;
+            filterToggle.replaceChildren(document.createTextNode(`Category: ${activeLabel} `));
+            const dropdownIcon = document.createElement('span');
+            dropdownIcon.className = 'material-symbols-outlined';
+            dropdownIcon.setAttribute('aria-hidden', 'true');
+            dropdownIcon.textContent = 'expand_more';
+            filterToggle.appendChild(dropdownIcon);
 
             const allButton = document.createElement('button');
             allButton.type = 'button';
