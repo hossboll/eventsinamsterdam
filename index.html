@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AMSTERDAM AGENDA // OCT 2026</title>
+    <title>AMSTERDAM AGENDA // UPCOMING EVENTS</title>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,600;1,6..72,400&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
     <!-- Google Material Symbols -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0&icon_names=location_on,schedule,signpost,event,movie,music_note,nightlife,restaurant,apartment,storefront,podium,palette,theater_comedy,stadium,campaign" />
@@ -11,10 +11,42 @@
         :root {
             --paper-bg: #f4d0f3;
             --ink-black: #111111;
-            --accent-color: #047a7a;
+            --accent-color: #006666;
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        .skip-link {
+            position: fixed;
+            top: 8px;
+            left: 8px;
+            z-index: 1000;
+            padding: 10px 14px;
+            transform: translateY(-160%);
+            background: var(--ink-black);
+            color: var(--paper-bg);
+        }
+
+        .skip-link:focus {
+            transform: translateY(0);
+        }
+
+        :focus-visible {
+            outline: 3px solid var(--accent-color);
+            outline-offset: 3px;
+        }
 
         body {
             background-color: var(--paper-bg);
@@ -76,10 +108,9 @@
             color: var(--ink-black);
             padding: 6px 0;
             width: 280px;
-            outline: none;
         }
 
-        .search-box::placeholder { color: rgba(17,17,17,0.4); }
+        .search-box::placeholder { color: rgba(17,17,17,0.7); }
 
         .mobile-filter-toggle {
             display: none;
@@ -120,7 +151,18 @@
 
         @media (max-width: 768px) {
             header { justify-content: center; }
-            .mobile-filter-toggle { display: block; }
+            .controls-top {
+                justify-content: space-between;
+                flex-wrap: nowrap;
+            }
+            .search-box {
+                flex: 1 1 280px;
+                min-width: 0;
+            }
+            .mobile-filter-toggle {
+                display: block;
+                flex: 0 0 auto;
+            }
             .filter-buttons {
                 display: none;
                 position: absolute;
@@ -157,7 +199,7 @@
 
         .day-chip {
             background: transparent;
-            border: 1px solid rgba(17,17,17,0.3);
+            border: 1px solid rgba(17,17,17,0.65);
             padding: 6px 10px;
             font-family: 'Space Grotesk', sans-serif;
             font-size: 0.85rem;
@@ -166,7 +208,7 @@
         }
 
         .day-chip.weekend {
-            border-color: rgba(17,17,17,0.3);
+            border-color: rgba(17,17,17,0.65);
             background: rgba(4, 122, 122, 0.08);
         }
 
@@ -187,6 +229,12 @@
             gap: 20px;
         }
 
+        .grid-message {
+            grid-column: 1 / -1;
+            padding: 40px;
+            text-align: center;
+        }
+
         @media (max-width: 1024px) { .magazine-grid { grid-template-columns: repeat(2, 1fr); } }
         @media (max-width: 600px) { .magazine-grid { grid-template-columns: 1fr; } }
 
@@ -198,8 +246,6 @@
             transition: transform 0.1s ease;
             position: relative;
         }
-
-        .article-card.has-link { cursor: pointer; }
 
         .article-image-box {
             width: 100%;
@@ -276,7 +322,7 @@
         }
 
         .footer-left .article-date, .footer-left .article-location { margin-bottom: 0; line-height: 1; }
-        .article-cat { text-transform: uppercase; opacity: 0.6; display: flex; align-items: center; gap: 3px; }
+        .article-cat { text-transform: uppercase; display: flex; align-items: center; gap: 3px; }
 
         .footer-tags {
             display: flex;
@@ -294,7 +340,7 @@
         }
 
         .badge {
-            font-size: 0.54rem;
+            font-size: 0.7rem;
             padding: 1px 4px;
             border: 1px solid var(--ink-black);
             text-transform: uppercase;
@@ -302,10 +348,8 @@
         }
 
         .badge.ade, .badge.run { background: var(--accent-color); color: #fff; border-color: var(--accent-color); }
-        .badge.free { border-color: #047a7a; color: #047a7a; }
+        .badge.free { border-color: var(--accent-color); color: var(--accent-color); }
         .badge.is-new { background: var(--accent-color); color: #fff; border-color: var(--accent-color); }
-        .badge.tag { opacity: 0.6; }
-
         .card-actions {
             display: flex;
             gap: 8px;
@@ -351,57 +395,106 @@
         .page-info-footer {
             margin-top: 40px;
             border-top: 2px solid var(--ink-black);
-            padding-top: 18px;
+            padding: 18px 0 8px;
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
+            gap: 18px;
             font-size: 0.9rem;
         }
 
-        .article-card.is-run {
-            border-style: dashed;
-            opacity: 0.9;
+        .about-copy {
+            max-width: 640px;
+            line-height: 1.6;
         }
+
+        .footer-meta {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 8px 16px;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+
+        .privacy-link {
+            display: inline-flex;
+            align-items: center;
+            border: 1px solid var(--ink-black);
+            padding: 5px 9px;
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .privacy-link:hover {
+            background: var(--ink-black);
+            color: var(--paper-bg);
+        }
+
+        .article-card.is-run { border-style: dashed; }
 
         .material-symbols-outlined {
             font-size: 15px;
             vertical-align: -0.12em;
             display: inline-block;
         }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                scroll-behavior: auto !important;
+                transition-duration: 0.01ms !important;
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+            }
+        }
     </style>
 </head>
 <body>
 
+    <a class="skip-link" href="#main-content">Skip to events</a>
     <header>
         <img class="magazine-title-logo" src="logo-stroooop-3.svg" alt="stroooop logo">
     </header>
 
-    <div class="controls-section" id="controls-section">
+    <section class="controls-section" id="controls-section" aria-label="Event search and filters">
         <div class="controls-top">
-            <input type="text" class="search-box" id="search" placeholder="Search events...">
-            <button class="mobile-filter-toggle" id="filter-toggle">Filters ▾</button>
-            <div class="filter-buttons" id="filter-container"></div>
+            <label class="visually-hidden" for="search">Search events</label>
+            <input type="search" class="search-box" id="search" placeholder="Search events...">
+            <button class="mobile-filter-toggle" id="filter-toggle" type="button" aria-controls="filter-container" aria-expanded="false">Filters</button>
+            <div class="filter-buttons" id="filter-container" role="group" aria-label="Filter by category"></div>
         </div>
-        <div class="day-selector" id="day-selector-container"></div>
-    </div>
+        <div class="day-selector" id="day-selector-container" role="group" aria-label="Filter by date"></div>
+    </section>
 
-    <main class="magazine-grid" id="grid"></main>
+    <main id="main-content" tabindex="-1" aria-labelledby="page-heading">
+        <h1 class="visually-hidden" id="page-heading">Upcoming events in Amsterdam</h1>
+        <div class="magazine-grid" id="grid"></div>
+    </main>
 
-    <div class="page-info-footer">
-        <span id="db-status">DATABASE: LOADING...</span>
-        <span>OCT 2026 · AMSTERDAM</span>
-    </div>
+    <footer class="page-info-footer">
+        <p class="about-copy">Stroooop is an independent guide to Amsterdam’s alternative scene. No mainstream filler, no tourist traps. Just a clear, dedicated overview of the city's underground and DIY culture. We filter out the excess so you know exactly where to go.</p>
+        <div class="footer-meta">
+            <span id="db-status" role="status" aria-live="polite" aria-atomic="true">DATABASE: LOADING...</span>
+            <span>UPCOMING EVENTS · AMSTERDAM</span>
+            <a class="privacy-link" href="privacy.html">Privacy policy</a>
+        </div>
+    </footer>
 
     <script>
         let eventsData = [];
         
         const now = new Date();
-        const currentMonth = now.getMonth();
-        const currentYear = now.getFullYear();
-        // Default to October 20, 2026 if out of range, or today's date if in October 2026
-        let today = (currentMonth === 9 && currentYear === 2026) ? now.getDate() : 20;
-        if (today < 20 || today > 31) today = 20;
-        let tomorrow = today + 1;
-        if (tomorrow > 31) tomorrow = 31;
+        const toDateString = (date) => {
+            const year = date.getFullYear();
+            const month = String(date.getMonth() + 1).padStart(2, '0');
+            const day = String(date.getDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
+        };
+        const today = toDateString(now);
+        const tomorrowDate = new Date(now);
+        tomorrowDate.setDate(tomorrowDate.getDate() + 1);
+        const tomorrow = toDateString(tomorrowDate);
+        const formatDate = (dateString, options = { weekday: 'short', month: 'short', day: 'numeric' }) =>
+            new Intl.DateTimeFormat('en', options).format(new Date(`${dateString}T12:00:00`));
 
         const grid = document.getElementById('grid');
         const searchInput = document.getElementById('search');
@@ -440,19 +533,65 @@
 
         filterToggle.addEventListener('click', (e) => {
             e.stopPropagation();
-            filterContainer.classList.toggle('open');
+            const isOpen = filterContainer.classList.toggle('open');
+            filterToggle.setAttribute('aria-expanded', String(isOpen));
         });
 
         document.addEventListener('click', (e) => {
             if (!filterContainer.contains(e.target) && e.target !== filterToggle) {
                 filterContainer.classList.remove('open');
+                filterToggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && filterContainer.classList.contains('open')) {
+                filterContainer.classList.remove('open');
+                filterToggle.setAttribute('aria-expanded', 'false');
+                filterToggle.focus();
             }
         });
 
         function fixUrl(u) {
-            if (!u) return null;
-            if (u.startsWith('http')) return u;
-            return 'https://' + u;
+            if (typeof u !== 'string' || !u.trim()) return null;
+            const value = u.trim();
+            if (/^[\\/]/.test(value)) return null;
+
+            try {
+                const url = new URL(/^[a-z][a-z\d+.-]*:/i.test(value) ? value : `https://${value}`);
+                return ['http:', 'https:'].includes(url.protocol) && url.hostname ? url.href : null;
+            } catch {
+                return null;
+            }
+        }
+
+        function fixImageUrl(value) {
+            if (typeof value !== 'string' || !value.trim()) return null;
+
+            try {
+                const url = new URL(value, document.baseURI);
+                const imageDirectory = new URL('img/', document.baseURI);
+                if (url.origin !== imageDirectory.origin ||
+                    !url.pathname.startsWith(imageDirectory.pathname) ||
+                    url.search || url.hash) return null;
+                return url.href;
+            } catch {
+                return null;
+            }
+        }
+
+        function isValidDateString(value) {
+            if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+            const date = new Date(`${value}T12:00:00`);
+            return !Number.isNaN(date.getTime()) && toDateString(date) === value;
+        }
+
+        function createIcon(name) {
+            const icon = document.createElement('span');
+            icon.className = 'material-symbols-outlined';
+            icon.setAttribute('aria-hidden', 'true');
+            icon.textContent = name;
+            return icon;
         }
 
         async function init() {
@@ -464,7 +603,10 @@
             } catch (error) {
                 console.error(error);
                 dbStatus.textContent = 'DATABASE: ERROR LOADING JSON';
-                grid.innerHTML = `<div style="grid-column:1/-1;padding:40px;text-align:center;opacity:0.5;">// FOUT BIJ HET LADEN VAN EVENTS.JSON</div>`;
+                const errorMessage = document.createElement('p');
+                errorMessage.className = 'grid-message';
+                errorMessage.textContent = '// FOUT BIJ HET LADEN VAN EVENTS.JSON';
+                grid.replaceChildren(errorMessage);
                 return;
             }
 
@@ -479,61 +621,108 @@
         }
 
         function renderFilters() {
-            const categories = [...new Set(eventsData.map(e => e.c).filter(Boolean))];
-            filterContainer.innerHTML = `<button class="filter-btn ${!activeCategory ? 'active' : ''}" onclick="resetCategory()">All</button>`;
+            const categories = [...new Set(eventsData.map(e => e.c).filter(category => typeof category === 'string' && category))];
+            const allButton = document.createElement('button');
+            allButton.type = 'button';
+            allButton.className = `filter-btn ${!activeCategory ? 'active' : ''}`;
+            allButton.setAttribute('aria-pressed', String(!activeCategory));
+            allButton.textContent = 'All';
+            allButton.addEventListener('click', () => {
+                activeCategory = null;
+                renderFilters();
+                renderGrid();
+                allButtonAfterRender();
+            });
+            filterContainer.replaceChildren(allButton);
             
             categories.forEach(cat => {
-                const config = categoryConfig[cat] || { label: cat.charAt(0).toUpperCase() + cat.slice(1), icon: 'signpost' };
+                const config = Object.hasOwn(categoryConfig, cat)
+                    ? categoryConfig[cat]
+                    : { label: cat.charAt(0).toUpperCase() + cat.slice(1), icon: 'signpost' };
                 const btn = document.createElement('button');
+                btn.type = 'button';
                 btn.className = `filter-btn ${activeCategory === cat ? 'active' : ''}`;
-                btn.innerHTML = `<span class="material-symbols-outlined">${config.icon}</span> ${config.label}`;
-                btn.onclick = () => { activeCategory = activeCategory === cat ? null : cat; renderFilters(); renderGrid(); filterContainer.classList.remove('open'); };
+                btn.setAttribute('aria-pressed', String(activeCategory === cat));
+                btn.append(createIcon(config.icon), document.createTextNode(` ${config.label}`));
+                btn.onclick = () => {
+                    activeCategory = activeCategory === cat ? null : cat;
+                    renderFilters();
+                    renderGrid();
+                    if (window.matchMedia('(max-width: 768px)').matches) {
+                        filterContainer.classList.remove('open');
+                        filterToggle.setAttribute('aria-expanded', 'false');
+                        filterToggle.focus();
+                    } else {
+                        const selected = [...filterContainer.querySelectorAll('.filter-btn')]
+                            .find(button => button.textContent.trim() === config.label);
+                        selected?.focus();
+                    }
+                };
                 filterContainer.appendChild(btn);
             });
         }
 
-        function renderDays() {
-            const days = ['Su','Mo','Tu','We','Th','Fr','Sa'];
-            // October 1, 2026 starts on a Thursday (dowIndex = 4)
-            const firstDow = 4;
-
-            let html = `
-                <button class="day-chip ${activeDay===null?'active':''}" onclick="selectDay(null, this)">All upcoming</button>
-                <button class="day-chip today ${activeDay===today?'active':''}" onclick="selectDay(${today}, this)">Today (Oct ${today})</button>
-                <button class="day-chip ${activeDay===tomorrow?'active':''}" onclick="selectDay(${tomorrow}, this)">Tomorrow (Oct ${tomorrow})</button>
-            `;
-
-            for (let i = 20; i <= 31; i++) {
-                if (i === today || i === tomorrow) continue;
-                const dowIndex = (firstDow + i - 1) % 7;
-                const dow = days[dowIndex];
-                const isWeekend = (dowIndex === 0 || dowIndex === 6);
-
-                html += `<button class="day-chip ${isWeekend ? 'weekend' : ''} ${activeDay===i?'active':''}" onclick="selectDay(${i}, this)">${dow} ${i}</button>`;
+        function allButtonAfterRender() {
+            if (window.matchMedia('(max-width: 768px)').matches) {
+                filterContainer.classList.remove('open');
+                filterToggle.setAttribute('aria-expanded', 'false');
+                filterToggle.focus();
+            } else {
+                filterContainer.querySelector('.filter-btn')?.focus();
             }
-
-            daySelectorContainer.innerHTML = html;
         }
 
-        window.selectDay = function(day, btn) {
+        function renderDays() {
+            const upcomingDates = [...new Set(eventsData.flatMap(item =>
+                Array.isArray(item.days) ? item.days.filter(date => isValidDateString(date) && date >= today) : []
+            ))].sort();
+            const dates = [...new Set([today, tomorrow, ...upcomingDates])].sort();
+            const createDayButton = (date, label, extraClass = '') => {
+                const button = document.createElement('button');
+                button.type = 'button';
+                button.className = `day-chip ${extraClass} ${activeDay === date ? 'active' : ''}`.trim();
+                button.setAttribute('aria-pressed', String(activeDay === date));
+                button.dataset.date = date || '';
+                button.textContent = label;
+                button.addEventListener('click', () => selectDay(date));
+                return button;
+            };
+            const buttons = [createDayButton(null, 'All upcoming')];
+            dates.forEach(date => {
+                const isToday = date === today;
+                const label = isToday ? `Today · ${formatDate(date)}` : date === tomorrow
+                    ? `Tomorrow · ${formatDate(date)}`
+                    : `${formatDate(date, { weekday: 'short' })} ${formatDate(date, { month: 'short', day: 'numeric' })}`;
+                const weekdayIndex = new Date(`${date}T12:00:00`).getDay();
+                const extraClass = [
+                    isToday ? 'today' : '',
+                    weekdayIndex === 0 || weekdayIndex === 6 ? 'weekend' : ''
+                ].filter(Boolean).join(' ');
+                buttons.push(createDayButton(date, label, extraClass));
+            });
+            daySelectorContainer.replaceChildren(...buttons);
+        }
+
+        function selectDay(day) {
             activeDay = day;
-            document.querySelectorAll('.day-chip').forEach(el => el.classList.remove('active'));
-            if (btn) btn.classList.add('active');
+            renderDays();
             renderGrid();
+            [...daySelectorContainer.querySelectorAll('.day-chip')]
+                .find(button => (button.dataset.date || null) === day)
+                ?.focus();
         }
-
-        window.resetCategory = function() { activeCategory = null; renderFilters(); renderGrid(); filterContainer.classList.remove('open'); }
 
         function renderGrid() {
-            grid.innerHTML = '';
+            grid.replaceChildren();
 
             const allFiltered = eventsData.filter(item => {
                 const matchesCat = activeCategory ? item.c === activeCategory : true;
                 const q = searchQuery;
+                const matchesText = value => typeof value === 'string' && value.toLowerCase().includes(q);
                 const matchSearch = !q ||
-                    (item.n && item.n.toLowerCase().includes(q)) ||
-                    (item.v && item.v.toLowerCase().includes(q)) ||
-                    (item.note && item.note.toLowerCase().includes(q));
+                    matchesText(item.n) ||
+                    matchesText(item.v) ||
+                    matchesText(item.note);
                 return matchesCat && matchSearch;
             });
 
@@ -541,114 +730,166 @@
             let ongoingItems = [];
 
             if (activeDay !== null) {
-                const targetDateStr = `2026-10-${String(activeDay).padStart(2, '0')}`;
-                
                 filtered = allFiltered.filter(item => {
                     if (item.days && Array.isArray(item.days)) {
-                        return item.days.includes(targetDateStr);
+                        return item.days.includes(activeDay);
                     }
                     return false;
                 });
 
                 ongoingItems = allFiltered.filter(item => {
                     if (item.run && item.s && item.e) {
-                        return targetDateStr >= item.s && targetDateStr <= item.e;
+                        return activeDay >= item.s && activeDay <= item.e;
                     }
                     return false;
                 });
             } else {
                 filtered = allFiltered.filter(item => {
-                    if (item.run) return true;
-                    if (item.days) return item.days.some(d => d >= '2026-10-20');
+                    if (item.run) return item.e >= today;
+                    if (item.days) return item.days.some(d => d >= today);
                     return true;
                 });
                 ongoingItems = [];
             }
 
             if (filtered.length === 0 && ongoingItems.length === 0) {
-                grid.innerHTML = `<div style="grid-column:1/-1;padding:40px;text-align:center;opacity:0.5;">// NO ENTRIES FOR THIS SELECTION</div>`;
+                const emptyMessage = document.createElement('p');
+                emptyMessage.className = 'grid-message';
+                emptyMessage.textContent = '// NO ENTRIES FOR THIS SELECTION';
+                grid.appendChild(emptyMessage);
                 dbStatus.textContent = `0 ENTRIES`;
                 return;
             }
 
             const totalShown = filtered.length + ongoingItems.length;
-            dbStatus.textContent = activeDay ? `${totalShown} ENTRIES FOR OCT ${activeDay}` : `${totalShown} ENTRIES`;
+            dbStatus.textContent = activeDay
+                ? `${totalShown} ENTRIES FOR ${formatDate(activeDay).toUpperCase()}`
+                : `${totalShown} UPCOMING ENTRIES`;
 
             const renderCard = (item) => {
                 const url = fixUrl(item.u);
-                const card = document.createElement('div');
-                card.className = `article-card${url ? ' has-link' : ''}${item.run ? ' is-run' : ''}`;
+                const card = document.createElement('article');
+                card.className = `article-card${item.run ? ' is-run' : ''}`;
 
-                if (url) card.addEventListener('click', (e) => {
-                    if (e.target.tagName === 'A' || e.target.closest('.cal-link')) return;
-                    window.open(url, '_blank', 'noopener');
+                const eventName = typeof item.n === 'string' && item.n ? item.n : 'Unnamed event';
+                const cleanLocation = typeof item.v === 'string' ? item.v.replace('📍', '').trim() : 'Amsterdam';
+                const imageUrl = fixImageUrl(item.img);
+                const note = typeof item.note === 'string' ? item.note : '';
+                const linkLabel = typeof item.ul === 'string' && item.ul ? item.ul : 'Info →';
+                const validDays = Array.isArray(item.days) ? item.days.filter(isValidDateString) : [];
+                const rawDateText = typeof item.when === 'string' && item.when
+                    ? item.when
+                    : validDays.length ? validDays.map(date => formatDate(date)).join(', ') : 'Date to be announced';
+                const dateText = item.t ? `${item.t} · ${rawDateText}` : rawDateText;
+                const category = typeof item.c === 'string' ? item.c : '';
+                const catConfig = Object.hasOwn(categoryConfig, category)
+                    ? categoryConfig[category]
+                    : { label: category ? category.charAt(0).toUpperCase() + category.slice(1) : '', icon: 'signpost' };
+                const eventDate = validDays.find(date => date >= today) ||
+                    (item.run && isValidDateString(item.s) && item.s >= today ? item.s : today);
+                const calendarDate = activeDay && item.days?.includes(activeDay) ? activeDay : eventDate;
+                const formattedCalendarDate = calendarDate.replaceAll('-', '');
+                const startTime = typeof item.t === 'string' ? item.t.match(/(?:^|\D)([01]\d|2[0-3]):[0-5]\d/) : null;
+                const startTimeStr = startTime ? `${startTime[1]}${startTime[0].slice(-2)}00` : '190000';
+                const calendarUrl = new URL('https://calendar.google.com/calendar/render');
+                calendarUrl.search = new URLSearchParams({
+                    action: 'TEMPLATE',
+                    text: eventName,
+                    dates: `${formattedCalendarDate}T${startTimeStr}/${formattedCalendarDate}T220000`,
+                    details: note,
+                    location: cleanLocation
                 });
 
-                let cleanLocation = item.v ? item.v.replace('📍', '').trim() : 'Amsterdam';
-                let topLocationText = `<span class="material-symbols-outlined">location_on</span> ` + cleanLocation;
+                if (imageUrl) {
+                    const imageBox = document.createElement('div');
+                    imageBox.className = 'article-image-box';
+                    const image = document.createElement('img');
+                    image.src = imageUrl;
+                    image.alt = `Image for event: ${eventName}`;
+                    imageBox.appendChild(image);
+                    card.appendChild(imageBox);
+                }
 
-                const imageHtml = item.img
-                    ? `<div class="article-image-box"><img src="${item.img}" alt="${item.n || ''}"></div>`
-                    : '';
+                const content = document.createElement('div');
+                content.className = 'article-content';
+                const summary = document.createElement('div');
+                const title = document.createElement('h2');
+                title.className = 'article-title';
+                title.textContent = eventName;
+                summary.appendChild(title);
+                if (note) {
+                    const description = document.createElement('p');
+                    description.className = 'article-desc';
+                    description.textContent = note.length > 120 ? `${note.slice(0, 118)}…` : note;
+                    summary.appendChild(description);
+                }
 
-                const badges = [];
-                const greenBadges = [];
-                if (item.free) greenBadges.push(`<span class="badge free">Free</span>`);
-                if (item.isNew) greenBadges.push(`<span class="badge is-new">${item.isNew}</span>`);
-                if (item.tags) item.tags.forEach(t => badges.push(`<span class="badge tag">${t}</span>`));
-                if (item.run) greenBadges.push(`<span class="badge run">Doorlopend</span>`);
-                if (item.ade) greenBadges.push(`<span class="badge ade">ADE</span>`);
-                
-                const footerTagsHtml = badges.length || greenBadges.length
-                    ? `<div class="footer-tags">${badges.length ? `<div class="footer-tag-row">${badges.join('')}</div>` : ''}${greenBadges.length ? `<div class="footer-tag-row">${greenBadges.join('')}</div>` : ''}</div>`
-                    : '';
+                const details = document.createElement('div');
+                const footer = document.createElement('div');
+                footer.className = 'article-footer';
+                const footerLeft = document.createElement('div');
+                footerLeft.className = 'footer-left';
+                const location = document.createElement('span');
+                location.className = 'article-location';
+                location.append(createIcon('location_on'), document.createTextNode(` ${cleanLocation}`));
+                const date = document.createElement('span');
+                date.className = 'article-date';
+                date.append(createIcon('schedule'), document.createTextNode(` ${dateText}`));
+                footerLeft.append(location, date);
 
-                const note = item.note || '';
-                const noteDisplay = note.length > 120 ? note.slice(0, 118) + '…' : note;
-                const noteHtml = noteDisplay ? `<p class="article-desc">${noteDisplay}</p>` : '';
+                const footerRight = document.createElement('div');
+                footerRight.className = 'footer-right';
+                const categoryLabel = document.createElement('span');
+                categoryLabel.className = 'article-cat';
+                categoryLabel.append(createIcon(catConfig.icon), document.createTextNode(` ${catConfig.label}`));
+                footerRight.appendChild(categoryLabel);
 
-                const linkLabel = item.ul || 'Info →';
-                const linkHtml = url ? `<a class="event-link" href="${url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${linkLabel}</a>` : '';
+                const plainBadges = Array.isArray(item.tags) ? item.tags.filter(tag => typeof tag === 'string') : [];
+                const badges = [
+                    ...plainBadges.map(text => ({ className: 'tag', text })),
+                    ...(item.free ? [{ className: 'free', text: 'Free' }] : []),
+                    ...(item.isNew ? [{ className: 'is-new', text: item.isNew }] : []),
+                    ...(item.run ? [{ className: 'run', text: 'Doorlopend' }] : []),
+                    ...(item.ade ? [{ className: 'ade', text: 'ADE' }] : [])
+                ];
+                if (badges.length) {
+                    const footerTags = document.createElement('div');
+                    footerTags.className = 'footer-tags';
+                    badges.forEach(({ className, text }) => {
+                        const badge = document.createElement('span');
+                        badge.className = `badge ${className}`;
+                        badge.textContent = text;
+                        footerTags.appendChild(badge);
+                    });
+                    footerRight.appendChild(footerTags);
+                }
+                footer.append(footerLeft, footerRight);
 
-                let rawDateText = item.when || (item.days ? `Oct ${item.days.map(d => parseInt(d.split('-')[2])).join(', ')}` : 'October 2026');
-                if (item.t) rawDateText = item.t + ' · ' + rawDateText;
-                let dateFooterText = `<span class="material-symbols-outlined">schedule</span> ` + rawDateText;
+                const actions = document.createElement('div');
+                actions.className = 'card-actions';
+                if (url) {
+                    const eventLink = document.createElement('a');
+                    eventLink.className = 'event-link';
+                    eventLink.href = url;
+                    eventLink.target = '_blank';
+                    eventLink.rel = 'noopener noreferrer';
+                    eventLink.setAttribute('aria-label', `More information about ${eventName}`);
+                    eventLink.textContent = linkLabel;
+                    actions.appendChild(eventLink);
+                }
 
-                let catConfig = categoryConfig[item.c] || { label: item.c ? item.c.charAt(0).toUpperCase() + item.c.slice(1) : '', icon: 'signpost' };
-                let catFooterText = `<span class="material-symbols-outlined">${catConfig.icon}</span> ${catConfig.label}`;
+                const calendarLink = document.createElement('a');
+                calendarLink.className = 'cal-link';
+                calendarLink.href = calendarUrl.href;
+                calendarLink.target = '_blank';
+                calendarLink.rel = 'noopener noreferrer';
+                calendarLink.setAttribute('aria-label', `Add ${eventName} to Google Calendar`);
+                calendarLink.appendChild(createIcon('event'));
+                actions.appendChild(calendarLink);
 
-                let eventDayNum = (item.days && item.days.length) ? item.days[0].split('-')[2] : today;
-                let formattedDay = String(eventDayNum).padStart(2, '0');
-                let startTimeStr = item.t ? item.t.replace(':', '') + '00' : '190000';
-                let gCalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(item.n || 'Event')}&dates=202610${formattedDay}T${startTimeStr}/202610${formattedDay}T220000&details=${encodeURIComponent(note)}&location=${encodeURIComponent(cleanLocation)}`;
-
-                const calendarHtml = `<a class="cal-link" href="${gCalUrl}" target="_blank" rel="noopener" title="Add to calendar" onclick="event.stopPropagation()"><span class="material-symbols-outlined">event</span></a>`;
-
-                card.innerHTML = `
-                    ${imageHtml}
-                    <div class="article-content">
-                        <div>
-                            <h2 class="article-title">${item.n || 'Unnamed event'}</h2>
-                            ${noteHtml}
-                        </div>
-                        <div>
-                            <div class="article-footer">
-                                <div class="footer-left">
-                                    <span class="article-location">${topLocationText}</span>
-                                    <span class="article-date">${dateFooterText}</span>
-                                </div>
-                                <div class="footer-right">
-                                    <span class="article-cat">${catFooterText}</span>
-                                    ${footerTagsHtml}
-                                </div>
-                            </div>
-                            <div class="card-actions">
-                                ${linkHtml}
-                                ${calendarHtml}
-                            </div>
-                        </div>
-                    </div>
-                `;
+                details.append(footer, actions);
+                content.append(summary, details);
+                card.appendChild(content);
                 grid.appendChild(card);
             };
 
@@ -656,8 +897,14 @@
 
             if (activeDay !== null && ongoingItems.length > 0) {
                 const divider = document.createElement('div');
-                divider.style.cssText = 'grid-column:1/-1; border-top:1px dotted var(--ink-black); padding-top:18px; margin-top:8px; font-size:0.8rem; opacity:0.55; letter-spacing:0.1em; text-transform:uppercase;';
-                divider.textContent = '— Also on today: exhibitions & screenings';
+                divider.style.gridColumn = '1 / -1';
+                divider.style.borderTop = '1px dotted var(--ink-black)';
+                divider.style.paddingTop = '18px';
+                divider.style.marginTop = '8px';
+                divider.style.fontSize = '0.8rem';
+                divider.style.letterSpacing = '0.1em';
+                divider.style.textTransform = 'uppercase';
+                divider.textContent = '— Also ongoing on this date: exhibitions & screenings';
                 grid.appendChild(divider);
                 ongoingItems.forEach(item => renderCard(item));
             }
